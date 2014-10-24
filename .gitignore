@@ -1,0 +1,5 @@
+pelican/cache/
+pelican/output/
+sphinx/_build/
+
+*.pyc
