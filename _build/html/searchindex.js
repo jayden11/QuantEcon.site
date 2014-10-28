@@ -1,0 +1,1 @@
+Search.setIndex({envversion:42,terms:{librari:1,summari:1},objtypes:{},objnames:{},filenames:["help_build_qe","index","use_qe","featured_notebooks"],titles:["Help Building QE","QuantEcon","Using QuantEcon Library","Featured Notebooks"],objects:{},titleterms:{quantecon:[1,2],help:0,notebook:3,featur:3,build:0,librari:2}})
