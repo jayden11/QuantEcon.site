@@ -22,7 +22,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-        <link rel="stylesheet" href="{{ pathto('_static/css/basic.css', 1) }}">
         <link rel="stylesheet" href="{{ pathto('_static/css/main.css', 1) }}">
         <link rel="icon" href="{{ pathto('_static/img/favicon.ico', 1) }}" type="image/x-icon" />
 
@@ -38,35 +37,36 @@
                 
         <div class="wrapper">
         
+	        <nav class="primary-nav">
+	        
+	        	<div class="container">
+	        		        		
+	        		<ul>
+	        			<li><a href="use_qe.html"><span class="icon icon-info"></span> Using QuantEcon Library</a></li>
+	        			<li><a href="help_build_qe.html"><span class="icon icon-tools"></span> Help Building QE</a></li>
+	        			<li><a href="featured_notebooks.html"><span class="icon icon-star"></span> Featured notebooks</a></li>
+	        		</ul>
+	        		
+	        	</div>
+	        	
+	        </nav>	
+
 	        <header class="header">
 	
 				<div class="container">
 		        	
 	        		<p class="site-logo"><a href="/" title="Home"><img src="_static/quantecon-logo.png" alt="QuantEcon &ndash; A community based library sponsored by the Alfred P. Sloan Foundation"></a></p>
 	        		
-	        		<p class="site-tag">QuantEcon: Collective intelligence for quantitative economic modeling
+	        		<p class="site-tag">Collective intelligence for quantitative economic modeling
 </p>
 	        		
 	        		<p class="sponsor"><img src="_static/sloan_logo.png" alt="Alfred P. Sloan Foundation"></p>
 					
-	
+					<hr />
+					
 				</div>
 					        	
 	        </header>
-
-	        <nav class="primary-nav">
-	        
-	        	<div class="container">
-	        		        		
-	        		<ul>
-	        			<li><a href="use_qe.html">Using QuantEcon Library</a></li>
-	        			<li><a href="help_build_qe.html">Help Building QE</a></li>
-	        			<li><a href="featured_notebooks.html">Featured notebooks</a></li>
-	        		</ul>
-	        		
-	        	</div>
-	        	
-	        </nav>	
 	
 			<div class="main">
 					
@@ -83,7 +83,7 @@
 					    </div>
 		
 					</div>
-					
+
 				</div>
 				
 			</div>
@@ -91,6 +91,8 @@
 			<footer class="footer">
 			
 				<div class="container">
+					
+					<hr />
 					
 					<p>{% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %} {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}</p>
 					
