@@ -21,6 +21,18 @@
   /* Legacy iOS */ }
 
 @font-face {
+    font-family: 'exo_extralight';
+    src: url('../fonts/Exo2.0-ExtraLight-webfont.eot');
+    src: url('../fonts/Exo2.0-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2.0-ExtraLight-webfont.woff') format('woff'),
+         url('../fonts/Exo2.0-ExtraLight-webfont.ttf') format('truetype'),
+         url('../fonts/Exo2.0-ExtraLight-webfont.svg#exo_2.0regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'exo_regular';
     src: url('../fonts/Exo2.0-Regular-webfont.eot');
     src: url('../fonts/Exo2.0-Regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -65,6 +77,9 @@
 .icon-info:before {
 	content: "\e602";
 }
+.icon-github:before {
+	content: "\e603";
+}
 
 
 
@@ -88,33 +103,53 @@ a:active {}
 a:visited {color:#004979;}
 */
 
-.wrapper {-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);width:824px;margin:0 auto;background:#fff;}
-
 .container {margin:0 auto;width:744px;padding:0 40px;position: relative;border: 0;overflow: hidden;*text-indent: -9999px;}
 .container:before {content: "";display: block;width: 0;}
 
-.header {}
-.header .container {background-image: url(https://redditmade.com/static/img/about/hero.jpg);background-size: cover;background-position: center;}
+#wrapper {-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);width:1024px;margin:0 auto;background:#fff;}
 
-.site-logo {text-align:center;margin: 20px 0 0 0;}
-.site-logo img {width:200px;}
+#header {background-image: url(../img/earth.jpg);background-size: cover;background-position: center;padding:30px 0;}
 
-.site-tag {/* color:#888; */font-size: 1.1em;margin:0;text-align:center;margin: 0 0 30px 0;}
+#site-logo {text-align:center;margin: 0;}
 
-.sponsor {display: none;}
-.sponsor img {height:110px;}
+#site-title {text-align:center;font-family:"exo_extralight";font-size:2.3em;margin:0;}
+#site-title span {font-family: "exo_regular";}
+#site-title a {color:#333;text-decoration: none;}
 
-.primary-nav {background: #2370a0;padding:10px 0;}
-.primary-nav ul {list-style: none;font-family: "exo_regular";font-size:0.9em;margin:0;padding:0;}
-.primary-nav li {float:left;width:33.3%;margin:0;text-align:center;}
-.primary-nav a {text-decoration: none;color:#fff;}
-.primary-nav a span {margin: 0 5px 0 0;position: relative;top: 2px;}
+#site-tag {/* color:#888; */font-size: 1.1em;margin:0;text-align:center;margin: 0;}
 
-.headerlink {display:none;}
+#sponsor {float:right;margin:15px 40px 20px 40px;}
+#sponsor img {}
 
-.footer {font-size:0.8em;color:#888;margin:20px 0 0 0;}
-.footer a {color:#888;}
+#top-nav {background: #5a576a;padding:10px 0;}
+#top-nav ul {list-style: none;font-family: "exo_regular";font-size:0.9em;margin:0;padding:0;}
+#top-nav li {float:left;width:25%;margin:0;text-align:center;}
+#top-nav a {text-decoration: none;color:#fff;}
+#top-nav a span {margin: 0 5px 0 0;position: relative;top: 2px;}
 
+#main {}
+
+#footer {font-size:0.8em;color:#888;margin:20px 0 0 0;}
+#footer a {color:#888;}
+
+.tab-panel {margin: 50px 0;}
+.tab-panel .tab-nav {z-index:2;position: relative;}
+.tab-panel .tab-nav ul {padding:0;list-style: none;margin:0;float:left;border-right:1px solid #d6d6d6;}
+.tab-panel .tab-nav li {float:left;margin:0;border:1px solid #d6d6d6;border-width:1px 0 0 1px;}
+.tab-panel .tab-nav li a {display:block;background-image:url(../img/tabs.png); background-repeat:no-repeat;padding: 20px 30px 20px 76px;text-decoration: none;background-color:#eeeeee;border-bottom:6px solid #d6d6d6;color:#333;}
+.tab-panel .tab-nav li.active {}
+.tab-panel .tab-nav li.active a {background-color:#fff;border-bottom:6px solid #fff;}
+.tab-panel .tab-content {border:1px solid #d6d6d6;position: relative;top: -1px;}
+.tab-panel .tab {padding:30px 60px;font-size: 0.9em;}
+.js .tab-panel .tab {display:none;}
+.js .tab-panel .tab:first-child {display:block;}
+
+#julia-toggle {background-position:16px 13px;}
+#python-toggle {background-position:16px -53px;}
+
+#coa {list-style:none;padding:0;margin:40px 0;}
+#coa li {width:20%;margin-left:5%;float:left;}
+#coa li a {display:block;text-align:center;border:1px solid #ddd;}
 
 @media only screen and (min-width: 769px) {
 
