@@ -1,3 +1,6 @@
 _build/
 
 *.pyc
+
+# Ignore the IPYNB Checkpoints
+_static/notebooks/.ipynb_checkpoints/*
