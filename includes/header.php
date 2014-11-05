@@ -22,23 +22,23 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <nav id="top-nav" class="headroom">
+        
+        	<div class="container">
+        		        		
+        		<ul>
+        			<li><a href="/users/"><span class="icon icon-info"></span> Use QE</a></li>
+        			<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
+        			<li><a href="https://github.com/QuantEcon/"><span class="icon icon-github"></span> Repo</a></li>
+        			<li><a href="/about/"><span class="icon icon-star"></span> About</a></li>
+        		</ul>
+        		
+        	</div>
+        	
+        </nav>	
                 
         <div id="wrapper">
-
-	        <nav id="top-nav">
-	        
-	        	<div class="container">
-	        		        		
-	        		<ul>
-	        			<li><a href="/users/"><span class="icon icon-info"></span> Use QE</a></li>
-	        			<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
-	        			<li><a href="https://github.com/QuantEcon/"><span class="icon icon-github"></span> Repo</a></li>
-	        			<li><a href="/about/"><span class="icon icon-star"></span> About</a></li>
-	        		</ul>
-	        		
-	        	</div>
-	        	
-	        </nav>	
         
 	        <header id="header">
 	
@@ -53,7 +53,7 @@
 				</div>
 					        	
 	        </header>
-	
+	        	
 			<div id="main">
 					
 				<div class="container">
