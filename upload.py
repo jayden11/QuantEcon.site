@@ -3,7 +3,7 @@
 import os
 
 localdir = "./"
-remotedir = "~/public_html/beta.quantecon.org/"
+remotedir = "~/public_html/beta.quantecon.org/www/"
 server = "chickenlegs.org"
 user = "chickenl"
 
