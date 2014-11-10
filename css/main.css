@@ -88,7 +88,7 @@
 
 
 
-body {color:#333;background:#9B9FA1;font-family: "opensans", Arial, sans-serif;font-size:1em;line-height: 1.5;text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;min-width:824px;background-image: url(/img/earth_2.jpg);background-repeat: no-repeat;background-size: cover;background-position: center top;background-attachment: fixed;}
+body {color:#333;font-family: "opensans", Arial, sans-serif;font-size:1em;line-height: 1.5;text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;min-width:824px;}
 
 h1, h2, h3, h4, h5 {font-weight: normal;font-family: "exo_regular";}
 h1 {font-size:2.4em;}
@@ -124,10 +124,10 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 .animated.slideDown {-webkit-animation-name: slideDown;-moz-animation-name: slideDown;-o-animation-name: slideDown;animation-name: slideDown;}
 
 
-.container {margin:0 auto;width:744px;padding:0 40px;position: relative;border: 0;overflow: hidden;*text-indent: -9999px;}
+.container {margin:0 auto;padding:0 40px;position: relative;border: 0;overflow: hidden;*text-indent: -9999px;}
 .container:before {content: "";display: block;width: 0;}
 
-#wrapper {-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);-moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);width:1024px;margin:0 auto;padding:45px 0 0 0;background:#fff;}
+#wrapper {width:1024px;margin:0 auto;padding:45px 0 0 0;background:#fff;}
 
 #header {padding:30px 0;}
 
