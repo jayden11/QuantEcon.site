@@ -6,7 +6,7 @@
 			
 				<div class="container">
 										
-					<p>&copy; Copyright 2014, Tom J. Sargent and John Stachurski. Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.</p>
+					<p>&copy; Copyright 2014, Tom J. Sargent and John Stachurski</p>
 					
 				</div>
 					

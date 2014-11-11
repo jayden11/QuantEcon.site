@@ -4,3 +4,5 @@ _build/
 
 # Ignore the IPYNB Checkpoints
 _static/notebooks/.ipynb_checkpoints/*
+
+upload.py

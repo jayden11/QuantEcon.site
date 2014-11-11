@@ -24,6 +24,11 @@ $(function(){
 			"unpinned": "slideUp"
 		}
 	});	
+	
+	$('#docs-link>a').click(function(event){
+		event.preventDefault();
+		$('#docs-link ul').toggle();
+	});
 
 
 });

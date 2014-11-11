@@ -28,11 +28,16 @@
         	<div class="container">
         		        		
         		<ul>
-        			<li><a href="/"><span class="icon icon-house"></span> Home</a></li>
-        			<li><a href="/users/"><span class="icon icon-info"></span> Use QE</a></li>
+        			<li><a href="/users/"><span class="icon icon-user"></span> Use QE</a></li>
         			<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
         			<li><a href="https://github.com/QuantEcon/"><span class="icon icon-github"></span> Repo</a></li>
         			<li><a href="/about/"><span class="icon icon-star"></span> About</a></li>
+        			<li id="docs-link"><a href="#"><span class="icon icon-docs"></span> Docs</a>
+        				<ul>
+	        				<li><a href="http://quanteconpy.readthedocs.org/en/latest/">Python</a></li>
+	        				<li><a href="/docs/julia/">Julia</a></li>
+        				</ul>
+        			</li>
         		</ul>
         		
         	</div>
@@ -50,6 +55,8 @@
 	        		<p id="site-title"><a href="/" title="Home">Quant<span>Econ</span></a></p>
 	        		
 	        		<p id="site-tag">Open source libraries for quantitative economic modeling</p>
+
+					<p id="sponsor"><a href="http://www.sloan.org/"><img src="/img/sloan_logo.png" alt="Alfred P. Sloan Foundation"></a></p>
 	        												
 				</div>
 					        	
