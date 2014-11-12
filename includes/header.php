@@ -30,9 +30,15 @@
         		<ul>
         			<li><a href="/users/"><span class="icon icon-user"></span> Use QE</a></li>
         			<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
-        			<li><a href="https://github.com/QuantEcon/"><span class="icon icon-github"></span> Repo</a></li>
+        			<li class="sub"><a href="#"><span class="icon icon-github"></span> Repo</a>
+        				<ul>
+	        				<li><a href="https://github.com/QuantEcon/">Org</a></li>
+							<li><a href="https://github.com/QuantEcon/QuantEcon.py">Python</a></li>
+							<li><a href="https://github.com/QuantEcon/QuantEcon.jl">Julia</a></li>
+        				</ul>
+        			</li>
         			<li><a href="/about/"><span class="icon icon-star"></span> About</a></li>
-        			<li id="docs-link"><a href="#"><span class="icon icon-docs"></span> Docs</a>
+        			<li class="sub"><a href="#"><span class="icon icon-docs"></span> Docs</a>
         				<ul>
 	        				<li><a href="http://quanteconpy.readthedocs.org/en/latest/">Python</a></li>
 	        				<li><a href="/docs/julia/">Julia</a></li>

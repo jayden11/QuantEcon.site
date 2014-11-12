@@ -3,32 +3,27 @@ $(function(){
 	if ($('.tab-panel').length > 0) {
 		toggles = $('li','.tab-nav');
 		tabs = $('.tab', '.tab-panel');
-		//tabs.hide();
 		$('li','.tab-nav').click(function(){
 			index = $(this).index();
 			toggles.removeClass('active');
 			$(this).addClass('active');
-			//tabs.find(':visible').fadeOut(function(){			});
 			tabs.hide().eq(index).fadeIn();
 			return false;
 		});
 	}
 
 
-	$(".headroom").headroom({
-		"offset": 205,
-		"tolerance": 5,
-		"classes": {
-			"initial": "animated",
-			"pinned": "slideDown",
-			"unpinned": "slideUp"
-		}
-	});	
-	
-	$('#docs-link>a').click(function(event){
+	$('#top-nav .sub').click(function(event){
 		event.preventDefault();
-		$('#docs-link ul').toggle();
+		event.stopPropagation();
+		$(this).toggleClass('sub-open');
+		$('#top-nav .sub').not($(this)).removeClass('sub-open');
+		$(document).on('click', function () {
+			$('#top-nav .sub-open').removeClass('sub-open');
+			$(this).off();
+		});
 	});
+
 
 
 });
