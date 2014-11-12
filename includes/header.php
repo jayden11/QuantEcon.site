@@ -42,6 +42,7 @@
         				<ul>
 	        				<li><a href="http://quanteconpy.readthedocs.org/en/latest/">Python</a></li>
 	        				<li><a href="/docs/julia/">Julia</a></li>
+	        				<li><a href="/notebooks/">Notebooks	</a></li>
         				</ul>
         			</li>
         		</ul>
