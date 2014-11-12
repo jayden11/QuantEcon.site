@@ -165,8 +165,18 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 #python-toggle {background-position:16px -53px;}
 
 #coa {list-style:none;padding:0;margin:40px 0;}
-#coa li {width:20%;margin-left:5%;float:left;}
-#coa li a {display:block;text-align:center;border:1px solid #ddd;}
+#coa li {width:25%;float:left;}
+#coa li a {display:block;text-align:center;color:#333;font-family: 'exo_regular';font-size:1.1em;text-decoration: none;}
+#coa img {width:200px;border: 1px solid #ddd;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);box-shadow: 0 1px 3px rgba(0,0,0,0.055);}
+#coa a:hover img {border-color: #08c;-webkit-box-shadow: 0 1px 4px rgba(0,105,214,0.25);-moz-box-shadow: 0 1px 4px rgba(0,105,214,0.25);box-shadow: 0 1px 4px rgba(0,105,214,0.25);}
+
+#notebooks {list-style: none;padding:0;}
+#notebooks li {float:left;width:30%;text-align:center;margin:0 0 30px 5%;}
+#notebooks li:nth-child(3n + 1) {margin-left:0;}
+#notebooks li a {display: block;padding: 4px;border: 1px solid #ddd;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);box-shadow: 0 1px 3px rgba(0,0,0,0.055);}
+#notebooks li a:hover {border-color: #08c;-webkit-box-shadow: 0 1px 4px rgba(0,105,214,0.25);-moz-box-shadow: 0 1px 4px rgba(0,105,214,0.25);box-shadow: 0 1px 4px rgba(0,105,214,0.25);}
+#notebooks li a img {width: 266px;}
+
 
 @media only screen and (min-width: 769px) {
 

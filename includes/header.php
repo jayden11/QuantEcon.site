@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>QuantEcon.org</title>
+        <title>QuantEcon<?php if ($page_title) echo ' &ndash; '.$page_title; ?></title>
         <meta name="description" content="QuantEcon is an international organization supporting distributed development of high quality open source code for quantitative economic modeling">
         <meta name="viewport" content="width=device-width">
 		
