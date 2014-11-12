@@ -13,11 +13,12 @@ $(function(){
 	}
 
 
-	$('#top-nav .sub').click(function(event){
-		event.preventDefault();
+	$('#top-nav .sub>a').click(function(event){
 		event.stopPropagation();
-		$(this).toggleClass('sub-open');
-		$('#top-nav .sub').not($(this)).removeClass('sub-open');
+ 		event.preventDefault();
+ 		navItem = $(this).parent('.sub');
+		navItem.toggleClass('sub-open');
+		$('#top-nav .sub').not(navItem).removeClass('sub-open');
 		$(document).on('click', function () {
 			$('#top-nav .sub-open').removeClass('sub-open');
 			$(this).off();

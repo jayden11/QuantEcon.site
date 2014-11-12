@@ -23,7 +23,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <nav id="top-nav" class="headroom">
+        <nav id="top-nav">
         
         	<div class="container">
         		        		
