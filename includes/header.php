@@ -28,6 +28,7 @@
         	<div class="container">
         		        		
         		<ul>
+        			<li><a href="/"><span class="icon icon-house"></span> Home</a></li>
         			<li><a href="/users/"><span class="icon icon-user"></span> Use QE</a></li>
         			<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
         			<li class="sub"><a href="#"><span class="icon icon-github"></span> Repo</a>
