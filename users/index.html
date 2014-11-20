@@ -32,19 +32,25 @@ code in action in <a href="http://quant-econ.net">these lectures</a> or in our
 			<h2 class="visuallyhidden" id="python-tab">Python</h2>
 			
 			<h3>Installing the quantecon Python Package</h3>
-			<p>The core of the QuantEcon Python code library is the Python package <code>quantecon</code></p>
+			<p>The core of the QuantEcon Python code library is the Python package <code>quantecon</code>. This is a collection of programs that have been bundled together which can then be easily used in <code>python</code></p>
 			<p>Assuming you have <a href="https://pypi.python.org/pypi/pip">pip</a> on your computer you can install the latest stable release of <code>quantecon</code> by typing</p>
 			<pre><code>pip install quantecon</code></pre>
-			<p>at a terminal prompt</p>
-            <p>For more detailed instructions see <a href="http://quant-econ.net/py/getting_started.html#installing-anaconda">this page</a>.</p>
+			<p>at a terminal prompt; Linux: <code>terminal</code>, OSX: <code>terminal</code>, and Windows: <code>powershell</code> or <code>cmd</code></p>
+            <p>Once <code>quantecon</code> has been installed then it can be imported into a <code>python</code> or <code>ipython</code> session through <code>import</code>.</p>
+            <pre><code>import quantecon as qe</code></pre>
+            <p>You can check the version by running:</p>
+            <pre><code>print qe.__version__ </code></pre>
+            <p> If your version is below what's available on <a href="https://pypi.python.org/pypi/quantecon/">PyPI</a> then it is time to upgrade running:</p>
+            <pre><code>pip install --upgrade quantecon</code></pre>
+            <p>Further instructions can be found on <a href="http://quant-econ.net/py/getting_started.html#installing-anaconda">this page</a>.</p>
 
 			<h3>Downloading the Repository</h3>
-            <p>The source of the <code>quantecon</code> package and additional
-            examples can be found in the <a href="https://github.com/QuantEcon/QuantEcon.py/">Python code repository</a>.</p>
-            <p>You can either <a
-            href="https://github.com/QuantEcon/QuantEcon.py/archive/master.zip">download the zip file</a> directly or
-		    Use Git to clone it. To learn the basics about setting up Git see
-            <a href="https://help.github.com/articles/set-up-git/">here</a></p>
+            <p>An alternative is to download the sourcecode of the <code>quantecon</code> package and install it manually from <a href="https://github.com/QuantEcon/QuantEcon.py/">the github repository</a>. This can be achieved by downloading a zip file directly from <a href="https://github.com/QuantEcon/QuantEcon.py/archive/master.zip">here</a> or using <code>git</code> to clone the repository to your computer. First you should browse to a location on your computer suitable for downloading the package folder and then run</p>
+            <pre><code>git clone https://github.com/QuantEcon/QuantEcon.py</code></pre>
+            <p>This repository contains both the <code>quantecon</code> python package, in addition to some examples as can be viewed in the <a href="https://github.com/QuantEcon/QuantEcon.py/">github code repository</a>. Once you have downloaded the source files then the package can be installed by running</p>
+            <pre><code>python setup.py install</code></pre>
+            <p>when at the base level of the repository folder.</p> 
+            <p>If you would like to learn the basics about setting up Git see <a href="https://help.github.com/articles/set-up-git/">this link</a> is a good starting point.</p>
 
 			<h3>Docs</h3>
 			
