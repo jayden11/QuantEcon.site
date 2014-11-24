@@ -1,3 +1,9 @@
+<?php
+	set_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');
+	$page_title = 'Developers';
+	include ('header.php');
+?>
+
 <h2 id="creating-a-conda-development-environment">Creating a Conda development environment</h2>
 <p>One of the advantages of the Anaconda Python environment is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on <code>QuantEcon</code> you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default one. This facilitates contributing to <code>QuantEcon</code> without worrying about corrupting the Python environment on which your other work depends.</p>
 <p>Googling will locate plenty of tutorials on setting up Conda environments but here's a quick start. It assumes that you've already installed Anaconda</p>
@@ -24,3 +30,7 @@
 <pre><code>$ conda remove -n quantecon-dev --all</code></pre>
 <p>To list all environments try</p>
 <pre><code>$ conda info -e</code></pre>
+
+<?php
+	include ('footer.php');
+?>

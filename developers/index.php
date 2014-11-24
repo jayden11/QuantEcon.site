@@ -12,9 +12,8 @@ submission of algorithms and high quality code in Python or Julia on all
 topics concerning quantitative economics.  Less experienced developers who
 wish to get involved can help improve documentation or work on smaller
 enhancements.  To get ideas on how to contribute you can read the issue
-trackers (<a href="https://github.com/QuantEcon/QuantEcon.py/issues">Python</a>/<a href="https://github.com/QuantEcon/QuantEcon.jl/issues">Julia</a>)
-or browse the code on GitHub (<a href="https://github.com/QuantEcon/QuantEcon.py">Python</a>/<a
-    href="https://github.com/QuantEcon/QuantEcon.jl">Julia</a>).</p>
+trackers (<a href="https://github.com/QuantEcon/QuantEcon.py/issues" target="_blank">Python</a>/<a href="https://github.com/QuantEcon/QuantEcon.jl/issues" target="_blank">Julia</a>)
+or browse the code on GitHub (<a href="https://github.com/QuantEcon/QuantEcon.py" target="_blank">Python</a>/<a href="https://github.com/QuantEcon/QuantEcon.jl" target="_blank">Julia</a>).</p>
 
 
 Contributions to QuantEcon should follow the canonical open source pattern,
@@ -23,9 +22,9 @@ familiar with this kind of development there are many useful tutorials lying
 around, including
 
 <ul>
-    <li><a href="https://guides.github.com/">The GitHub Guides</a></li>
-    <li><a href="https://help.github.com/">GitHub Help</a></li>
-    <li><a href="http://readwrite.com/2014/07/02/github-pull-request-etiquette">Pull request ettiquette</a></li>
+    <li><a href="https://guides.github.com/" target="_blank">The GitHub Guides</a></li>
+    <li><a href="https://help.github.com/" target="_blank">GitHub Help</a></li>
+    <li><a href="http://readwrite.com/2014/07/02/github-pull-request-etiquette" target="_blank">Pull request ettiquette</a></li>
 </ul>
 
 QuantEcon follows standard best practice coding protocols, such as unit
@@ -51,27 +50,51 @@ development protocols for each language.
 		
 			<h2 class="visuallyhidden" id="python-tab">Python</h2>
 			
-			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>The current structure of the python <code>QuantEcon</code> package is relatively flat where python <code>modules</code> contain most of the code. This means that the majority of methods are available at the top level <code>namespace</code>. The python API is defined by the <code>__init__.py</code> files within the <code>quantecon</code> package. There is currently one subpackage <code>models</code> which contains a number of <code>classes</code> for working with various economic models</p>
+
+			<h3 id="creating-a-conda-development-environment">Setting up a Conda Development Environment</h3>
+			<p>One of the advantages of the <a href="https://store.continuum.io/cshop/anaconda/" target="_blank">Anaconda Python environment</a> is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on <code>QuantEcon</code> you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default ones. This facilitates contributing to <code>QuantEcon</code> without worrying about corrupting the Python environment on which your other work depends.</p>
+
+			<p>Full instructions can be found <a href="py/Creating-a-Conda-development-environment.php" target="_blank">here</a></p>
+
+			<h3>Writing Documentation</h3>
+
+			<p>Within the QuantEcon library we wish to maintain a simple and consistent format for inline documentation, known in the Python world as <em>docstrings</em>. The format we use is known as <a href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt">numpydoc</a>. It was developed by the <code>numpy</code> and <code>scipy</code> teams and is used in many popular packages. Adhering to this standard helps us</p>
+			<ul>
+			<li>Provide a sense of consistency throughout the library</li>
+			<li>Give users instant access to necessary information at the interpreter prompt (either via the built-in python function <code>help(object_name)</code> or the ipython <code>object_name?</code>)</li>
+			<li>Allow us to easily and automatically generate a reference manual using sphinx's <code>autodoc</code> and <code>apidoc</code> functionality.</li>
+			</ul>
+
+			<p>For full details and examples, this standard is discussed in more detail <a href="py/Docstrings-and-Documentation.php" target=-"_blank">on this page</a></p>
+
+			<h3>Writing Tests</h3>
+
+			<p>One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of <a href="http://en.wikipedia.org/wiki/Unit_testing" target="_blank">unit testing</a> is almost universal across high quality software projects. <a href="py/Unit-Testing-in-QuantEcon.php" target="_blank">This guide</a> is intended to help you get started writing tests for code to be included in QuantEcon.</p>
+
+			<h3>Considering the API</h3>
 			
-			<h3>Specific prototcol</h3>
+			<p>As <code>QuantEcon</code> becomes broader in application this structure may move towards more subpackages, therefore updates should consider any alterations to the <code>API</code>. If a Pull Request (PR) is issued that results in a necessary change to the current API this needs to be highlighted and discussed as part of the PR discussion through Github</p>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						
+			<h3></h3>
+
 		</div>
 
 		<div class="tab">
 		
 			<h2 class="visuallyhidden" id="julia-tab">Julia</h2>
 
-			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>This is currently under development. If you want to help out please contact us.</p> 
+
+			<h3>Writing Documentation</h3>
+
+			<p>IN WORK!</p>
+
+			<h3>Writing Tests</h3>
 			
-			<h3>Specific prototcol</h3>
-						
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>IN WORK!</p>
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<h3></h3>
 				        						
 		</div>
 	

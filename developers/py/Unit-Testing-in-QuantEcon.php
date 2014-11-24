@@ -1,5 +1,10 @@
+<?php
+    set_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');
+    $page_title = 'Developers';
+    include ('header.php');
+?>
+
 <h1 id="writing-tests-for-quantecon">Writing Tests for QuantEcon</h1>
-<p>One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of <a href="http://en.wikipedia.org/wiki/Unit_testing">unit testing</a> is almost universal across high quality software projects. The following guide is intended to help you get started writing tests for code to be included in QuantEcon.</p>
 <h2 id="summary">Summary</h2>
 <p>The QuantEcon package uses <a href="https://nose.readthedocs.org/en/latest/">Nose</a> to manage tests. We adhere to some conventions to facilitate ease of maintenance and management of test cases. The main conventions are as follows:</p>
 <ol style="list-style-type: decimal">
@@ -288,3 +293,7 @@ TOL = <span class="fl">1e-2</span>
 <li><a href="https://docs.python.org/2/library/unittest.html">Unittest Documentation</a></li>
 <li><a href="https://nose.readthedocs.org/en/latest/writing_tests.html">Writing Tests with Nose</a></li>
 </ol>
+
+<?php
+    include ('footer.php');
+?>

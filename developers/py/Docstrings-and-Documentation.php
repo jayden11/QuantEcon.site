@@ -1,13 +1,12 @@
-<h1 id="code-documentation">Code Documentation</h1>
-<p>Within the QuantEcon library we wish to maintain a simple and consistent format for inline documentation, known in the Python world as <em>docstrings</em>. The format we use is known as <a href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt">numpydoc</a>. It was developed by the <code>numpy</code> and <code>scipy</code> teams and is used in many popular packages. Adhering to this standard helps us</p>
-<ul>
-<li>Provide a sense of consistency throughout the library</li>
-<li>Give users instant access to necessary information at the interpreter prompt (either via the built-in python function <code>help(object_name)</code> or the ipython <code>object_name?</code>)</li>
-<li>Allow us to easily and automatically generate a reference manual using sphinx's <code>autodoc</code> and <code>apidoc</code> functionality.</li>
-</ul>
+<?php
+	set_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');
+	$page_title = 'Developers';
+	include ('header.php');
+?>
+
 <h2 id="summary">Summary</h2>
-<p>For a detailed description of the <code>numpydoc</code> standard, see <a href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#documenting-classes">numpy's actual description</a> of the style. This should be read by each developer to make sure we understand exactly what is required and what other options we have while documenting. Here is a summary of the key components of that document:</p>
-<p><code>numpydoc</code> style docstrings are written in <a href="http://docutils.sourceforge.net/rst.html">restructured text</a>. They are composed of a short description of the object followed by a few required and optional sections. For functions and methods, these sections are:</p>
+<p>For a detailed description of the <code>numpydoc</code> standard, see <a href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#documenting-classes" target="_blank">numpy's actual description</a> of the style. This should be read by each developer to make sure we understand exactly what is required and what other options we have while documenting. Here is a summary of the key components of that document:</p>
+<p><code>numpydoc</code> style docstrings are written in <a href="http://docutils.sourceforge.net/rst.html" target="_blank">restructured text</a>. They are composed of a short description of the object followed by a few required and optional sections. For functions and methods, these sections are:</p>
 <ul>
 <li>Required
 <ul>
@@ -51,10 +50,10 @@
 <p>Using this syntax, a <code>numpydoc</code> style docstring for a <strong>function</strong> or <strong>method</strong> is made up of the following elements:</p>
 <ol style="list-style-type: decimal">
 <li>A short description of what the function or class does</li>
-<li>A section named <code>Parameters</code> that explains the object's input paramters</li>
+<li>A section named <code>Parameters</code> that explains the object's input parameters</li>
 <li>A section named <code>Returns</code> that explains that function's output</li>
 <li>Any of the following &quot;optional sections&quot; (in any order):</li>
-<li><code>Examples</code>: This section is optional, but strongly reccomended and encouraged within QuantEcon (it may be required at some time in the future). Within the section we would include one or more examples for how to use the obejct.</li>
+<li><code>Examples</code>: This section is optional, but strongly recommended and encouraged within QuantEcon (it may be required at some time in the future). Within the section we would include one or more examples for how to use the obejct.</li>
 <li><code>Notes</code>: This section provides additional details that help the user or fellow developer understand the function, but were not included in the short description at the beginning. This might include a description of the algorithm or mathematics underlying the function.</li>
 <li><code>References</code>: If any journal articles, books, or other publications <em>or</em> 3rd party code were consulted when writing the function, this should be documented in this section.</li>
 <li><code>Raises</code>: if the function/class might raise an exception when called, the exception along with cases under which the exception is raised should be documented.</li>
@@ -265,3 +264,7 @@
 <span class="co">    This is a stripped down port of ``dolo.SmolyakBasic.interpolate``</span>
 
 <span class="co">    &quot;&quot;&quot;</span></code></pre>
+
+<?php
+	include ('footer.php');
+?>
