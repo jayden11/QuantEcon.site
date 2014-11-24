@@ -12,7 +12,7 @@ all forms of quantitative economic
 modeling.  QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>. </p>
 
 <p>The main resources provided by QuantEcon are 
-high performance code libraries written in <a href="http://www.python.org">Python</a> and <a href="www.julialang.org">Julia</a>.</p>
+high performance code libraries written in <a href="http://www.python.org">Python</a> and <a href="http://www.julialang.org">Julia</a>.</p>
 
 <ul id="coa">
 	<li>
