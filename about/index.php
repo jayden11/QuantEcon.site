@@ -27,13 +27,13 @@ parties.</p>
 	<li><a href="https://github.com/spencerlyon2">Spencer Lyon</a></li>
 	<li><a href="https://github.com/sanguineturtle">Matthew McKay</a></li>
 	<li><a href="http://www.oyama.e.u-tokyo.ac.jp/">Daisuke Oyama</a></li>
+	<li><a href="http://www.mosphere.fr/">Pablo Winant</a></li>
 </ul>
 
 
 <p>Core package contributors are</p>
 
 <ul>
-	<li><a href="http://www.mosphere.fr/">Pablo Winant</a></li>
 	<li><a href="http://www.linkedin.com/in/davidrpugh">David Pugh</a></li>
 </ul>
 
