@@ -84,16 +84,16 @@ development protocols for each language.
 		
 			<h2 class="visuallyhidden" id="julia-tab">Julia</h2>
 
-			<p>This is currently under development. If you want to help out please contact us.</p> 
+			<p>QuantEcon is also supporting a library written for Julia. As a programming language, <code>Julia</code> is still new and thus some aspects of the language are still evolving as it matures. As a result there may be some changes from time to time in styles and conventions. The upside is that it is fast and quickly being adopted by the broader scientific computing community</p>
 
 			<h3>Writing Documentation</h3>
 
-			<p>IN WORK!</p>
-
+			<p>Julia is currently undergoing a decision process for standardization with regards to documentation. <a href="https://github.com/JuliaLang/julia/pull/8791" target="_blank">This issue</a> is tracking this discussion. Once a decision has been made and formalized a QuantEcon style guide will be updated to assist Julia contributions</p> 
+			
 			<h3>Writing Tests</h3>
-			
-			<p>IN WORK!</p>
-			
+
+			<p>One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of <a href="http://en.wikipedia.org/wiki/Unit_testing" target="_blank">unit testing</a> is almost universal across high quality software projects. A guide to writing tests in <code>Julia</code> is currently in work</p>
+
 			<h3></h3>
 				        						
 		</div>
