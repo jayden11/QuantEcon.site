@@ -86,6 +86,8 @@ development protocols for each language.
 
 			<p>QuantEcon is also supporting a library written for Julia. As a programming language, <code>Julia</code> is still new and thus some aspects of the language are still evolving as it matures. As a result there may be some changes from time to time in styles and conventions. The upside is that it is fast and quickly being adopted by the broader scientific computing community</p>
 
+			<p>The <a href="http://julia.readthedocs.org/en/latest/manual/style-guide/" target="_blank">Julia style guide</a> is a good starting point for some Julia programming conventions 
+
 			<h3>Writing Documentation</h3>
 
 			<p>Julia is currently undergoing a decision process for standardization with regards to documentation. <a href="https://github.com/JuliaLang/julia/pull/8791" target="_blank">This issue</a> is tracking this discussion. Once a decision has been made and formalized a QuantEcon style guide will be updated to assist Julia contributions</p> 
