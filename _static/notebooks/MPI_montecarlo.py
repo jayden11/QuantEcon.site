@@ -11,5 +11,5 @@ my_result = np.cos(x).mean() #my average
 
 #now average accross all processes
 results = comm.gather(my_result)
-if rank == 0: #only rank =0 process has the results
+if rank == 0:
     print np.mean(results)
