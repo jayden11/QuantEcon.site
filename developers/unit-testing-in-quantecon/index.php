@@ -83,7 +83,7 @@ assert a==b, &quot;Test failed: Arguments are not equal.&quot; </code>
 We will use a known matrix and compute it's stationary distribution.</p>
 
 <div class="math" id="equation-fm_smat">
-<span class="eqno">(1)</span>\[\begin{split}P :=
+\[\begin{split}P :=
 \left(
   \begin{array}{cc}
      0.4 &amp; 0.6  \\
