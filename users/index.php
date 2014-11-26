@@ -73,7 +73,7 @@ code in action in <a href="http://quant-econ.net">these lectures</a> or in our
 
 			<h3>Documentation</h3>
 
-			<p>The Julia documentation is still a work in progress.  Please contact us if you'd like to help set it up.</p>
+			<p>The Julia documentation is still a work in progress.  Please <a href="/about/#contact">contact us</a> if you'd like to help set it up.</p>
 				        						
 		</div>
 	
