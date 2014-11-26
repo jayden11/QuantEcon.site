@@ -75,7 +75,7 @@ code in action in <a href="http://quant-econ.net">these lectures</a> or in our
 
 			<h3>Featured Notebooks</h3>
 
-			<p>There is also a collection of <a href="notebooks" target="_blank">featured notebooks</a> available.</p>
+			<p>There is also a collection of <a href="../notebooks" target="_blank">featured notebooks</a> available.</p>
 			<p>These notebooks are a collection of tutorials that demonstrate the <code>quantecon</code> library, in addition to <code>python</code> more generally and its application to quantitative economics</p>
 
 			</div>
