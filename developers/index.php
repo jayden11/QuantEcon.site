@@ -50,7 +50,7 @@ development protocols for each language.
 		
 			<h2 class="visuallyhidden" id="python-tab">Python</h2>
 			
-			<p>The current structure of the python <code>QuantEcon</code> package is relatively flat where python <code>modules</code> contain most of the code. This means that the majority of methods are available at the top level <code>namespace</code>. The python API is defined by the <code>__init__.py</code> files within the <code>quantecon</code> package. There is currently one subpackage <code>models</code> which contains a number of <code>classes</code> for working with various economic models</p>
+			<p>The current structure of the <code>QuantEcon</code> package is relatively flat where python <code>modules</code> contain most of the code. The majority of methods are available at the top level <code>namespace</code> for easy access. The python API is defined by the <code>__init__.py</code> files within the <code>quantecon</code> package. There is currently one subpackage <code>models</code> which contains a number of <code>classes</code> for working with various economic models</p>
 
 			<h3 id="creating-a-conda-development-environment">Setting up a Conda Development Environment</h3>
 			<p>One of the advantages of the <a href="https://store.continuum.io/cshop/anaconda/">Anaconda Python environment</a> is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on <code>QuantEcon</code> you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default ones. This facilitates contributing to <code>QuantEcon</code> without worrying about corrupting the Python environment on which your other work depends.</p>
@@ -70,11 +70,12 @@ development protocols for each language.
 
 			<h3>Writing Tests</h3>
 
-			<p>One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of <a href="http://en.wikipedia.org/wiki/Unit_testing" target="_blank">unit testing</a> is almost universal across high quality software projects. <a href="unit-testing-in-quantecon" target="_blank">This guide</a> is intended to help you get started writing tests for code to be included in QuantEcon.</p>
+			<p>One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of <a href="http://en.wikipedia.org/wiki/Unit_testing" target="_blank">unit testing</a> is almost universal across high quality software projects. </p>
+			<p><a href="unit-testing-in-quantecon" target="_blank">This guide</a> is intended to help you get started writing tests for code to be included in QuantEcon.</p>
 
 			<h3>Considering the API</h3>
 			
-			<p>As <code>QuantEcon</code> becomes broader in application this structure may move towards more subpackages, therefore updates should consider any alterations to the <code>API</code>. If a Pull Request (PR) is issued that results in a necessary change to the current API this needs to be highlighted and discussed as part of the PR discussion through Github</p>
+			<p>As <code>QuantEcon</code> evolves the current structure will naturally move towards more sub-packages in the future. Every effort should be made to maintain the current API, however if you are submitting a Pull Request (PR) that results in a necessary change to the current API this needs to be explicitly highlighted and discussed as part of the PR discussion through Github</p>
 			
 			<h3></h3>
 
