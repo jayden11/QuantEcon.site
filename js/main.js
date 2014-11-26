@@ -24,7 +24,11 @@ $(function(){
 			$(this).off();
 		});
 	});
-
+	
+	if ( $('.tab-panel').length > 0 ) {
+		hash = window.location.hash;
+		$('.tab-nav a[href="'+hash+'"').click();
+	}
 
 
 });

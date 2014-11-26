@@ -33,28 +33,28 @@ code in action in <a href="http://quant-econ.net">these lectures</a> or in our
 			
 			<h3>Installing the <code>quantecon</code> Python Package</h3>
 			<p>The core of the QuantEcon Python code library is the Python package <code>quantecon</code>. This is a collection of programs that have been bundled together which can then be easily used in <code>python</code></p>
-			<p>Assuming you have <a href="https://pypi.python.org/pypi/pip" target="_blank">pip</a> on your computer you can install the latest stable release of <code>quantecon</code> by typing</p>
+			<p>Assuming you have <a href="https://pypi.python.org/pypi/pip">pip</a> on your computer you can install the latest stable release of <code>quantecon</code> by typing</p>
 			<pre><code>pip install quantecon</code></pre>
 			<p>at a terminal prompt.</p>
             <p>Once <code>quantecon</code> has been installed then it can be imported into a <code>python</code> or <code>ipython</code> session through python's <code>import</code> statement. It is convention to use:</p>
             <pre><code>import quantecon as qe</code></pre>
             <p>You can check the version by running:</p>
             <pre><code>print qe.__version__ </code></pre>
-            <p> If your version is below what's available on <a href="https://pypi.python.org/pypi/quantecon/" target="_blank">PyPI</a> then it is time to upgrade. This can be done by running:</p>
+            <p> If your version is below what's available on <a href="https://pypi.python.org/pypi/quantecon/">PyPI</a> then it is time to upgrade. This can be done by running:</p>
             <pre><code>pip install --upgrade quantecon</code></pre>
-            <p>More detailed instructions on setting up a <code>python</code> environment can be found on <a href="http://quant-econ.net/py/getting_started.html#installing-anaconda" target="_blank">this page</a>.</p>
+            <p>More detailed instructions on setting up a <code>python</code> environment can be found on <a href="http://quant-econ.net/py/getting_started.html#installing-anaconda">this page</a>.</p>
 
 			<h3>Downloading the <code>quantecon</code> Repository</h3>
-            <p>An alternative is to download the sourcecode of the <code>quantecon</code> package and install it manually from <a href="https://github.com/QuantEcon/QuantEcon.py/" target="_blank">the github repository</a>. This can be achieved by downloading a zip file directly from <a href="https://github.com/QuantEcon/QuantEcon.py/archive/master.zip">here</a> or using <code>git</code> to clone the repository to your computer. If you choose to use <code>git</code> then you should first browse to a location on your computer suitable for downloading the package folder and then run</p>
+            <p>An alternative is to download the sourcecode of the <code>quantecon</code> package and install it manually from <a href="https://github.com/QuantEcon/QuantEcon.py/">the github repository</a>. This can be achieved by downloading a zip file directly from <a href="https://github.com/QuantEcon/QuantEcon.py/archive/master.zip">here</a> or using <code>git</code> to clone the repository to your computer. If you choose to use <code>git</code> then you should first browse to a location on your computer suitable for downloading the package folder and then run</p>
             <pre><code>git clone https://github.com/QuantEcon/QuantEcon.py</code></pre>
             <p>This repository contains both the <code>quantecon</code> python package in addition to some examples which can be viewed in the <a href="https://github.com/QuantEcon/QuantEcon.py/">github code repository</a>. Once you have downloaded the source files then the package can be installed by running</p>
             <pre><code>python setup.py install</code></pre>
             <p>when at the base level of the repository folder.</p> 
-            <p>If you would like to learn the basics about setting up Git see <a href="https://help.github.com/articles/set-up-git/" target="_blank">this link</a> is a good starting point.</p>
+            <p>If you would like to learn the basics about setting up Git see <a href="https://help.github.com/articles/set-up-git/">this link</a> is a good starting point.</p>
 
 			<h3>Documentation</h3>
 			
-            <p>Read the latest <a href="http://quanteconpy.readthedocs.org/en/latest/" target="_blank">documentation</a> for the <code>quantecon</code> package.</p>
+            <p>Read the latest <a href="http://quanteconpy.readthedocs.org/en/latest/">documentation</a> for the <code>quantecon</code> package.</p>
 			
 		</div>
 
@@ -64,12 +64,12 @@ code in action in <a href="http://quant-econ.net">these lectures</a> or in our
 
 			<h3>Installing the <code>QuantEcon</code> Julia Package</h3>
 						
-            <p>To install the Julia QuantEcon package <a href="https://github.com/QuantEcon/QuantEcon.jl/" target="_blank">QuantEcon.jl</a> start a Julia session and type</p>
+            <p>To install the Julia QuantEcon package <a href="https://github.com/QuantEcon/QuantEcon.jl/">QuantEcon.jl</a> start a Julia session and type</p>
             <pre><code>Pkg.add("QuantEcon")</code></pre>
             <p>This installs the <code>QuantEcon</code> package through the Julia package manager (via git) to the default Julia library location <code>~/.julia/QuantEcon</code>.</p>
             <p>Once installed the <code>QuantEcon</code> package can be used in Julia via the <code>using</code> framework such as</p>
             <pre><code>using QuantEcon</code></pre>
-            <p>More detailed instructions on setting up a <code>Julia</code> environment can be found on <a href="http://quant-econ.net/jl/getting_started.html" target="_blank">this page</a>.</p>
+            <p>More detailed instructions on setting up a <code>Julia</code> environment can be found on <a href="http://quant-econ.net/jl/getting_started.html">this page</a>.</p>
 
 			<h3>Documentation</h3>
 

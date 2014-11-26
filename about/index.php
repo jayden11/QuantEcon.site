@@ -45,7 +45,7 @@ parties.</p>
 	<li><a href="http://johnstachurski.net">John Stachurski</a></li>
 </ul>
 
-<h2>License</h2>
+<h2 id="license">License</h2>
 
 <p>Copyright &copy; 2013, 2014 Thomas J. Sargent and John Stachurski: BSD-3 All rights reserved.</p>
 
@@ -61,10 +61,9 @@ parties.</p>
 INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
 WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</small></p>
 
-<h2>Contacts</h2>
+<h2 id="contact">Contact</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+<p>Get in contact with us at QuantEcon by email: <a href="mailto:contact@quantecon.org">contact@quantecon.org</a></p>
 
 <?php
 	include ('footer.php');
