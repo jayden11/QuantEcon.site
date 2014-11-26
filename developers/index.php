@@ -55,7 +55,7 @@ development protocols for each language.
 			<h3 id="creating-a-conda-development-environment">Setting up a Conda Development Environment</h3>
 			<p>One of the advantages of the <a href="https://store.continuum.io/cshop/anaconda/">Anaconda Python environment</a> is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on <code>QuantEcon</code> you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default ones. This facilitates contributing to <code>QuantEcon</code> without worrying about corrupting the Python environment on which your other work depends.</p>
 
-			<p>Full instructions can be found <a href="py/Creating-a-Conda-development-environment.php">here</a></p>
+			<p>Full instructions can be found <a href="creating-conda-development-environment">here</a></p>
 
 			<h3>Writing Documentation</h3>
 
@@ -66,11 +66,11 @@ development protocols for each language.
 			<li>Allow us to easily and automatically generate a reference manual using sphinx's <code>autodoc</code> and <code>apidoc</code> functionality.</li>
 			</ul>
 
-			<p>For full details and examples, this standard is discussed in more detail <a href="py/Docstrings-and-Documentation.php" target=-"_blank">on this page</a></p>
+			<p>For full details and examples, this standard is discussed in more detail <a href="docstrings-documentation" target=-"_blank">on this page</a></p>
 
 			<h3>Writing Tests</h3>
 
-			<p>One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of <a href="http://en.wikipedia.org/wiki/Unit_testing">unit testing</a> is almost universal across high quality software projects. <a href="py/Unit-Testing-in-QuantEcon.php">This guide</a> is intended to help you get started writing tests for code to be included in QuantEcon.</p>
+			<p>One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of <a href="http://en.wikipedia.org/wiki/Unit_testing" target="_blank">unit testing</a> is almost universal across high quality software projects. <a href="unit-testing-in-quantecon" target="_blank">This guide</a> is intended to help you get started writing tests for code to be included in QuantEcon.</p>
 
 			<h3>Considering the API</h3>
 			
