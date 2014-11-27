@@ -63,25 +63,18 @@ code in action in <a href="http://quant-econ.net">these lectures</a> or in our
             <h3>A Brief Example</h3>
             
             <p>The following code imports the <code>quantecon</code> library and creates a discrete approximation to an AR(1) process</p>
-			<pre><code class="language-python">
-			from quantecon import approx_markov
-			states, matrix = approx_markov(0.9, 0.1, n=4)
-			print matrix
-			print states
-			</code></pre>
+			<pre class="line-numbers"><code class="language-python">from quantecon import approx_markov
+states, matrix = approx_markov(0.9, 0.1, n=4)
+print matrix
+print states</code></pre>
 			<p>In the below figure we are running this code interactively in an ipython notebook (See <a href="http://quant-econ.net/py/getting_started.html#id2" target="_blank">here</a> for more details on setting up <a href="http://ipython.org/" target="_blank">IPython</a>) and printing the results</p>
-			<div class="figure">
-			<a class="reference internal image-reference" href="images/test_qe.png"><img alt="images/test_qe.png" src="images/test_qe.png" style="width: 465.0px; height: 597.0px;" /></a>
+			
+			<p class="figure"><img alt="/images/test_qe.png" src="/images/test_qe.png"/></p>
 
 			<h3>Featured Notebooks</h3>
 
 			<p>There is also a collection of <a href="../notebooks" target="_blank">featured notebooks</a> available.</p>
 			<p>These notebooks are a collection of tutorials that demonstrate the <code>quantecon</code> library, in addition to <code>python</code> more generally and its application to quantitative economics</p>
-
-			</div>
-			</div>
-
-			
 			
 		</div>
 

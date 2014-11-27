@@ -14,9 +14,9 @@
 			<li><a href="/users/">Use QE</a></li>
 			<li><a href="/developers/">Developers</a>
 				<ul>
-					<li><a href="/developers/creating-conda-development-environment/">Creating a Conda development environment</a></li>
-					<li><a href="/developers/docstrings-documentation/">Docstrings and Documentation</a></li>
-					<li><a href="/developers/unit-testing-in-quantecon/">Unit Testing in QuantEcon</a></li>
+					<li><a href="/wiki/py/Creating-a-Conda-development-environment.php">Creating a Conda development environment</a></li>
+					<li><a href="/wiki/py/Docstrings-and-Documentation.php">Docstrings and Documentation</a></li>
+					<li><a href="/wiki/py/Unit-Testing-in-QuantEcon.php">Unit Testing in QuantEcon</a></li>
 				</ul>
 			</li>
 			<li><a href="/about/">About</a></li>

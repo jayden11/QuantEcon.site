@@ -4,7 +4,9 @@
 ?>
 
 		
-<h1>Welcome</h1>
+<h1 class="visuallyhidden">QuantEcon</h1>
+
+<br>
 
 <p>QuantEcon is an organization run by economists for economists with the aim
 of coordinating distributed development of high quality open source code for
@@ -14,24 +16,22 @@ modeling.  QuantEcon is supported financially by the <a href="http://www.sloan.o
 <p>The main resources provided by QuantEcon are 
 high performance code libraries written in <a href="http://www.python.org">Python</a> and <a href="http://www.julialang.org">Julia</a>.</p>
 
-<p>Talk about QuantEcon on the <a href="http://reddit.com/r/quantecon">subreddit</a></p>
-
 <ul id="coa">
 	<li>
 		<a href="/users/">
-			<p class="thumb"><img src="/img/home-use.png" alt=" " /></p>
+			<p class="thumb"><img src="/assets/img/home-use.png" alt=" " /></p>
 			<p class="title">Get started</p>
 		</a>
 	</li>
 	<li>
 		<a href="/about/">
-			<p class="thumb"><img src="/img/home-about.png" alt=" " /></p>
+			<p class="thumb"><img src="/assets/img/home-about.png" alt=" " /></p>
 			<p class="title">Learn more</p>
 		</a>
 	</li>
 	<li>
 		<a href="/developers/">
-			<p class="thumb"><img src="/img/home-help.png" alt=" " /></p>
+			<p class="thumb"><img src="/assets/img/home-help.png" alt=" " /></p>
 			<p class="title">Join the team</p>
 		</a>
 	</li>

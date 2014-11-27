@@ -7,18 +7,18 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>QuantEcon<?php if ($page_title) echo ' &ndash; '.$page_title; ?></title>
-        <meta name="description" content="QuantEcon is an international organization supporting distributed development of high quality open source code for quantitative economic modeling">
+        <meta name="description" content="QuantEcon is an organization run by economists for economists with the aim of coordinating distributed development of high quality open source code for all forms of quantitative economic modeling">
         <meta name="viewport" content="width=device-width">
 		
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
 
-        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="/assets/js/vendor/modernizr-2.6.2.min.js"></script>
                 
     </head>
 
 
-    <body>
+    <body<?php if ($body_class) echo ' class="' . $body_class . '"'; ?>>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -28,9 +28,16 @@
         	<div class="container">
         		        		
         		<ul>
-        			<li><a href="/"><span class="icon icon-house"></span> Home</a></li>
-        			<li><a href="/users/"><span class="icon icon-user"></span> Use QE</a></li>
-        			<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
+        			<li class="sub"><a href="#"><span class="icon icon-earth"></span> QuantEcon</a>
+        				<ul>
+	        				<li><a href="/">Home</a></li>
+	        				<li><a href="/users/"><span class="icon icon-userz"></span> Use QE</a></li>
+	        				<li><a href="/developers/"><span class="icon icon-toolsz"></span> Developers</a></li>
+	        				<li><a href="/about/"><span class="icon icon-starz"></span> About</a></li>
+        				</ul>
+        			</li>
+        			
+        			
         			<li class="sub"><a href="#"><span class="icon icon-github"></span> Repo</a>
         				<ul>
 	        				<li><a href="https://github.com/QuantEcon/">Org</a></li>
@@ -38,12 +45,13 @@
 							<li><a href="https://github.com/QuantEcon/QuantEcon.jl">Julia</a></li>
         				</ul>
         			</li>
-        			<li><a href="/about/"><span class="icon icon-star"></span> About</a></li>
+        			<li><a href="/wiki/"><span class="icon icon-tools"></span> Wiki</a></li>
         			<li class="sub"><a href="#"><span class="icon icon-docs"></span> Docs</a>
         				<ul>
 	        				<li><a href="http://quanteconpy.readthedocs.org/en/latest/">Python</a></li>
 	        				<li><a href="/docs/julia/">Julia</a></li>
-	        				<li><a href="/notebooks/">Notebooks	</a></li>
+	        				<li><a href="/notebooks/">Notebooks</a></li>
+	        				<li><a href="http://reddit.com/r/quantecon">SubReddit</a></li>
         				</ul>
         			</li>
         		</ul>
@@ -58,13 +66,13 @@
 	
 				<div class="container">
 		        	
-	        		<p id="site-logo"><a href="/" title="Home"><img src="/img/quantecon-logo.png" alt="QuantEcon logo"></a></p>
+	        		<p id="site-logo"><a href="/" title="Home"><img src="/assets/img/quantecon-logo.png" alt="QuantEcon logo"></a></p>
 	        		
 	        		<p id="site-title"><a href="/" title="Home">Quant<span>Econ</span></a></p>
 	        		
 	        		<p id="site-tag">Open source libraries for quantitative economic modeling</p>
 
-					<p id="sponsor"><a href="http://www.sloan.org/"><img src="/img/sloan_logo.png" alt="Alfred P. Sloan Foundation"></a></p>
+					<p id="sponsor"><a href="http://www.sloan.org/"><img src="/assets/img/sloan_logo.png" alt="Alfred P. Sloan Foundation"></a></p>
 	        												
 				</div>
 					        	
