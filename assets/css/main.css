@@ -143,7 +143,7 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 #top-nav {background-color: rgba(90, 87, 107, 0.95);/* padding:10px 0 0 0; */height:47px;font-family: "exo_regular";position: fixed;width:100%;z-index:10;}
 #top-nav .container {overflow: visible;}
 #top-nav ul {list-style: none;margin:0;padding:0;}
-#top-nav li {float:left;width:25%;margin:0;text-align:center;position: relative;}
+#top-nav li {float:left;width:16.6%;margin:0;text-align:center;position: relative;}
 #top-nav a {text-decoration: none;color:#fff;display: block;outline: 0;padding:10px 0;}
 #top-nav a:hover {background:#4b4959;}
 #top-nav a span {margin: 0 5px 0 0;position: relative;top: 3px;font-size:1.3em;}

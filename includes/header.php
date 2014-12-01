@@ -28,15 +28,10 @@
         	<div class="container">
         		        		
         		<ul>
-        			<li class="sub"><a href="#"><span class="icon icon-earth"></span> QuantEcon</a>
-        				<ul>
-	        				<li><a href="/">Home</a></li>
-	        				<li><a href="/users/"><span class="icon icon-userz"></span> Use QE</a></li>
-	        				<li><a href="/developers/"><span class="icon icon-toolsz"></span> Developers</a></li>
-	        				<li><a href="/about/"><span class="icon icon-starz"></span> About</a></li>
-        				</ul>
-        			</li>
-        			
+        			<li><a href="#"><span class="icon icon-house"></span> Home</a></li>
+    				<li><a href="/users/"><span class="icon icon-user"></span> Use QE</a></li>
+    				<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
+    				<li><a href="/about/"><span class="icon icon-star"></span> About</a></li>
         			
         			<li class="sub"><a href="#"><span class="icon icon-github"></span> Repo</a>
         				<ul>
@@ -45,12 +40,12 @@
 							<li><a href="https://github.com/QuantEcon/QuantEcon.jl">Julia</a></li>
         				</ul>
         			</li>
-        			<li><a href="/wiki/"><span class="icon icon-tools"></span> Wiki</a></li>
         			<li class="sub"><a href="#"><span class="icon icon-docs"></span> Docs</a>
         				<ul>
 	        				<li><a href="http://quanteconpy.readthedocs.org/en/latest/">Python</a></li>
 	        				<li><a href="/docs/julia/">Julia</a></li>
 	        				<li><a href="/notebooks/">Notebooks</a></li>
+	        				<li><a href="/wiki/">Wiki</a></li>
 	        				<li><a href="http://reddit.com/r/quantecon">SubReddit</a></li>
         				</ul>
         			</li>
