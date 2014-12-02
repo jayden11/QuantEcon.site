@@ -36,24 +36,6 @@
 		</a>
     </li>
 	<li>
-    	<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/oyama_digraph_demo01.ipynb">
-	    	<p class="title">Digraph Demo - Daisuke Oyama</p>
-			<div class="description">
-				<p>A demonstration of the DiGraph features found in QuantEcon</p>
-			</div>
-			<p class="thumbnail"><img src="/_static/notebooks/oyama_digraph_demo01.png"></p>
-		</a>
-    </li>
-	<li>
-		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/oyama_markovchain_demo01.ipynb">
-        	<p class="title">Markov Chain Demo - Daisuke Oyama</p>
-			<div class="description">
-				<p>A demonstration of Markov chains covering simulation, classification of states, stationarity, and periodicity for reducible Markov chains </p>
-			</div>
-			<p class="thumbnail"><img src="/_static/notebooks/oyama_markovchain_demo01.png"></p>
-		</a>
-    </li>
-	<li>
 		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/quadrature.ipynb">
 			<p class="title">Quadrature - Chase Coleman and Spencer Lyon</p>
 			<div class="description">
