@@ -11,8 +11,8 @@
 				<ul>
 					<li><a href="/">Home</a></li>
 					<li><a href="/sitemap/">Site Map</a></li>
-					<li><a href="http://quantecon.site/about/#license">License</a></li>
-					<li><a href="http://quantecon.site/about/#contact">Contact</a></li>
+					<li><a href="/about/#license">License</a></li>
+					<li><a href="/about/#contact">Contact</a></li>
 				</ul>
 
 				<p>&copy; Copyright 2014. <a href="https://files.nyu.edu/ts43/public">Tom J. Sargent</a> and <a href="http://johnstachurski.net/">John Stachurski</a></p>
