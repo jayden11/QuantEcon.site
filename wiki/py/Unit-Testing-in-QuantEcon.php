@@ -252,8 +252,8 @@ from ..mc_tools import mc_compute_stationary    # An example of using relative r
 <code class="language-python"># Construct a Class 
 class TestMcComputeStationaryKMRMarkovMatrix(unittest.TestCase):
 &#39;&#39;&#39;
-        Test Suite for mc_compute_stationary using KMR Markov Matrix [using unittest.TestCase]
-    &#39;&#39;&#39;
+    Test Suite for mc_compute_stationary using KMR Markov Matrix [using unittest.TestCase]
+&#39;&#39;&#39;
 
 # Starting Values #
 
@@ -296,8 +296,8 @@ TOL = 1e-2
 
 def setup_func():
 &#39;&#39;&#39;
-        Setup a KMRMarkovMatrix and Compute Stationary Values
-    &#39;&#39;&#39;
+    Setup a KMRMarkovMatrix and Compute Stationary Values
+&#39;&#39;&#39;
 global P                                            # Not Usually Recommended
 P = KMRMarkovMatrixSequential(N, p, epsilon)
 global v                                            # Not Usually Recommended
@@ -327,8 +327,8 @@ assert np.allclose(np.dot(v, P), v, atol=TOL) == True, &quot;np.allclose(np.dot(
 <pre class="line-numbers">
 <code class="language-python">class TestMcComputeStationaryKMRMarkovMatrix():
 &#39;&#39;&#39;
-        Test Suite for mc_compute_stationary using KMR Markov Matrix [suitable for nose]
-    &#39;&#39;&#39;
+    Test Suite for mc_compute_stationary using KMR Markov Matrix [suitable for nose]
+&#39;&#39;&#39;
 # Starting Values #
 
 N = 27
@@ -338,8 +338,8 @@ TOL = 1e-2
 
 def setUp(self):
     &#39;&#39;&#39;
-            Setup a KMRMarkovMatrix and Compute Stationary Values
-        &#39;&#39;&#39;
+        Setup a KMRMarkovMatrix and Compute Stationary Values
+    &#39;&#39;&#39;
     self.P = KMRMarkovMatrixSequential(self.N, self.p, self.epsilon)
     self.v = mc_compute_stationary(self.P)
 
