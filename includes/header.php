@@ -28,7 +28,7 @@
         	<div class="container">
         		        		
         		<ul>
-        			<li><a href="#"><span class="icon icon-house"></span> Home</a></li>
+        			<li><a href="/"><span class="icon icon-house"></span> Home</a></li>
     				<li><a href="/users/"><span class="icon icon-user"></span> Use QE</a></li>
     				<li><a href="/developers/"><span class="icon icon-tools"></span> Developers</a></li>
     				<li><a href="/about/"><span class="icon icon-star"></span> About</a></li>
