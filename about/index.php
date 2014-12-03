@@ -12,7 +12,7 @@ and backed by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>
 Its aim is to coordinate development of high quality open source code for
 quantitative economic modeling.</p>
 
-<h2>People</h2>
+<h2 id="people">People</h2>
 
 <p>At present, the lead developers for QuantEcon are</p>
 
