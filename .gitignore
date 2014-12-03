@@ -6,3 +6,5 @@ _build/
 _static/notebooks/.ipynb_checkpoints/*
 
 upload.py
+
+upload-live.py
