@@ -213,7 +213,7 @@ from ..mc_tools import mc_compute_stationary    # An example of using relative r
 </pre>
 
 <p>Sometimes Supporting Test Functions may be required for Generating Markov Matrices such as the KMR Model. However more often then not these <code>support</code> functions can be imported from the project. This can make it clearer regarding what is actually acting as <code>input</code> into the test cases.</p>
-<pre class="line-numbers"><code class="language-python">def KMRMarkovMatrixSequential(N, p, epsilon):
+<pre class="line-numbers scroll"><code class="language-python" style="overflow:scroll;">def KMRMarkovMatrixSequential(N, p, epsilon):
     <span class="pl-pds">"""</span>
     Generate the Markov matrix for the KMR model with *sequential* move
 
@@ -229,14 +229,8 @@ from ..mc_tools import mc_compute_stationary    # An example of using relative r
     P = np.zeros((N+1, N+1), dtype=float)
     P[0, 0], P[0, 1] = 1 - epsilon * (1/2), epsilon * (1/2)
     for n in range(1, N):
-        P[n, n-1] = \
-            (n/N) * (epsilon * (1/2) +
-                     (1 - epsilon) * (((n-1)/(N-1) &lt; p) + ((n-1)/(N-1) == p) * (1/2))
-                     )
-        P[n, n+1] = \
-            ((N-n)/N) * (epsilon * (1/2) +
-                         (1 - epsilon) * ((n/(N-1) &gt; p) + (n/(N-1) == p) * (1/2))
-                         )
+        P[n, n-1] = \ (n/N) * (epsilon * (1/2) + (1 - epsilon) * (((n-1)/(N-1) &lt; p) + ((n-1)/(N-1) == p) * (1/2)))
+        P[n, n+1] = \ ((N-n)/N) * (epsilon * (1/2) + (1 - epsilon) * ((n/(N-1) &gt; p) + (n/(N-1) == p) * (1/2)))
         P[n, n] = 1 - P[n, n-1] - P[n, n+1]
     P[N, N-1], P[N, N] = epsilon * (1/2), 1 - epsilon * (1/2)
     return P</code></pre>
