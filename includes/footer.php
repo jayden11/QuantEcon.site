@@ -15,7 +15,7 @@
 					<li><a href="/about/#contact">Contact</a></li>
 				</ul>
 
-				<p>&copy; Copyright 2014. <a href="https://files.nyu.edu/ts43/public">Tom J. Sargent</a> and <a href="http://johnstachurski.net/">John Stachurski</a></p>
+				<p>&copy; Copyright 2014. <a href="https://files.nyu.edu/ts43/public">Tom J. Sargent</a> and <a href="http://johnstachurski.net/">John Stachurski</a>. Hosted with AWS.</p>
 				
 			</div>
 				

@@ -8,3 +8,4 @@ _static/notebooks/.ipynb_checkpoints/*
 upload.py
 
 upload-live.py
+.elasticbeanstalk/
