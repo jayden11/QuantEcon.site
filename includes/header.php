@@ -12,6 +12,7 @@
 		
         <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+		<link rel="canonical" href="http://quantecon.org/">
 
         <script src="/assets/js/vendor/modernizr-2.6.2.min.js"></script>
                 
