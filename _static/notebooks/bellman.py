@@ -31,7 +31,8 @@ def approximateValueFunction(TV,Para):
     m = n//s
     r = n%s
     #let each process take a slice of the domain
-    mydomain = Para.domain[rank*m+min(rank,r):(rank+1)*m+min(rank+1,r)]
+    mydomain = Para.domain[rank*m+min(rank,r):
+                           (rank+1)*m+min(rank+1,r)]
 
     #get the value at each point in my domain
     myV = hstack(map(TV,mydomain))
