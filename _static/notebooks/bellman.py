@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 """
 Created on Tue Jun 25 13:40:30 2013
 Holds all of the code for the bellman equation
@@ -31,9 +31,10 @@ def approximateValueFunction(TV,Para):
     m = n//s
     r = n%s
     #let each process take a slice of the domain
-    mydomain = Para.domain[rank*m+min(rank,r):(rank+1)*m+min(rank+1,r)]
+    mydomain = Para.domain[rank*m+min(rank,r):
+                           (rank+1)*m+min(rank+1,r)]
 
-    #get the value at each point in my domaain
+    #get the value at each point in my domain
     myV = hstack(map(TV,mydomain))
     #gather the values for each process
     Vs = comm.gather(myV)
@@ -80,7 +81,7 @@ class BellmanMap(object):
         return tuple (V,c_policy,a_policy)
         '''
         
-        #total welath for agent is easy
+        #total wealth for agent is easy
         W = (1+self.r)*a + exp(z)*self.w
         beta = self.Para.beta
         Vf = self.Vf
@@ -112,9 +113,3 @@ class BellmanMap(object):
         #upper bound for z
         zvec[zvec>z_max] = z_max
         return z_weights.dot(f(zvec))
-            
-
-        
-        
-        
-            
