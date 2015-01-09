@@ -9,15 +9,6 @@
 
 <ul id="notebooks">
 	<li>
-		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/chase_nelder_mead.ipynb">
-			<p class="title">Nelder-Mead - Chase Coleman</p>
-			<div class="description">
-				<p>This notebook provides an introduction to the Nelder-Mead Algorithm. This algorithm is used in many programming languages (matlab, scipy, etc.) for tackling minimization problems. Understanding Nelder-Mead provides valuable intuition for when it is (and more importantly when it isn't) an appropriate minimization technique</p>
-			</div>
-			<p class="thumbnail"><img src="/_static/notebooks/chase_nelder_mead.png"></p>
-		</a>
-    </li>
-	<li>
 		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/d_evans_parallel_computing.ipynb">
 			<p class="title">Parallel Computing - David Evans</p>
 			<div class="description">
@@ -27,10 +18,10 @@
 		</a>
     </li>
 	<li>
-    	<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/numpy_scipy_examples.ipynb">
-	    	<p class="title">Numpy Scipy Examples - John Stachurski</p>
+    	<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/sci_python_quickstart.ipynb">
+	    	<p class="title">Scientific Python Quickstart - John Stachurski</p>
 			<div class="description">
-				<p>This notebook contains an introduction to using Numpy and Scipy. In Numpy this includes creating arrays, indexing behavior, and methods and operations that can be applied to arrays. For SciPy this runs through an example on statistics, finding roots and fixed points, and a brief numerical optimization example</p>
+				<p>This notebook contains an introduction to working with Python for scientific applications focusing on economics. It introduces the four most popular scientific libraries and gives example on statistics, plotting, optimization, linear algebra and so on.</p>
 			</div>
 			<p class="thumbnail"><img src="/_static/notebooks/numpy_scipy_examples.png"></p>
 		</a>
@@ -51,6 +42,15 @@
 				<p>This notebook demonstrates how to solve initial value problems (IVPs) using the <code>quantecon</code> Python library using the Lotka-Volterra "Predator-Prey" model</p>
 			</div>	
 			<p class="thumbnail"><img src="/_static/notebooks/solving_initial_value_problems.png"></p>
+		</a>
+    </li>
+	<li>
+		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/chase_nelder_mead.ipynb">
+			<p class="title">Nelder-Mead - Chase Coleman</p>
+			<div class="description">
+				<p>This notebook provides an introduction to the Nelder-Mead Algorithm. This algorithm is used in many programming languages (matlab, scipy, etc.) for tackling minimization problems. Understanding Nelder-Mead provides valuable intuition for when it is (and more importantly when it isn't) an appropriate minimization technique</p>
+			</div>
+			<p class="thumbnail"><img src="/_static/notebooks/chase_nelder_mead.png"></p>
 		</a>
     </li>
 </ul>
