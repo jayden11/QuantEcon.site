@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>QuantEcon<?php if ($page_title) echo ' &ndash; '.$page_title; ?></title>
         <meta name="description" content="QuantEcon is an organization run by economists for economists with the aim of coordinating distributed development of high quality open source code for all forms of quantitative economic modeling">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		
         <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
@@ -59,11 +59,13 @@
         				</ul>
         			</li>
         		</ul>
-        		
+        		        		
         	</div>
         	
         </nav>	
-                
+
+		<span href="#" class="navbar-toggle collapsed"><span class="icon icon-list"></span></span>
+        
         <div id="wrapper">
         
 	        <header id="header">

@@ -68,36 +68,35 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-newtab:before {
-	content: "\e607";
-}
 .icon-user:before {
-	content: "\e606";
-}
-.icon-star:before {
 	content: "\e600";
 }
-.icon-house:before {
-	content: "\e604";
-}
-.icon-tools:before {
+
+.icon-star:before {
 	content: "\e601";
 }
-.icon-earth:before {
-	content: "\e608";
-}
-.icon-info:before {
+
+.icon-house:before {
 	content: "\e602";
 }
-.icon-docs:before {
-	content: "\e605";
-}
-.icon-github:before {
+
+.icon-tools:before {
 	content: "\e603";
 }
 
+.icon-list:before {
+	content: "\e606";
+}
 
-/* a[href*="//"]:not([href*="quantecon.site"]):after {font-family: 'icomoon';speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;content: "\e607";position:relative;left:1px;top:-4px;opacity:0.5;text-decoration: none;display:inline-block;font-size:0.9em;} */
+.icon-docs:before {
+	content: "\e604";
+}
+
+.icon-github:before {
+	content: "\e605";
+}
+
+
 
 
 
@@ -116,16 +115,14 @@ a {color:#2370a0;-webkit-transition: all .15s linear;transition: all .15s linear
 a:link {}
 a:hover {}
 a:active {}
-/*
 a:visited {color:#004979;}
-*/
 
 pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 
 .container {margin:0 auto;width:820px;padding:0 40px;position: relative;border: 0;overflow: hidden;*text-indent: -9999px;}
 .container:before {content: "";display: block;width: 0;}
 
-#wrapper {}
+#wrapper {min-width:900px;}
 #header {padding: 20px 0 30px 0;box-shadow: inset 0 -1px 2px rgba(195, 195, 195, 0.4);position: relative;top:60px;background: #f5f5f5;}
 .wiki #header {display:none;}
 
@@ -140,23 +137,9 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 #sponsor {position: absolute;top: 15px;right: 40px;}
 #sponsor img {}
 
-#top-nav {background-color: rgba(90, 87, 107, 0.95);/* padding:10px 0 0 0; */height:47px;font-family: "exo_regular";position: fixed;width:100%;z-index:10;}
-#top-nav .container {overflow: visible;}
-#top-nav ul {list-style: none;margin:0;padding:0;}
-#top-nav li {float:left;width:16.6%;margin:0;text-align:center;position: relative;}
-#top-nav a {text-decoration: none;color:#fff;display: block;outline: 0;padding:10px 0;}
-#top-nav a:hover {background:#4b4959;}
-#top-nav a span {margin: 0 5px 0 0;position: relative;top: 3px;font-size:1.3em;}
-
-#top-nav .sub ul {position: absolute;top:47px;left:50%;width:150px;margin-left:-75px;border: 1px solid #ccc;border: 1px solid rgba(0,0,0,0.15);border-radius: 4px;-webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);box-shadow: 0 6px 12px rgba(0,0,0,0.175);background-clip: padding-box;border-top:0;display:none;}
-#top-nav .sub-open ul {display:block;}
-#top-nav .sub li {float:none;width:auto;text-align:left;}
-#top-nav .sub ul a {padding:0.5em 10px;background:#fff;color:#333;}
-#top-nav .sub ul a:hover {background:#e6e6e6;}
-
 #main {background:#fff;padding:60px 0 20px 0;}
 
-#footer {font-size:0.8em;color:#888;background: #f5f5f5;box-shadow: inset 0 1px 2px rgba(195, 195, 195, 0.4);}
+#footer {font-size:0.8em;color:#888;background: #f5f5f5;box-shadow: inset 0 1px 2px rgba(195, 195, 195, 0.4);min-width:900px;}
 #footer a {color:#888;}
 #footer ul {list-style: none;padding:0;list-style: none;float:right;}
 #footer li {padding:0 0 0 10px;margin:0 0 0 10px;display:inline-block;border-left:1px solid #ddd;line-height: 1;}
@@ -202,19 +185,49 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 
 .scroll {overflow-x: auto;white-space: pre;word-wrap: normal;}
 
-@media only screen and (min-width: 769px) {
+.navbar-toggle {display:none;}
 
-
+@media only screen and (min-width: 681px) {
+	#top-nav ul {list-style: none;margin:0;padding:0;}
+	#top-nav li {float:left;width:16.6%;margin:0;text-align:center;position: relative;}
+	#top-nav a {text-decoration: none;color:#fff;display: block;outline: 0;padding:10px 0;}
+	#top-nav a:hover {background:#4b4959;}
+	#top-nav a span {margin: 0 5px 0 0;position: relative;top: 3px;font-size:1.3em;}
+	#top-nav {background-color: rgba(90, 87, 107, 0.95);height:47px;font-family: "exo_regular";position: fixed;width:100%;z-index:10;}
+	#top-nav .container {overflow: visible;}	
+	#top-nav .sub ul {position: absolute;top:47px;left:50%;width:150px;margin-left:-75px;border: 1px solid #ccc;border: 1px solid rgba(0,0,0,0.15);border-radius: 4px;-webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);box-shadow: 0 6px 12px rgba(0,0,0,0.175);background-clip: padding-box;border-top:0;display:none;}
+	#top-nav .sub-open ul {display:block;}
+	#top-nav .sub li {float:none;width:auto;text-align:left;}
+	#top-nav .sub ul a {padding:0.5em 10px;background:#fff;color:#333;}
+	#top-nav .sub ul a:hover {background:#e6e6e6;}
 }
-
-@media only screen and (max-width: 768px) {
-
+@media only screen and (max-width: 680px) {
+	body {min-width:0;}
+	.container {width:auto;}
+	#wrapper {min-width:0;}
+	.navbar-toggle {position:absolute;top:20px;right:20px;display:block;overflow: hidden;font-size:2.5em;color:#fff;z-index:999;}
+	.navbar-toggle.collapsed {color: #605D70;}
+	#top-nav {display:none;background-color: #605D70;font-family: "exo_regular";font-size:1.2em;}
+	#top-nav .container {}	
+	#top-nav ul {padding:0;margin:20px 0;}
+	#top-nav li {margin:0;}
+	#top-nav a {text-decoration: none;color:#fff;display: block;outline: 0;padding:10px 0;}
+	#top-nav ul ul {padding:0 0 0 40px;margin:0;}
+	#top-nav ul ul a {padding:5px 0;}
+	#header {text-align:center;}
+	#sponsor {position: static;margin-bottom:0;}
+	#coa li {width:auto;float:none;margin-left:0;}
+	#footer {min-width:0;text-align:center;}
+	#footer ul {float:none;}
+	#footer li {padding:0 10px;margin:0;display:inline;}
+	.tab-nav li a {padding: 30px 32px;text-indent: -999px;font-size: 1px;}
+	.tab-panel .tab {padding:30px 30px;}
+	#notebooks {list-style: none;padding:0;}
+	#notebooks li {padding:0;}
+	#notebooks li a {min-height:0;}
+	#notebooks .thumbnail {position: static;}
+	#notebooks .thumbnail img {width: 100%;}
 }
-
-@media only screen and (max-width: 480px) {
-
-}
-
 
 
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+python&plugins=line-numbers */
