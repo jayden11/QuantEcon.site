@@ -30,7 +30,7 @@
 		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/quadrature.ipynb">
 			<p class="title">Quadrature - Chase Coleman and Spencer Lyon</p>
 			<div class="description">
-				<p>Demonstrates the quadrature routines contained in QuantEcon. The examples are derived from the <code>CompEcon</code> toolbox written by Mario Miranda and Paul Fackler</p>
+				<p>Demonstrates the quadrature routines contained in QuantEcon. The examples are derived from the <code>CompEcon</code> toolbox written by Mario Miranda and Paul Fackler.</p>
 			</div>
 			<p class="thumbnail"><img src="/_static/notebooks/quadrature.png"></p>
 		</a>
