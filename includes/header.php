@@ -55,7 +55,7 @@
 	        				<li><a href="/docs/julia/">Julia</a></li>
 	        				<li><a href="/notebooks/">Notebooks</a></li>
 	        				<li><a href="/wiki/">Wiki</a></li>
-	        				<li><a href="http://reddit.com/r/quantecon">SubReddit</a></li>
+	        				<!--<li><a href="http://reddit.com/r/quantecon">SubReddit</a></li>-->
         				</ul>
         			</li>
         		</ul>
