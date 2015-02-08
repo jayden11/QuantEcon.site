@@ -27,6 +27,15 @@
 		</a>
     </li>
 	<li>
+    	<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/lucas_asset_pricing_model.ipynb">
+            <p class="title">Approximation Methods for the Lucas Asset Pricing Model - Joao Brogueira and Fabian Schuetze</p>
+			<div class="description">
+                <p>This notebook modifies the code from the <a href="http://quant-econ.net/py/lucas_model.html">quant-econ lecture</a> on the Lucas asset pricing model to implement a more advanced and accurate approximation procedure.</p>
+			</div>
+			<p class="thumbnail"><img src="/_static/notebooks/numpy_scipy_examples.png"></p>
+		</a>
+    </li>
+	<li>
 		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/quadrature.ipynb">
 			<p class="title">Quadrature - Chase Coleman and Spencer Lyon</p>
 			<div class="description">
