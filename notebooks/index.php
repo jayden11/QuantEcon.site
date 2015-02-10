@@ -32,7 +32,7 @@
 			<div class="description">
                 <p>This notebook modifies the code from the <a href="http://quant-econ.net/py/lucas_model.html">quant-econ lecture</a> on the Lucas asset pricing model to implement a more advanced and accurate approximation procedure.</p>
 			</div>
-			<p class="thumbnail"><img src="/_static/notebooks/numpy_scipy_examples.png"></p>
+			<p class="thumbnail"><img src="/_static/notebooks/lucas_asset_pricing_model.png"></p>
 		</a>
     </li>
 	<li>
