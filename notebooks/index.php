@@ -62,6 +62,15 @@
 			<p class="thumbnail"><img src="/_static/notebooks/chase_nelder_mead.png"></p>
 		</a>
     </li>
+    <li>
+		<a href="http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/solow_model.ipynb">
+			<p class="title">Solow Model - David R. Pugh</p>
+			<div class="description">
+				<p>This notebook demonstrates the functionality of the <code>quantecon.models.solow</code> module. One of the objectives of this notebook is to demonstrate the use of numerical methods in economics by using the Solow model of economic growth</p>
+			</div>
+			<p class="thumbnail"><img src="/_static/notebooks/solow_model.png"></p>
+		</a>
+    </li>
 </ul>
 
 
