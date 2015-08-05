@@ -38,6 +38,17 @@
 
 <pre class="line-numbers"><code class="language-python">$ python setup.py install</code></pre>
 
+<p> The above command installs quantecon into the local site-packages folder on your machine. If you make changes you will need to rerun the command
+	for changes to be installed into site-packages.
+</p>
+
+<p> 
+	Instead you may wish to install a developer copy which allows for changes to take effect immediately.
+	Rather than copying files to site-packages this command will make symbolic links instead.
+</p>
+
+<pre class="line-numbers"><code class="language-python">$ python setup.py develop</code></pre>
+
 <h2 id="other-useful-commands">Other useful commands</h2>
 
 <p>To switch into the <code>quantecon-dev</code> Conda environment:</p>
