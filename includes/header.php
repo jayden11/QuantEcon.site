@@ -52,7 +52,7 @@
         			<li class="sub"><a href="#"><span class="icon icon-docs"></span> Docs</a>
         				<ul>
 	        				<li><a href="http://quanteconpy.readthedocs.org/en/latest/">Python</a></li>
-	        				<li><a href="/docs/julia/">Julia</a></li>
+	        				<li><a href="http://quantecon.github.io/QuantEcon.jl/">Julia</a></li>
 	        				<li><a href="/notebooks/">Notebooks</a></li>
 	        				<li><a href="/wiki/">Wiki</a></li>
 	        				<li><a href="https://groups.google.com/forum/#!forum/quantecon">Forum</a>
