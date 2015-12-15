@@ -1,16 +1,16 @@
-<?php
-	set_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');
-	$page_title = 'Use QE';
-	include ('header.php');
-?>
+.. _users:
 
-		
-<h1>Use QE</h1>
+******
+Use QE
+******
 
-<p>This page provides help on downloading, installing and using the QuantEcon
+This page provides help on downloading, installing and using the QuantEcon
 code libraries in each of its two flavors.  For further reading you can find examples of the
-code in action in <a href="http://quant-econ.net">these lectures</a> or in our 
-<a href="/notebooks/">featured notebooks</a>. </p>
+code in action in `these lectures <http://quant-econ.net>`_ or in our `featured notebooks </notebooks/>.
+
+.. TODO: Check featured notebooks linke
+
+.. TODO: Figure out how to do this in Sphinx
 
 <div class="tab-panel">
 
@@ -101,8 +101,3 @@ print states</code></pre>
 	
 </div>
 
-
-
-<?php
-	include ('footer.php');
-?>
