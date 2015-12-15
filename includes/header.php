@@ -5,11 +5,24 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>QuantEcon<?php if ($page_title) echo ' &ndash; '.$page_title; ?></title>
+
+		<meta name="author" content="QuantEcon">
+		<meta name="keywords" content="QuantEcon, Quantitative Economics, Economics, Sloan, Sloan Foundation, Tom J. Sargent, John Stachurski">
         <meta name="description" content="QuantEcon is an organization run by economists for economists with the aim of coordinating distributed development of high quality open source code for all forms of quantitative economic modeling">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@quanteconomics">
+		<meta name="twitter:title" content="QuantEcon<?php if ($page_title) echo ' &ndash; '.$page_title; ?>">
+		<meta name="twitter:description" content="Open source libraries for quantitative economic modeling">
+		<meta name="twitter:creator" content="@quanteconomics">
+		<meta name="twitter:image" content="http://quantecon.org/assets/img/quantecon-logo-square.png">
+		<meta property="og:title" content="QuantEcon<?php if ($page_title) echo ' &ndash; '.$page_title; ?>" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://quantecon.org/index.html" />
+		<meta property="og:image" content="http://quantecon.org/assets/img/quantecon-logo-square.png" />
+		<meta property="og:description" content="Open source libraries for quantitative economic modeling" /> 
+		<meta property="og:site_name" content="QuantEcon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">				
         <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
 		<link rel="canonical" href="http://quantecon.org/">

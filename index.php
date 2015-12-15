@@ -18,21 +18,27 @@ high performance code libraries written in <a href="http://www.python.org">Pytho
 
 <ul id="coa">
 	<li>
-		<a href="/users/">
+		<a href="/about/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'About')">
+			<p class="thumb"><img src="/assets/img/home-about.png" alt=" " /></p>
+			<p class="title">About</p>
+		</a>
+	</li>
+	<li>
+		<a href="/users/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Get started')">
 			<p class="thumb"><img src="/assets/img/home-use.png" alt=" " /></p>
 			<p class="title">Get started</p>
 		</a>
 	</li>
 	<li>
-		<a href="/about/">
-			<p class="thumb"><img src="/assets/img/home-about.png" alt=" " /></p>
-			<p class="title">Learn more</p>
+		<a href="/developers/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Contribute')">
+			<p class="thumb"><img src="/assets/img/home-help.png" alt=" " /></p>
+			<p class="title">Contribute</p>
 		</a>
 	</li>
 	<li>
-		<a href="/developers/">
-			<p class="thumb"><img src="/assets/img/home-help.png" alt=" " /></p>
-			<p class="title">Join the team</p>
+		<a href="https://groups.google.com/forum/#!forum/quantecon" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Have your say')">
+			<p class="thumb"><img src="/assets/img/home-say.png" alt=" " /></p>
+			<p class="title">Have your say</p>
 		</a>
 	</li>
 </ul>

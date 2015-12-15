@@ -163,11 +163,11 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 #python-toggle {background-position:16px -53px;}
 
 #coa {list-style:none;padding:0;margin:40px 0;}
-#coa li {width:29%;float:left;margin-left:6%;}
+#coa li {width:22%;float:left;margin-left:4%;}
 #coa li:first-child {margin:0;}
 #coa li a {display:block;text-align:center;color:#333;font-size:1.2em;text-decoration: none;}
 #coa li a:hover {color:#2370a0;}
-#coa img {width:240px;border: 1px solid #ddd;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);box-shadow: 0 1px 3px rgba(0,0,0,0.055);-webkit-transition: all .15s linear;transition: all .15s linear;}
+#coa img {width:100%;border: 1px solid #ddd;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);box-shadow: 0 1px 3px rgba(0,0,0,0.055);-webkit-transition: all .15s linear;transition: all .15s linear;}
 #coa a:hover img {border-color: #08c;-webkit-box-shadow: 0 1px 4px rgba(0,105,214,0.25);-moz-box-shadow: 0 1px 4px rgba(0,105,214,0.25);box-shadow: 0 1px 4px rgba(0,105,214,0.25);}
 
 #notebooks {list-style: none;padding:0;}
