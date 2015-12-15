@@ -8,10 +8,7 @@
 
 <br>
 
-<p>QuantEcon is an organization run by economists for economists with the aim
-of coordinating distributed development of high quality open source code for
-all forms of quantitative economic
-modeling.  QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>. </p>
+<p>QuantEcon is an organization run by economists for economists with the aim of coordinating distributed development of high quality open source code for all forms of quantitative economic modeling. QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>. </p>
 
 <p>The main resources provided by QuantEcon are 
 high performance code libraries written in <a href="http://www.python.org">Python</a> and <a href="http://www.julialang.org">Julia</a>.</p>
