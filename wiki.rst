@@ -1,16 +1,14 @@
-<?php
-	set_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');
-	$page_title = 'Wiki';
-	$body_class = 'wiki';
-	include ('header.php');
-?>
+.. _wiki:
 
-		
-<h1>Wiki</h1>
+****
+Wiki
+****
 
-<p>This wiki contains information for developers writing code for QuantEcon.</p>
+This wiki contains information for developers writing code for QuantEcon.
 
-<p>All contributions to QuantEcon should follow the conventions described here on docstrings, coding style, testing, etc.</p>
+All contributions to QuantEcon should follow the conventions described here on docstrings, coding style, testing, etc.
+
+.. TODO: Figure out how to implement this in SPhinx
 
 <div class="tab-panel">
 
@@ -56,7 +54,3 @@
 	
 	</div>
 
-
-<?php
-	include ('footer.php');
-?>

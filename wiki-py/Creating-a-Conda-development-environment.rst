@@ -1,14 +1,14 @@
-<?php
-	set_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');
-	$page_title = 'Creating a Conda development environment';
-	include ('header.php');
-?>
+.. _conda_dev_env:
 
-<h1>Creating a Conda development environment</h1>
+****************************************
+Creating a Conda development environment
+****************************************
 
-<p>One of the advantages of the Anaconda Python environment is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on <code>QuantEcon</code> you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default one. This facilitates contributing to <code>QuantEcon</code> without worrying about corrupting the Python environment on which your other work depends.</p>
+One of the advantages of the Anaconda Python environment is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on <code>QuantEcon</code> you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default one. This facilitates contributing to <code>QuantEcon</code> without worrying about corrupting the Python environment on which your other work depends.
 
-<p>Googling will locate plenty of tutorials on setting up Conda environments but here's a quick start. It assumes that you've already installed Anaconda</p>
+Googling will locate plenty of tutorials on setting up Conda environments but here's a quick start. It assumes that you've already installed Anaconda
+
+.. TODO: How to Convert this in SPhinx
 
 <h3 id="step-1">Step 1:</h3>
 
@@ -66,7 +66,3 @@
 <p>To list all environments try</p>
 
 <pre class="line-numbers"><code class="language-python">$ conda info -e</code></pre>
-
-<?php
-	include ('footer.php');
-?>
