@@ -1,19 +1,16 @@
-<?php
-	set_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');
-	$page_title = 'Developers';
-	include ('header.php');
-?>
+.. _developers:
 
-		
-<h1>Developers</h1>
+**********		
+Developers
+**********
 
-<p>QuantEcon is developed by the community for the community.  We welcome
+QuantEcon is developed by the community for the community.  We welcome
 submission of algorithms and high quality code in Python or Julia on all
 topics concerning quantitative economics.  Less experienced developers who
 wish to get involved can help improve documentation or work on smaller
 enhancements.  To get ideas on how to contribute you can read the issue
-trackers (<a href="https://github.com/QuantEcon/QuantEcon.py/issues">Python</a>/<a href="https://github.com/QuantEcon/QuantEcon.jl/issues">Julia</a>)
-or browse the code on GitHub (<a href="https://github.com/QuantEcon/QuantEcon.py">Python</a>/<a href="https://github.com/QuantEcon/QuantEcon.jl">Julia</a>).</p>
+trackers (`Python <https://github.com/QuantEcon/QuantEcon.py/issues>`_/`Julia <https://github.com/QuantEcon/QuantEcon.jl/issues>`_)
+or browse the code on GitHub (`Python <https://github.com/QuantEcon/QuantEcon.py>`_/`Julia <https://github.com/QuantEcon/QuantEcon.jl>`_).
 
 
 Contributions to QuantEcon should follow the canonical open source pattern,
@@ -21,15 +18,15 @@ via forking the code libraries and sending pull requests.  If you're not
 familiar with this kind of development there are many useful tutorials lying
 around, including
 
-<ul>
-    <li><a href="https://guides.github.com/">The GitHub Guides</a></li>
-    <li><a href="https://help.github.com/">GitHub Help</a></li>
-    <li><a href="http://readwrite.com/2014/07/02/github-pull-request-etiquette">Pull request ettiquette</a></li>
-</ul>
+    #. `The GitHub Guides <https://guides.github.com/>`_
+    #. `GitHub Help <https://help.github.com/>`_
+    #. `Pull request ettiquette <http://readwrite.com/2014/07/02/github-pull-request-etiquette>`_
 
 QuantEcon follows standard best practice coding protocols, such as unit
 testing and continuous integration.  Read on for specific information on
 development protocols for each language.
+
+.. TODO: How should we produce these pannels?
 
 <div class="tab-panel">
 
@@ -104,9 +101,3 @@ development protocols for each language.
 	</div>
 	
 </div>
-
-
-
-<?php
-	include ('footer.php');
-?>
