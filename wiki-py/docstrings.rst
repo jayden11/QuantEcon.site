@@ -1,4 +1,4 @@
-.. _docstring:
+.. _docstrings :
 
 ****************************
 Docstrings and Documentation
@@ -270,8 +270,8 @@ Class example
 
         """
 
-Method example
---------------
+    Method example
+    --------------
     def interpolate(self, pts, interp=True, deriv=False):
         """
         Basic Lagrange interpolation, with optional first derivatives

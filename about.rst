@@ -14,33 +14,33 @@ People
 
 At present, the lead developers for QuantEcon are
 
-	`Chase Coleman <https://github.com/cc7768>`_
-	`Spencer Lyon <https://github.com/spencerlyon2>`_
-	`Matthew McKay <https://github.com/mmcky>`_
-	`Daisuke Oyama <http://www.oyama.e.u-tokyo.ac.jp/>`_
-	`Pablo Winant <http://www.mosphere.fr/>`_
+* `Chase Coleman <https://github.com/cc7768>`_
+* `Spencer Lyon <https://github.com/spencerlyon2>`_
+* `Matthew McKay <https://github.com/mmcky>`_
+* `Daisuke Oyama <http://www.oyama.e.u-tokyo.ac.jp/>`_
+* `Pablo Winant <http://www.mosphere.fr/>`_
 
 
 Core package contributors are
 
-	`Zac Cranko <https://github.com/ZacCranko>`_
-	`David Pugh <http://www.linkedin.com/in/davidrpugh>`_
+* `Zac Cranko <https://github.com/ZacCranko>`_
+* `David Pugh <http://www.linkedin.com/in/davidrpugh>`_
 
 
 The current project coordinators are
 
-	`Thomas J. Sargent <https://files.nyu.edu/ts43/public/>`_
-	`John Stachurski <http://johnstachurski.net>`_
+* `Thomas J. Sargent <https://files.nyu.edu/ts43/public/>`_
+* `John Stachurski <http://johnstachurski.net>`_
 
 Contact
 =======
 
-Send feedback to <a href="mailto:contact@quantecon.org">contact@quantecon.org
+Send feedback to `contact\@quantecon.org <contact@quantecon.org>`_
 
 License
--------
+=======
 
-Copyright; 2013, 2014, 2015 Thomas J. Sargent and John Stachurski: BSD-3 All rights reserved.
+Copyright 2013-2015 Thomas J. Sargent and John Stachurski: BSD-3 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 

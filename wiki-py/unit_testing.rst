@@ -23,7 +23,7 @@ Test Fundamentals
 The basic premise of testing in Python is to write functions that make assertions. An assertion checks a given logical condition. If the condition is met, then the program continues onto the next line. If not, the assertion will trigger an Exception and issue an <code>AssertionError</code>. Here's a simple example:
 
 .. sourcecode:: python
-    :lineno:
+    :linenos:
 
     def test_equal(a,b):
         """
@@ -181,7 +181,7 @@ Making this test more General
 Other considerations to testing include making useful test functions that can generalise. For example, to make this test a bit more usable with a larger set of P Matrices, you may want to update the test function by allowing arguments which might accept a tuple of data and the known solution <code>test_set_1 = (P, know)</code>. Now others can also make use of this test if they want to add another (or special case) P Matrix and associated known solution by looping over a list of tuples. A simple update to this test would then look like:
 
 ..sourcecode:: python
-    :lineno:
+    :linenos:
 
     def test_mc_compute_stationary_pmatrix():
         testset1 = (np.array([[0.4,0.6], [0.2,0.8]]), np.array([0.25, 0.75]))       
@@ -209,7 +209,7 @@ As a more extended example, we will make use of <code>mc_tools.py</code> and wri
 So let's setup our test file (assuming it didn't already exist) which we would call <code>test_mc_tools.py</code> and place it in the <code>tests/</code> directory:
 
 .. sourcecode:: python
-    :lineno:
+    :linenos:
 
     """
     Tests for mc_tools.py
@@ -233,7 +233,7 @@ So let's setup our test file (assuming it didn't already exist) which we would c
 Sometimes Supporting Test Functions may be required for Generating Markov Matrices such as the KMR Model. However more often then not these <code>support</code> functions can be imported from the project. This can make it clearer regarding what is actually acting as <code>input</code> into the test cases.
 
 .. sourcecode:: python
-    :lineno:
+    :linenos:
 
     def KMRMarkovMatrixSequential(N, p, epsilon):
         """
@@ -268,7 +268,7 @@ Using <code>unittest.TestCase</code> Framework
 Some benefits to inheriting <code>unittest.TestCase</code> includes the inbuilt support for some assert methods like <code>self.assertEqual()</code> etc.
 
 .. sourcecode:: python
-    :lineno:
+    :linenos:
     
     # Construct a Class 
     class TestMcComputeStationaryKMRMarkovMatrix(unittest.TestCase):
@@ -310,7 +310,7 @@ Using <code>nose</code> test functions
 This example can also be written as nose <code>test_</code> functions. The required setup can be done in a <code>setup_func()</code> and then importing a <code>with_setup</code> decorator from <code>nose.tools</code>. This decorator will then run the setup function before every test is performed. Nose also allows you to specify <code>teardown_</code> functions as a second argument to <code>with_setup</code>.
 
 .. sourcecode:: python
-    :lineno:
+    :linenos:
 
     from nose.tools import with_setup
 
@@ -352,7 +352,7 @@ Using <code>nose</code> class based structures
 Nose can also parse classes. As discussed in the <code>unittest</code> section in more complex test suites classes are useful for bringing structure to the code. While it is not a requirement to use <code>unittest.TestCase</code> in QuantEcon if you do choose to write tests in a class structure it can be helpful for cross readership to adopt the standard <code>setUp()</code> and <code>tearDown()</code> methods as used in <code>unittest.TestCase</code>. The main benefit of using Class structures is to collect your tests into one logical space and allow easy parameter passing without resorting to <code>global</code> variables etc.
 
 .. sourcecode:: python
-    :lineno:
+    :linenos:
     
     class TestMcComputeStationaryKMRMarkovMatrix():
         """

@@ -12,6 +12,9 @@ Contents:
    :maxdepth: 2
 
    about
+   developers
+   users
+   wiki
 
 
 Indices and tables
