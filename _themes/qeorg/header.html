@@ -10,18 +10,31 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
-        <meta name="description" content="QuantEcon is an organization run by economists for economists with the aim of coordinating distributed development of high quality open source code for all forms of quantitative economic modeling">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+		<meta name="description" content="QuantEcon is an organization run by economists for economists with the aim of coordinating distributed development of high quality open source code for all forms of quantitative economic modeling">		
+		<meta name="author" content="QuantEcon">
+		<meta name="keywords" content="QuantEcon, Quantitative Economics, Economics, Sloan, Alfred P. Sloan Foundation, Tom J. Sargent, John Stachurski">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@quanteconomics">
+		<meta name="twitter:title" content="{{ title }}">
+		<meta name="twitter:description" content="Open source libraries for quantitative economic modeling">
+		<meta name="twitter:creator" content="@quanteconomics">
+		<meta name="twitter:image" content="http://quantecon.org/_static/img/quantecon.png">
+		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://quantecon.org/{{ pagename }}{{ file_suffix }}" />
+		<meta property="og:image" content="http://quantecon.org/_static/img/quantecon.png" />
+		<meta property="og:description" content="Open source libraries for quantitative economic modeling" /> 
+		<meta property="og:site_name" content="QuantEcon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<link rel="stylesheet" href="{{ pathto('_static/css/basic.css', 1) }}">
-        <link rel="stylesheet" href="{{ pathto('_static/css/main.css', 1) }}">
+		<link rel="stylesheet" href="{{ pathto('_static/css/main.css', 1) }}">
 		<link rel="icon" href="{{ pathto('_static/img/favicon.ico', 1) }}" type="image/x-icon" />
 		<link rel="canonical" href="http://quantecon.org/">
-
-        <script src="_static/js/vendor/modernizr-2.6.2.min.js"></script>
+		
+		<script src="_static/js/vendor/modernizr-2.6.2.min.js"></script>
                 
     </head>
 
