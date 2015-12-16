@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
@@ -34,6 +35,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
+    #'sphinxcontrib.inlinesyntaxhighlight' #TODO: Not currently working
+    'IPython.sphinxext.ipython_console_highlighting',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -127,7 +130,7 @@ html_theme_path = ["_themes"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "QuantEcon Organisation"
+html_title = "QuantEcon"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -207,7 +210,7 @@ html_use_index = False
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'QuanEconorgdoc'
+htmlhelp_basename = 'QuanEconOrg'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -229,7 +232,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'QuanEconorg.tex', 'QuanEcon.org Documentation',
+  (master_doc, 'QuanEconIrg.tex', 'QuanEcon.org',
    'John Stachurski', 'manual'),
 ]
 

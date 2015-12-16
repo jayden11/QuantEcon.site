@@ -4,64 +4,55 @@
 Wiki
 ****
 
-Contents:
-
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
-   wiki-py/conda_dev_env
-   wiki-py/docstrings
-   wiki-py/unit_testing
-
-   
+   wiki_py_conda_dev_env
+   wiki_py_docstrings
+   wiki_py_unit_testing
+  
 
 This wiki contains information for developers writing code for QuantEcon.
 
 All contributions to QuantEcon should follow the conventions described here on docstrings, coding style, testing, etc.
 
-.. TODO: Figure out how to implement this in SPhinx
+.. raw:: html
 
-<div class="tab-panel">
-
+	<div class="tab-panel">
 	<div class="tab-nav clearfix">
-
-		<p class="visuallyhidden">Choose language:</p>
-	
-		<ul>
-			<li class="active"><a href="#python-tab" id="python-toggle">Python</a></li>
-			<li><a href="#julia-tab" id="julia-toggle">Julia</a></li>
-		</ul>
-		
+	<p class="visuallyhidden">Choose language:
+	<ul>
+		<li class="active"><a href="#python-tab" id="python-toggle">Python instructions</a></li>
+		<li><a href="#julia-tab" id="julia-toggle">Julia instructions</a></li>
+	</ul>
 	</div>
-	
 	<div class="tab-content">
-	
-		<div class="tab">
+	<section class="tab">
+	<h2 class="visuallyhidden" id="python-tab">Python</h2>
 		
-			<h2 class="visuallyhidden" id="python-tab">Python</h2>
+	<h3>Pages</h3>
 			
-			<h3>Pages</h3>
-			
-			<ul>
-				<li><a href="/wiki/py/Creating-a-Conda-development-environment.php">Creating a Conda development environment</a></li>
-				<li><a href="/wiki/py/Docstrings-and-Documentation.php">Docstrings and Documentation</a></li>
-				<li><a href="/wiki/py/Unit-Testing-in-QuantEcon.php">Unit Testing in QuantEcon</a></li>
-			</ul>
-			
-		</div>
 
-		<div class="tab">
-		
-			<h2 class="visuallyhidden" id="julia-tab">Julia</h2>
+* `Creating a Conda development environment <wiki_py_conda_dev_env.html>`__
+* `Docstrings and Documentation <wiki_py_docstrings.html>`__
+* `Unit Testing in QuantEcon <wiki_py_unit_testing.html>`__
 
-			<h3>Pages</h3>
 
-			<ul>
-				<li>None yet</li>
-			</ul>
+.. raw:: html 
 
-				        						
-		</div>
-	
+	</section>
+	<section class="tab">
+	<h2 class="visuallyhidden" id="julia-tab">Julia</h2>
+
+	<h3>Pages</h3>
+
+
+* None yet
+
+
+.. raw:: html
+
+	</section>
 	</div>
 

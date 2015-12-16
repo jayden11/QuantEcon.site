@@ -1,4 +1,4 @@
-.. _docstrings :
+.. _wiki_py_docstrings :
 
 ****************************
 Docstrings and Documentation
@@ -7,9 +7,9 @@ Docstrings and Documentation
 Summary
 =======
 
-For a detailed description of the <code>numpydoc</code> standard, see `numpy's actual description <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#documenting-classes>`_ of the style. This should be read by each developer to make sure we understand exactly what is required and what other options we have while documenting. Here is a summary of the key components of that document:
+For a detailed description of the ``numpydoc`` standard, see `numpy's actual description <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#documenting-classes>`__ of the style. This should be read by each developer to make sure we understand exactly what is required and what other options we have while documenting. Here is a summary of the key components of that document:
 
-<code>numpydoc</code> style docstrings are written in `restructured text <http://docutils.sourceforge.net/rst.html>`_. They are composed of a short description of the object followed by a few required and optional sections. For functions and methods, these sections are:
+``numpydoc`` style docstrings are written in `restructured text <http://docutils.sourceforge.net/rst.html>`__. They are composed of a short description of the object followed by a few required and optional sections. For functions and methods, these sections are:
 
 * Required
     #. Parameters
@@ -21,16 +21,16 @@ For a detailed description of the <code>numpydoc</code> standard, see `numpy's a
     #. References
     #. Examples
 
-The sections for a class are the same, except instead of a <code>Returns</code> section there is an <code>Attribute</code> section that defines all attributes of the class.
+The sections for a class are the same, except instead of a ``Returns`` section there is an ``Attribute`` section that defines all attributes of the class.
 
-.. TODO: Check #examples
+.. TODO: Check examples link -> should this be done with rel links?
 
 For some examples see the `section below <#examples>`_.
 
 What is a docstring?
 ====================
 
-A <em>docstring</em> is a string that starts on the first new line immediately after the declaration of a function or a class. Like the body of the function or class, the docstring must be indented 4 spaces. Typically, a docstring is contained within a block string, set off by tripe quotes """ as shown below:
+A *docstring* is a string that starts on the first new line immediately after the declaration of a function or a class. Like the body of the function or class, the docstring must be indented 4 spaces. Typically, a docstring is contained within a block string, set off by tripe quotes """ as shown below:
 
 .. sourcecode:: python
 
@@ -56,35 +56,35 @@ Docstrings provide a way for developers to document their code inline. This is v
 
 #. A good docstring serves as the starting point for other developers who work on code someone else has written (or for the original author who comes back to the code after initially writing it). If the intent of the code is clearly defined in the docstring, then all who work on this code later know exactly what the purpose of the code is.
 
-#. As hinted at above, docstrings are the code printed at the interpreter when users ask for <code>help</code> on a particular object.
+#. As hinted at above, docstrings are the code printed at the interpreter when users ask for ``help`` on a particular object.
 
 
-<code>numpydoc</code> style docstrings
+``numpydoc`` style docstrings
 ======================================
 
-<code>numpydoc</code> style docstrings are written using `restructured text <http://docutils.sourceforge.net/rst.html>`_ (aka rst: the markup used in sphinx documents), using a special structure. While any restructured text is valid in a numpydoc style docstring, the only required restructured text element is knowing how to define a section. In our docstrings, we will denote sections using the following syntax:
+``numpydoc`` style docstrings are written using `restructured text <http://docutils.sourceforge.net/rst.html>`_ (aka rst: the markup used in sphinx documents), using a special structure. While any restructured text is valid in a numpydoc style docstring, the only required restructured text element is knowing how to define a section. In our docstrings, we will denote sections using the following syntax:
 
 .. sourcecode:: python
 
     Section name
     ------------
 
-The key elements are a line containing only the name of the section followed be another line containing only minus signs (<code>-</code>) underneath each character of the section name.
+The key elements are a line containing only the name of the section followed be another line containing only minus signs (``-``) underneath each character of the section name.
 
 Documenting functions and methods
 ----------------------------------
 
-Using this syntax, a <code>numpydoc</code> style docstring for a <strong>function</strong> or <strong>method</strong> is made up of the following elements:
+Using this syntax, a ``numpydoc`` style docstring for a **function** or **method** is made up of the following elements:
 
 #. A short description of what the function or class does
-#. A section named <code>Parameters</code> that explains the object's input parameters
-#. A section named <code>Returns</code> that explains that function's output
-#. Any of the following &quot;optional sections&quot; (in any order):
-#. <code>Examples</code>: This section is optional, but strongly recommended and encouraged within QuantEcon (it may be required at some time in the future). Within the section we would include one or more examples for how to use the obejct.
-#. <code>Notes</code>: This section provides additional details that help the user or fellow developer understand the function, but were not included in the short description at the beginning. This might include a description of the algorithm or mathematics underlying the function.
-#. <code>References</code>: If any journal articles, books, or other publications <em>or</em> 3rd party code were consulted when writing the function, this should be documented in this section.
-#. <code>Raises</code>: if the function/class might raise an exception when called, the exception along with cases under which the exception is raised should be documented.
-#. <code>See Also</code>: if the function/class is related to another object, we should specify this relation in a <code>See Also</code> section.
+#. A section named ``Parameters`` that explains the object's input parameters
+#. A section named ``Returns`` that explains that function's output
+#. Any of the following "optional sections"; (in any order):
+    #. ``Examples``: This section is optional, but strongly recommended and encouraged within QuantEcon (it may be required at some time in the future). Within the section we would include one or more examples for how to use the obejct.
+    #. ``Notes``: This section provides additional details that help the user or fellow developer understand the function, but were not included in the short description at the beginning. This might include a description of the algorithm or mathematics underlying the function.
+    #. ``References``: If any journal articles, books, or other publications *or* 3rd party code were consulted when writing the function, this should be documented in this section.
+    #. ``Raises``: if the function/class might raise an exception when called, the exception along with cases under which the exception is raised should be documented.
+    #. ``See Also``: if the function/class is related to another object, we should specify this relation in a ``See Also`` section.
 
 
 Below is an example of such a docstring
@@ -127,8 +127,8 @@ Below is an example of such a docstring
 
         Examples
         --------
-        &gt;&gt;&gt; a = 130; b = [10, 20, 30]
-        &gt;&gt;&gt; func(a, b)
+        >>> a = 130; b = [10, 20, 30]
+        >>> func(a, b)
         &lt;function output copied and pasted&gt;
 
         Raises
@@ -140,23 +140,23 @@ Below is an example of such a docstring
 
 There are a few additional points to mention here:
 
-* When listing parameters and return types, we start by providing the variable name, then space-colon-space, then the type of the object. Additionaly, if the parameter is optional, we say this. I also like to give the default value in parenthsis after the word optional (see the line for the parameter <code>c</code> above)
+* When listing parameters and return types, we start by providing the variable name, then space-colon-space, then the type of the object. Additionaly, if the parameter is optional, we say this. I also like to give the default value in parenthsis after the word optional (see the line for the parameter ``c`` above)
 * We should make sure that each line in a docstring is no longer than 72 characters (as specified in the official python style guide, `PEP8 <http://legacy.python.org/dev/peps/pep-0008/>`_)
 * The examples section should feel just like a copy/paste from an interactive python session where the example's code was executed.
 * There should be a blank line at the end of the docstring.
-* When documenting a method, do not include <code>self</code> in the list of parameters.
+* When documenting a method, do not include ``self`` in the list of parameters.
 
 Documenting classes
 ---------------------
 
-The <code>numpydoc</code> standard for documenting classes is very similar. The key components are (this all goes the first line of the docstring that is below the line containing the <code>class</code> keyword)
+The ``numpydoc`` standard for documenting classes is very similar. The key components are (this all goes the first line of the docstring that is below the line containing the ``class`` keyword)
 
 #. A short description of what the class does
-#. A <code>Parameters</code> section that describes the parameters for the class's <code>__init__</code> function
-#. An <code>Attributes</code> section that describes all the attributes of the class. This replaces the <code>Returns</code> section we saw above for functions and methods.
-#. Any of the optional sections outlined above in addition to an optional section describing the <code>Methods</code> that are implemented specifically for this class.
+#. A ``Parameters`` section that describes the parameters for the class's ``__init__`` function
+#. An ``Attributes`` section that describes all the attributes of the class. This replaces the ``Returns`` section we saw above for functions and methods.
+#. Any of the optional sections outlined above in addition to an optional section describing the ``Methods`` that are implemented specifically for this class.
 
-<strong>Remark</strong> There is often overlap between the parameter list and the attribute list. To avoid repetition attributes already discussed in the parameter list can be entered in the attributes list in the form <code>a, b, c : see Parameters</code>. An example is given below.
+**Remark** There is often overlap between the parameter list and the attribute list. To avoid repetition attributes already discussed in the parameter list can be entered in the attributes list in the form ``a, b, c : see Parameters``. An example is given below.
 
 Examples
 =========
