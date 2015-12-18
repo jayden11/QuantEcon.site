@@ -1,4 +1,4 @@
-{%- if not embedded and docstitle %}
+{%- if docstitle %}
   {%- set titlesuffix = " &ndash; "|safe + docstitle|e %}
 {%- else %}
   {%- set titlesuffix = "" %}
@@ -87,9 +87,9 @@
 	
 				<div class="container">
 		        	
-	        		<p id="site-logo"><a href="/" title="Home"><img src="_static/img/quantecon-logo.png" alt="QuantEcon logo"></a></p>
+	        		<p id="site-logo"><a href="index.html" title="Home"><img src="_static/img/quantecon-logo.png" alt="QuantEcon logo"></a></p>
 	        		
-	        		<p id="site-title"><a href="/" title="Home">Quant<span>Econ</span></a></p>
+	        		<p id="site-title"><a href="index.html" title="Home">Quant<span>Econ</span></a></p>
 	        		
 	        		<p id="site-tag">Open source libraries for quantitative economic modeling</p>
 

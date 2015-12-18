@@ -28,21 +28,27 @@
 
 	<ul id="coa">
 		<li>
-			<a href="/users/">
+			<a href="about.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'About')">
+				<p class="thumb"><img src="_static/img/home-about.png" alt=" " /></p>
+				<p class="title">About</p>
+			</a>
+		</li>
+		<li>
+			<a href="users.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Get started')">
 				<p class="thumb"><img src="_static/img/home-use.png" alt=" " /></p>
 				<p class="title">Get started</p>
 			</a>
 		</li>
 		<li>
-			<a href="/about/">
-				<p class="thumb"><img src="_static/img/home-about.png" alt=" " /></p>
-				<p class="title">Learn more</p>
+			<a href="developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Contribute')">
+				<p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
+				<p class="title">Contribute</p>
 			</a>
 		</li>
 		<li>
-			<a href="/developers/">
-				<p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
-				<p class="title">Join the team</p>
+			<a href="https://groups.google.com/forum/#!forum/quantecon" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Have your say')">
+				<p class="thumb"><img src="_static/img/home-say.png" alt=" " /></p>
+				<p class="title">Have your say</p>
 			</a>
 		</li>
 	</ul>
