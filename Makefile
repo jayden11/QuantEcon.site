@@ -53,6 +53,9 @@ clean:
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	@echo "Adjusting Front Page Title"
+	sed -i 's/&lt;no title&gt; &ndash; //g' $(BUILDDIR)/html/index.html
+	sed -i 's/&lt;no title&gt;/QuantEcon/g' $(BUILDDIR)/html/index.html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 

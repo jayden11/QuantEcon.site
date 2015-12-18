@@ -1,8 +1,8 @@
-.. notebooks:
+.. _notebooks:
 
-*****
+**********
 Notebooks
-*****
+**********
 
 
 * `Parallel Computing <http://nbviewer.ipython.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/d_evans_parallel_computing.ipynb>`_ - David Evans

@@ -11,6 +11,8 @@
    developers
    users
    wiki
+   notebooks
+   sitemap
 
 .. raw:: html
 		
