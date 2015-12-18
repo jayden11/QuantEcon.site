@@ -94,14 +94,6 @@ In the below figure we are running this code interactively in an ipython noteboo
 
 .. figure:: /_static/images/test_qe.png
 
-.. raw:: html
-	
-	<h3>Featured Notebooks</h3>
-
-There is also a collection of `featured notebooks <notebooks.html>`__ available.
-
-These notebooks are a collection of tutorials that demonstrate the ``quantecon`` library, in addition to ``python`` more generally and its application to quantitative economics
-
 .. raw:: html 
 
 	</section>
