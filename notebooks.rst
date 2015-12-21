@@ -4,6 +4,8 @@
 Notebooks
 **********
 
+Submissions: To submit your notebook as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__.
+
 
 * `Parallel Computing with Python <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.site/blob/master/_static/notebooks/d_evans_parallel_computing.ipynb>`_ - David Evans
 
