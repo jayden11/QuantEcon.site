@@ -1,7 +1,11 @@
 .. _notebooks:
 
-.. raw:: html 
+.. raw:: html
 
+    <img
+    src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" style="float:right;margin:0 0 2em 2em;"">
+
+.. .. raw:: html 
 	<a href="https://github.com/QuantEcon/QuantEcon.notebooks/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
 
 .. .. raw:: html
@@ -11,25 +15,15 @@
 		<li><a href="https://github.com/QuantEcon/QuantEcon.notebooks"><img src="_static/img/github-logo.png" alt="Github Logo"></a></li>
 	</ul>
 
-**********
-Notebooks
-**********
+******************************
+QuantEcon Notebook Gallery
+******************************
 
-Learn more about `Jupyter notebooks <http://jupyter.org/>`__ platform or jump directly to the `Github repository <https://github.com/QuantEcon/QuantEcon.notebooks/>`__ of QuantEcon notebooks.
-
-**Submissions**: To submit your notebook as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__.
-
-* `Scientific Python Quickstart: Using NumPy and SciPy <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb>`_ - John Stachurski
-	
-* `Approximation Methods for the Lucas Asset Pricing Model <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/lucas_asset_pricing_model.ipynb>`_ - Joao Brogueira and Fabian Schuetze
-	
-* `Quadrature routines in QuantEcon <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/quadrature.ipynb>`_ - Chase Coleman and Spencer Lyon
+**Submissions**: To submit your `notebook <http://jupyter.org/>`_ as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__.
 
 
-* `Solving Initial Value Problems in QuantEcon.py <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/solving_initial_value_problems.ipynb>`_ - David R. Pugh
-
-
-* `The Nelder-Mead Algorithm (Python) <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb>`_ - Chase Coleman
+Dynamic Programming
+=====================
 
 * `Discrete DP: Getting Started <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb>`_ - Daisuke Oyama
 
@@ -41,8 +35,32 @@ Learn more about `Jupyter notebooks <http://jupyter.org/>`__ platform or jump di
 
 * `Discrete DP: Discrete Optimal Growth Model <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb>`_ - Daisuke Oyama
 
-* Examples from Miranda and Fackler, Applied Computational Economics and Finance, 2002 - Diasuke Oyama
+* Examples from `Miranda and Fackler <https://mitpress.mit.edu/books/applied-computational-economics-and-finance>`_  by Diasuke Oyama
+
 	1. `Section 7.6.2: Asset Replacement <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_2_py.ipynb>`_
 	2. `Section 7.6.3: Asset Replacement with Maintenance <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_3_py.ipynb>`_
 	3. `Section 7.6.4: Option Pricing <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_4_py.ipynb>`_
 	4. `Section 7.6.5: Water Management <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb>`_
+
+
+General
+===========
+
+* `Scientific Python Quickstart: Using NumPy and SciPy <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb>`_ - John Stachurski
+	
+
+Approximation 
+===============
+
+* `Approximation Methods for the Lucas Asset Pricing Model <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/lucas_asset_pricing_model.ipynb>`_ - Joao Brogueira and Fabian Schuetze
+	
+* `Quadrature routines in QuantEcon <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/quadrature.ipynb>`_ - Chase Coleman and Spencer Lyon
+
+Algorithms
+============
+
+* `Solving Initial Value Problems in QuantEcon.py <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/solving_initial_value_problems.ipynb>`_ - David R. Pugh
+
+
+* `The Nelder-Mead Algorithm (Python) <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb>`_ - Chase Coleman
+
