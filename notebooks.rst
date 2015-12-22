@@ -25,7 +25,7 @@ Dynamic Programming
 
 * `Discrete DP: Discrete Optimal Growth Model <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb>`_ - Daisuke Oyama
 
-* Examples from `Miranda and Fackler <http://nbviewer.jupyter.org/githubitpress.mit.edu/books/applied-computational-economics-and-finance>`_  by Diasuke Oyama
+* Examples from `Miranda and Fackler <https://mitpress.mit.edu/books/applied-computational-economics-and-finance>`_  - Diasuke Oyama
 
 	1. `Section 7.6.2: Asset Replacement <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_2_py.ipynb>`_
 	2. `Section 7.6.3: Asset Replacement with Maintenance <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_3_py.ipynb>`_

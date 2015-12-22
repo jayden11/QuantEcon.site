@@ -29,7 +29,7 @@ code in action in `these lectures <http://quant-econ.net>`__ or in our `featured
 
 The core of the QuantEcon Python code library is the Python package ``quantecon``. This is a collection of programs that have been bundled together which can then be easily used in ``python``
 
-The easiest way to get a full suite of scientific python tools installed on your computer is to use the `Anaconda <https://store.continuum.io/cshop/anaconda/>`__ distribution released by `Continuum Analytics <http://www.continuum.io/>`__. More detailed instructions on setting up a ``python`` environment can be found on `this page <http://quant-econ.net/py/getting_started.html#installing-anaconda>`__.
+The easiest way to get a full suite of scientific python tools installed on your computer is to use the `Anaconda <https://www.continuum.io/downloads>`__ distribution released by `Continuum Analytics <https://www.continuum.io/>`__. More detailed instructions on setting up a ``python`` environment can be found on `this page <http://quant-econ.net/py/getting_started.html#installing-anaconda>`__.
 
 Assuming you have `pip <https://pypi.python.org/pypi/pip>`__ on your computer (if using Anaconda then this is already installed) you can install the latest stable release of ``quantecon`` by typing ``pip install quantecon`` at a terminal prompt.
 
@@ -90,7 +90,7 @@ The following code imports the ``quantecon`` library and creates a discrete appr
 	print(matrix)
 	print(states)
 
-In the below figure we are running this code interactively in an ipython notebook (See `here <http://quant-econ.net/py/getting_started.html#id2>`__ for more details on setting up `IPython <http://ipython.org/>`__) and printing the results
+In the below figure we are running this code interactively in an ipython notebook (See `here <http://quant-econ.net/py/getting_started.html#jupyter>`__ for more details on setting up `Jupyter <http://jupyter.org/>`__) and printing the results
 
 .. figure:: /_static/images/test_qe.png
 

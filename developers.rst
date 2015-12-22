@@ -46,7 +46,7 @@ The current structure of the ``QuantEcon`` package is relatively flat where pyth
 
 	<h3>Setting up a Conda Development Environment</h3>
 
-One of the advantages of the `Anaconda Python environment <https://store.continuum.io/cshop/anaconda/>`_ is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on ``QuantEcon`` you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default ones. This facilitates contributing to ``QuantEcon`` without worrying about corrupting the Python environment on which your other work depends.
+One of the advantages of the `Anaconda Python environment <https://www.continuum.io/downloads>`_ is that it is cheap to set up (and discard) Python environments for development versions of packages and populate them with your favorite scientific tools. For example, if you're working on ``QuantEcon`` you might find it useful to set up an environment (containing NumPy, SciPy, etc.) that uses your development version rather than the default ones. This facilitates contributing to ``QuantEcon`` without worrying about corrupting the Python environment on which your other work depends.
 
 Full instructions can be found `here <wiki-py/conda_dev_env.html>`__
 
@@ -68,7 +68,7 @@ For full details and examples, this standard is discussed in more detail `on thi
 
 	<h3>Writing Tests</h3>
 
-One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of `unit testing <http://en.wikipedia.org/wiki/Unit_testing">`__ is almost universal across high quality software projects.
+One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of `unit testing <https://en.wikipedia.org/wiki/Unit_testing>`__ is almost universal across high quality software projects.
 `This guide <wiki-py/unitesting.html>`_ is intended to help you get started writing tests for code to be included in QuantEcon.
 
 .. raw:: html
@@ -98,7 +98,7 @@ Julia is currently undergoing a decision process for standardization with regard
 
 	<h3>Writing Tests</h3>
 
-One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of `unit testing <http://en.wikipedia.org/wiki/Unit_testing>`__ is almost universal across high quality software projects. A guide to writing tests in ``Julia`` is currently in work
+One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of `unit testing <https://en.wikipedia.org/wiki/Unit_testing>`__ is almost universal across a quality software projects. A guide to writing tests in ``Julia`` is currently in work
 
 
 .. raw:: html

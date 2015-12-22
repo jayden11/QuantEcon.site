@@ -29,7 +29,7 @@ Core package contributors are
 
 The current project coordinators are
 
-* `Thomas J. Sargent <https://files.nyu.edu/ts43/public/>`_
+* `Thomas J. Sargent <http://www.tomsargent.com/>`_
 * `John Stachurski <http://johnstachurski.net>`_
 
 Contact

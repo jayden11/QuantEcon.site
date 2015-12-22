@@ -7,7 +7,7 @@ Docstrings and Documentation
 Summary
 =======
 
-For a detailed description of the ``numpydoc`` standard, see `numpy's actual description <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#documenting-classes>`__ of the style. This should be read by each developer to make sure we understand exactly what is required and what other options we have while documenting. Here is a summary of the key components of that document:
+For a detailed description of the ``numpydoc`` standard, see `numpy's actual description <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#user-content-documenting-classes>`__ of the style. This should be read by each developer to make sure we understand exactly what is required and what other options we have while documenting. Here is a summary of the key components of that document:
 
 ``numpydoc`` style docstrings are written in `restructured text <http://docutils.sourceforge.net/rst.html>`__. They are composed of a short description of the object followed by a few required and optional sections. For functions and methods, these sections are:
 
