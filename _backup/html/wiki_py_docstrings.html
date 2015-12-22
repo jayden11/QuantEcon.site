@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+		<meta charset="utf-8">
+		<title>Docstrings and Documentation &ndash; QuantEcon</title>
+		<meta name="description" content="QuantEcon is an organization run by economists for economists with the aim of coordinating distributed development of high quality open source code for all forms of quantitative economic modeling">		
+		<meta name="author" content="QuantEcon">
+		<meta name="keywords" content="QuantEcon, Quantitative Economics, Economics, Sloan, Alfred P. Sloan Foundation, Tom J. Sargent, John Stachurski">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@quanteconomics">
+		<meta name="twitter:title" content="Docstrings and Documentation">
+		<meta name="twitter:description" content="Open source libraries for quantitative economic modeling">
+		<meta name="twitter:creator" content="@quanteconomics">
+		<meta name="twitter:image" content="http://quantecon.org/_static/img/quantecon.png">
+		<meta property="og:title" content="Docstrings and Documentation" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://quantecon.org/wiki_py_docstrings.html" />
+		<meta property="og:image" content="http://quantecon.org/_static/img/quantecon.png" />
+		<meta property="og:description" content="Open source libraries for quantitative economic modeling" /> 
+		<meta property="og:site_name" content="QuantEcon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="_static/css/basic.css">
+		<link rel="stylesheet" href="_static/css/main.css">
+		<link rel="icon" href="_static/img/favicon.ico" type="image/x-icon" />
+		<link rel="canonical" href="http://quantecon.org/">
+		
+		<script src="_static/js/vendor/modernizr-2.6.2.min.js"></script>
+                
+    </head>
+
+    <body>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-54984338-2', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+        <nav id="top-nav">
+        
+        	<div class="container">
+        		        		
+        		<ul>
+        			<li><a href="index.html"><span class="icon icon-house"></span> Home</a></li>
+    				<li><a href="users.html"><span class="icon icon-user"></span> Use QE</a></li>
+    				<li><a href="developers.html"><span class="icon icon-tools"></span> Developers</a></li>
+    				<li><a href="about.html"><span class="icon icon-star"></span> About</a></li>
+        			
+        			<li class="sub"><a href="#"><span class="icon icon-github"></span> Repo</a>
+        				<ul>
+	        				<li><a href="https://github.com/QuantEcon/">Org</a></li>
+							<li><a href="https://github.com/QuantEcon/QuantEcon.py">Python</a></li>
+							<li><a href="https://github.com/QuantEcon/QuantEcon.jl">Julia</a></li>
+        				</ul>
+        			</li>
+        			<li class="sub"><a href="#"><span class="icon icon-docs"></span> Docs</a>
+        				<ul>
+	        				<li><a href="http://quanteconpy.readthedocs.org/en/latest/">Python</a></li>
+	        				<li><a href="http://quantecon.github.io/QuantEcon.jl/">Julia</a></li>
+	        				<li><a href="notebooks.html">Notebooks</a></li>
+	        				<li><a href="wiki.html">Wiki</a></li>
+	        				<li><a href="https://groups.google.com/forum/#!forum/quantecon">Forum</a>
+	        				<!--<li><a href="http://reddit.com/r/quantecon">SubReddit</a></li>-->
+        				</ul>
+        			</li>
+        		</ul>
+        		        		
+        	</div>
+        	
+        </nav>	
+
+		<span href="#" class="navbar-toggle collapsed"><span class="icon icon-list"></span></span>
+        
+        <div id="wrapper">
+        
+	        <header id="header">
+	
+				<div class="container">
+		        	
+	        		<p id="site-logo"><a href="index.html" title="Home"><img src="_static/img/quantecon-logo.png" alt="QuantEcon logo"></a></p>
+	        		
+	        		<p id="site-title"><a href="index.html" title="Home">Quant<span>Econ</span></a></p>
+	        		
+	        		<p id="site-tag">Open source libraries for quantitative economic modeling</p>
+
+					<p id="sponsor"><a href="http://www.sloan.org/"><img src="_static/img/sloan_logo.png" alt="Alfred P. Sloan Foundation"></a></p>
+	        												
+				</div>
+					        	
+	        </header>
+	        	
+			<div id="main">
+					
+				<div class="container">
+									
+					<div id="skip"></div><div id="skip"></div>
+
+		    <div class="document">
+		    
+		    	
+  <div class="section" id="docstrings-and-documentation">
+<span id="wiki-py-docstrings"></span><h1>Docstrings and Documentation<a class="headerlink" href="#docstrings-and-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>For a detailed description of the <code class="docutils literal"><span class="pre">numpydoc</span></code> standard, see <a class="reference external" href="https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt#documenting-classes">numpy&#8217;s actual description</a> of the style. This should be read by each developer to make sure we understand exactly what is required and what other options we have while documenting. Here is a summary of the key components of that document:</p>
+<p><code class="docutils literal"><span class="pre">numpydoc</span></code> style docstrings are written in <a class="reference external" href="http://docutils.sourceforge.net/rst.html">restructured text</a>. They are composed of a short description of the object followed by a few required and optional sections. For functions and methods, these sections are:</p>
+<ul>
+<li><dl class="first docutils">
+<dt>Required</dt>
+<dd><ol class="first last arabic simple">
+<li>Parameters</li>
+<li>Returns</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Optional</dt>
+<dd><ol class="first last arabic simple">
+<li>Raises</li>
+<li>See Also</li>
+<li>Notes</li>
+<li>References</li>
+<li>Examples</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+<p>The sections for a class are the same, except instead of a <code class="docutils literal"><span class="pre">Returns</span></code> section there is an <code class="docutils literal"><span class="pre">Attribute</span></code> section that defines all attributes of the class.</p>
+<p>For some examples see the <a class="reference external" href="#examples">section below</a>.</p>
+</div>
+<div class="section" id="what-is-a-docstring">
+<h2>What is a docstring?<a class="headerlink" href="#what-is-a-docstring" title="Permalink to this headline">¶</a></h2>
+<p>A <em>docstring</em> is a string that starts on the first new line immediately after the declaration of a function or a class. Like the body of the function or class, the docstring must be indented 4 spaces. Typically, a docstring is contained within a block string, set off by tripe quotes &#8220;&#8221;&#8221; as shown below:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This is a docstring for a function</span>
+<span class="sd">    &quot;&quot;&quot;</span><span class="s">&quot;</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">class</span> <span class="nc">MyNewClass</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This is a docstring for this class.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="what-are-docstrings-used-for">
+<h2>What are docstrings used for?<a class="headerlink" href="#what-are-docstrings-used-for" title="Permalink to this headline">¶</a></h2>
+<p>Docstrings provide a way for developers to document their code inline. This is very useful for many reasons, among which are:</p>
+<ol class="arabic simple">
+<li>Writing &#8220;&#8221;&#8221; docstrings (where &#8220;&#8221;&#8221; means following the numpydoc standard desribed below) force developers to provide a concise explanation of what the code is supposed to do. This leads to code that is more focused, efficient, and clear.</li>
+<li>A good docstring serves as the starting point for other developers who work on code someone else has written (or for the original author who comes back to the code after initially writing it). If the intent of the code is clearly defined in the docstring, then all who work on this code later know exactly what the purpose of the code is.</li>
+<li>As hinted at above, docstrings are the code printed at the interpreter when users ask for <code class="docutils literal"><span class="pre">help</span></code> on a particular object.</li>
+</ol>
+</div>
+<div class="section" id="numpydoc-style-docstrings">
+<h2><code class="docutils literal"><span class="pre">numpydoc</span></code> style docstrings<a class="headerlink" href="#numpydoc-style-docstrings" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">numpydoc</span></code> style docstrings are written using <a class="reference external" href="http://docutils.sourceforge.net/rst.html">restructured text</a> (aka rst: the markup used in sphinx documents), using a special structure. While any restructured text is valid in a numpydoc style docstring, the only required restructured text element is knowing how to define a section. In our docstrings, we will denote sections using the following syntax:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">Section</span> <span class="n">name</span>
+<span class="o">------------</span>
+</pre></div>
+</div>
+<p>The key elements are a line containing only the name of the section followed be another line containing only minus signs (<code class="docutils literal"><span class="pre">-</span></code>) underneath each character of the section name.</p>
+<div class="section" id="documenting-functions-and-methods">
+<h3>Documenting functions and methods<a class="headerlink" href="#documenting-functions-and-methods" title="Permalink to this headline">¶</a></h3>
+<p>Using this syntax, a <code class="docutils literal"><span class="pre">numpydoc</span></code> style docstring for a <strong>function</strong> or <strong>method</strong> is made up of the following elements:</p>
+<ol class="arabic">
+<li><p class="first">A short description of what the function or class does</p>
+</li>
+<li><p class="first">A section named <code class="docutils literal"><span class="pre">Parameters</span></code> that explains the object&#8217;s input parameters</p>
+</li>
+<li><p class="first">A section named <code class="docutils literal"><span class="pre">Returns</span></code> that explains that function&#8217;s output</p>
+</li>
+<li><dl class="first docutils">
+<dt>Any of the following &#8220;optional sections&#8221;; (in any order):</dt>
+<dd><ol class="first last arabic simple">
+<li><code class="docutils literal"><span class="pre">Examples</span></code>: This section is optional, but strongly recommended and encouraged within QuantEcon (it may be required at some time in the future). Within the section we would include one or more examples for how to use the obejct.</li>
+<li><code class="docutils literal"><span class="pre">Notes</span></code>: This section provides additional details that help the user or fellow developer understand the function, but were not included in the short description at the beginning. This might include a description of the algorithm or mathematics underlying the function.</li>
+<li><code class="docutils literal"><span class="pre">References</span></code>: If any journal articles, books, or other publications <em>or</em> 3rd party code were consulted when writing the function, this should be documented in this section.</li>
+<li><code class="docutils literal"><span class="pre">Raises</span></code>: if the function/class might raise an exception when called, the exception along with cases under which the exception is raised should be documented.</li>
+<li><code class="docutils literal"><span class="pre">See</span> <span class="pre">Also</span></code>: if the function/class is related to another object, we should specify this relation in a <code class="docutils literal"><span class="pre">See</span> <span class="pre">Also</span></code> section.</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+<p>Below is an example of such a docstring</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="mi">3</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Short description of what the function accomplishes</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    a : scalar(float)</span>
+<span class="sd">        Explanation of what a is used for within the function</span>
+
+<span class="sd">    b : array_like(float)</span>
+<span class="sd">        Explanation of what a is used for within the function</span>
+
+<span class="sd">    c : scalar(int), optional(default=3)</span>
+<span class="sd">        Explanation of what c is used for within the function</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    ret1 : type of ret1</span>
+<span class="sd">        Explanation of the first object returned</span>
+
+<span class="sd">    ret2 : type of ret2</span>
+<span class="sd">        Explanation of the second object returned</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    Any implementation notes that help understand how/why the function</span>
+<span class="sd">    was written the way it was. This section is optional.</span>
+
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+<span class="sd">    In this section we include any references to papers/articles/other</span>
+<span class="sd">    reading material or other code that we referenced when writing the</span>
+<span class="sd">    function</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; a = 130; b = [10, 20, 30]</span>
+<span class="sd">    &gt;&gt;&gt; func(a, b)</span>
+<span class="sd">    &amp;lt;function output copied and pasted&amp;gt;</span>
+
+<span class="sd">    Raises</span>
+<span class="sd">    ------</span>
+<span class="sd">    ValueError</span>
+<span class="sd">        If  any parameters are equal to `None.`</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+</pre></div>
+</div>
+<p>There are a few additional points to mention here:</p>
+<ul class="simple">
+<li>When listing parameters and return types, we start by providing the variable name, then space-colon-space, then the type of the object. Additionaly, if the parameter is optional, we say this. I also like to give the default value in parenthsis after the word optional (see the line for the parameter <code class="docutils literal"><span class="pre">c</span></code> above)</li>
+<li>We should make sure that each line in a docstring is no longer than 72 characters (as specified in the official python style guide, <a class="reference external" href="http://legacy.python.org/dev/peps/pep-0008/">PEP8</a>)</li>
+<li>The examples section should feel just like a copy/paste from an interactive python session where the example&#8217;s code was executed.</li>
+<li>There should be a blank line at the end of the docstring.</li>
+<li>When documenting a method, do not include <code class="docutils literal"><span class="pre">self</span></code> in the list of parameters.</li>
+</ul>
+</div>
+<div class="section" id="documenting-classes">
+<h3>Documenting classes<a class="headerlink" href="#documenting-classes" title="Permalink to this headline">¶</a></h3>
+<p>The <code class="docutils literal"><span class="pre">numpydoc</span></code> standard for documenting classes is very similar. The key components are (this all goes the first line of the docstring that is below the line containing the <code class="docutils literal"><span class="pre">class</span></code> keyword)</p>
+<ol class="arabic simple">
+<li>A short description of what the class does</li>
+<li>A <code class="docutils literal"><span class="pre">Parameters</span></code> section that describes the parameters for the class&#8217;s <code class="docutils literal"><span class="pre">__init__</span></code> function</li>
+<li>An <code class="docutils literal"><span class="pre">Attributes</span></code> section that describes all the attributes of the class. This replaces the <code class="docutils literal"><span class="pre">Returns</span></code> section we saw above for functions and methods.</li>
+<li>Any of the optional sections outlined above in addition to an optional section describing the <code class="docutils literal"><span class="pre">Methods</span></code> that are implemented specifically for this class.</li>
+</ol>
+<p><strong>Remark</strong> There is often overlap between the parameter list and the attribute list. To avoid repetition attributes already discussed in the parameter list can be entered in the attributes list in the form <code class="docutils literal"><span class="pre">a,</span> <span class="pre">b,</span> <span class="pre">c</span> <span class="pre">:</span> <span class="pre">see</span> <span class="pre">Parameters</span></code>. An example is given below.</p>
+</div>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<p>Below I will provide some examples. These are copied and pasted from the source of some code we are already using, or will soon be using from within QuantEcon. For additional examples, see these two references:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://sphinxcontrib-napoleon.readthedocs.org/en/latest/example_numpy.html">Example 1</a></li>
+<li><a class="reference external" href="https://github.com/numpy/numpy/blob/master/doc/example.py">Example 2</a></li>
+</ul>
+<div class="section" id="function-example">
+<h3>Function example<a class="headerlink" href="#function-example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">poly_inds</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">inds</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Build indices specifying all the Cartesian products of Chebychev</span>
+<span class="sd">    polynomials needed to build Smolyak polynomial</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : scalar(int)</span>
+<span class="sd">        The number of dimensions in grid / polynomial</span>
+
+<span class="sd">    mu : scalar(int)</span>
+<span class="sd">        The parameter mu defining the density of the grid</span>
+
+<span class="sd">    inds : list(list(int)), optional(default=None)</span>
+<span class="sd">        The Smolyak indices for parameters d and mu. Should be computed</span>
+<span class="sd">        by calling `smol_inds(d, mu)`. If None is given, the indices</span>
+<span class="sd">        are computed using this function call</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    phi_inds : array_like(int, ndim=2)</span>
+<span class="sd">        A two dimensional array of integers where each row specifies a</span>
+<span class="sd">        new set of indices needed to define a Smolyak basis polynomial</span>
+
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    This function uses smol_inds and phi_chain. The output of this</span>
+<span class="sd">    function is used by build_B to construct the B matrix</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="class-example">
+<h3>Class example<a class="headerlink" href="#class-example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">class</span> <span class="nc">SmolyakGrid</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This class currently takes a dimension and a degree of polynomial</span>
+<span class="sd">    and builds the Smolyak Sparse grid.  We base this on the work by</span>
+<span class="sd">    Judd, Maliar, Maliar, and Valero (2013).</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d : scalar(int)</span>
+<span class="sd">        The number of dimensions in the grid</span>
+
+<span class="sd">    mu : scalar(int) or array_like(int, ndim=1, length=d)</span>
+<span class="sd">        The &amp;quot;density&amp;quot; parameter for the grid</span>
+
+
+<span class="sd">    Attributes</span>
+<span class="sd">    ----------</span>
+<span class="sd">    d, mu : see Parameters</span>
+
+<span class="sd">    lb : array_like(float, ndim=2)</span>
+<span class="sd">        This is an array of the lower bounds for each dimension</span>
+
+<span class="sd">    ub : array_like(float, ndim=2)</span>
+<span class="sd">        This is an array of the upper bounds for each dimension</span>
+
+<span class="sd">    cube_grid : array_like(float, ndim=2)</span>
+<span class="sd">        The Smolyak sparse grid on the domain :math:`[-1, 1]^d`</span>
+
+<span class="sd">    grid: : array_like(float, ndim=2)</span>
+<span class="sd">        The sparse grid, transformed to the user-specified bounds for</span>
+<span class="sd">        the domain</span>
+
+<span class="sd">    inds : list(list(int))</span>
+<span class="sd">        This is a lists of lists that contains all of the indices</span>
+
+<span class="sd">    B : array_like(float, ndim=2)</span>
+<span class="sd">        This is the B matrix that is used to do lagrange interpolation</span>
+
+<span class="sd">    B_L : array_like(float, ndim=2)</span>
+<span class="sd">        Lower triangle matrix of the decomposition of B</span>
+
+<span class="sd">    B_U : array_like(float, ndim=2)</span>
+<span class="sd">        Upper triangle matrix of the decomposition of B</span>
+
+<span class="sd">    Examples</span>
+<span class="sd">    --------</span>
+<span class="sd">    &gt;&gt;&gt; s = SmolyakGrid(3, 2)</span>
+<span class="sd">    &gt;&gt;&gt; s</span>
+<span class="sd">    Smolyak Grid:</span>
+<span class="sd">        d: 3</span>
+<span class="sd">        mu: 2</span>
+<span class="sd">        npoints: 25</span>
+<span class="sd">        B: 0.65% non-zero</span>
+<span class="sd">    &gt;&gt;&gt; ag = SmolyakGrid(3, [1, 2, 3])</span>
+<span class="sd">    &gt;&gt;&gt; ag</span>
+<span class="sd">    Anisotropic Smolyak Grid:</span>
+<span class="sd">        d: 3</span>
+<span class="sd">        mu: 1 x 2 x 3</span>
+<span class="sd">        npoints: 51</span>
+<span class="sd">        B: 0.68% non-zero</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<span class="n">Method</span> <span class="n">example</span>
+<span class="o">--------------</span>
+<span class="k">def</span> <span class="nf">interpolate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">pts</span><span class="p">,</span> <span class="n">interp</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">deriv</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Basic Lagrange interpolation, with optional first derivatives</span>
+<span class="sd">    (gradient)</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    pts : array_like(float, ndim=2)</span>
+<span class="sd">        A 2d array of points on which to evaluate the function. Each</span>
+<span class="sd">        row is assumed to be a new d-dimensional point. Therefore, pts</span>
+<span class="sd">        must have the same number of columns as ``si.SGrid.d``</span>
+
+<span class="sd">    interp : bool, optional(default=false)</span>
+<span class="sd">        Whether or not to compute the actual interpolation values at pts</span>
+
+<span class="sd">    deriv : bool, optional(default=false)</span>
+<span class="sd">        Whether or not to compute the gradient of the function at each</span>
+<span class="sd">        of the points. This will have the same dimensions as pts, where</span>
+<span class="sd">        each column represents the partial derivative with respect to</span>
+<span class="sd">        a new dimension.</span>
+
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    rets : list(array(float))</span>
+<span class="sd">        A list of arrays containing the objects asked for. There are 2</span>
+<span class="sd">        possible objects that can be computed in this function. They will,</span>
+<span class="sd">        if they are called for, always be in the following order:</span>
+
+<span class="sd">        1. Interpolation values at pts</span>
+<span class="sd">        2. Gradient at pts</span>
+
+<span class="sd">        If the user only asks for one of these objects, it is returned</span>
+<span class="sd">        directly as an array and not in a list.</span>
+
+
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+<span class="sd">    This is a stripped down port of ``dolo.SmolyakBasic.interpolate``</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+		    	
+		    </div>				</div>
+				
+			</div>
+							
+        </div>
+
+		<footer id="footer">
+		
+			<div class="container">
+																			
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="sitemap.html">Site Map</a></li>
+					<li><a href="about.html#license">License</a></li>
+					<li><a href="about.html#contact">Contact</a></li>
+				</ul>
+
+				<p>&copy; Copyright 2014-2015 <a href="https://files.nyu.edu/ts43/public">Tom J. Sargent</a> and <a href="http://johnstachurski.net/">John Stachurski</a>. Hosted with AWS.</p>
+				
+			</div>
+				
+		</footer>
+				
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="_static/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+		<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <script src="_static/js/plugins.js"></script>
+        <script src="_static/js/main.js"></script>
+		
+    </body>
+</html>

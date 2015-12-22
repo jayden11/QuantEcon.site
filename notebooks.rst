@@ -25,22 +25,22 @@ QuantEcon Notebook Gallery
 Dynamic Programming
 =====================
 
-* `Discrete DP: Getting Started <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb>`_ - Daisuke Oyama
+* `Discrete DP: Getting Started <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb>`_ - Daisuke Oyama
 
-* `Discrete DP: Implementation Details (Python) <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb>`_ - Daisuke Oyama
+* `Discrete DP: Implementation Details (Python) <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb>`_ - Daisuke Oyama
 
-* `Discrete DP: Modeling Career Choice <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_career_py.ipynb>`_ - Daisuke Oyama
+* `Discrete DP: Modeling Career Choice <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_career_py.ipynb>`_ - Daisuke Oyama
 
-* `Discrete DP: Job Search <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb>`_ - Daisuke Oyama
+* `Discrete DP: Job Search <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb>`_ - Daisuke Oyama
 
-* `Discrete DP: Discrete Optimal Growth Model <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb>`_ - Daisuke Oyama
+* `Discrete DP: Discrete Optimal Growth Model <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb>`_ - Daisuke Oyama
 
-* Examples from `Miranda and Fackler <https://mitpress.mit.edu/books/applied-computational-economics-and-finance>`_  by Diasuke Oyama
+* Examples from `Miranda and Fackler <http://nbviewer.jupyter.org/githubitpress.mit.edu/books/applied-computational-economics-and-finance>`_  by Diasuke Oyama
 
-	1. `Section 7.6.2: Asset Replacement <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_2_py.ipynb>`_
-	2. `Section 7.6.3: Asset Replacement with Maintenance <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_3_py.ipynb>`_
-	3. `Section 7.6.4: Option Pricing <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_4_py.ipynb>`_
-	4. `Section 7.6.5: Water Management <https://github.com/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb>`_
+	1. `Section 7.6.2: Asset Replacement <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_2_py.ipynb>`_
+	2. `Section 7.6.3: Asset Replacement with Maintenance <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_3_py.ipynb>`_
+	3. `Section 7.6.4: Option Pricing <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_4_py.ipynb>`_
+	4. `Section 7.6.5: Water Management <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb>`_
 
 
 General
