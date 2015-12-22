@@ -15,6 +15,8 @@ QuantEcon Notebook Gallery
 Dynamic Programming
 =====================
 
+* `A Problem that Stumped Milton Friedman <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/Wald_Friedman.ipynb>`_ - Chase Coleman and Thomas J. Sargent
+
 * `Discrete DP: Getting Started <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb>`_ - Daisuke Oyama
 
 * `Discrete DP: Implementation Details (Python) <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb>`_ - Daisuke Oyama
