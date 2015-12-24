@@ -21,6 +21,8 @@ Dynamic Programming
 
 * `Discrete DP: Implementation Details (Python) <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb>`_ - Daisuke Oyama
 
+* `Discrete DP: Automobile Replacement <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_rust96_py.ipynb>`_ - Daisuke Oyama
+
 * `Discrete DP: Modeling Career Choice <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_career_py.ipynb>`_ - Daisuke Oyama
 
 * `Discrete DP: Job Search <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb>`_ - Daisuke Oyama
