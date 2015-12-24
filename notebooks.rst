@@ -27,7 +27,7 @@ Dynamic Programming
 
 * `Discrete DP: Discrete Optimal Growth Model <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb>`_ - Daisuke Oyama
 
-* Examples from `Miranda and Fackler <https://mitpress.mit.edu/books/applied-computational-economics-and-finance>`_  - Diasuke Oyama
+* Examples from `Miranda and Fackler <https://mitpress.mit.edu/books/applied-computational-economics-and-finance>`_  - Daisuke Oyama
 
 	1. `Section 7.6.2: Asset Replacement <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_2_py.ipynb>`_
 	2. `Section 7.6.3: Asset Replacement with Maintenance <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_3_py.ipynb>`_
@@ -39,13 +39,13 @@ General
 ===========
 
 * `Scientific Python Quickstart: Using NumPy and SciPy <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb>`_ - John Stachurski
-	
 
-Approximation 
+
+Approximation
 ===============
 
 * `Approximation Methods for the Lucas Asset Pricing Model <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/lucas_asset_pricing_model.ipynb>`_ - Joao Brogueira and Fabian Schuetze
-	
+
 * `Quadrature routines in QuantEcon <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/quadrature.ipynb>`_ - Chase Coleman and Spencer Lyon
 
 Algorithms
