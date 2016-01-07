@@ -12,6 +12,7 @@
    users
    wiki
    notebooks
+   nb_contrib
    sitemap
 
 .. raw:: html
