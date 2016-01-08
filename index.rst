@@ -13,6 +13,8 @@
    wiki
    notebooks
    nb_contrib
+   python
+   julia
    sitemap
 
 .. raw:: html
