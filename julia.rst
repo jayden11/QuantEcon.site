@@ -11,7 +11,7 @@ QuantEcon.jl is a high performance, open source Julia code library for economics
 
     using QuantEcon
     aiyagari_ddp = DiscreteDP(R, Q, beta)
-    results = solve(aiyagari_ddp, method=PFI)
+    results = solve(aiyagari_ddp, PFI)
 
 .. raw:: html
 
@@ -47,18 +47,18 @@ Installation
 
 To install the Julia QuantEcon package `QuantEcon.jl <https://github.com/QuantEcon/QuantEcon.jl/>`__ start a Julia session and type
 
-.. sourcecode:: python
+.. sourcecode:: julia
 
 	Pkg.add("QuantEcon")
 
-This installs the ``QuantEcon`` package through the Julia package manager (via git) to the default Julia library location ``~/.julia/QuantEcon``.
+This installs the ``QuantEcon`` package through the Julia package manager (via git) to the default Julia library location ``~/.julia/v0.XX/QuantEcon``.
 
 Usage
 -----
 
-Once installed the ``QuantEcon`` package can be used in Julia via the ``using`` framework such as
+Once installed the ``QuantEcon`` package can be used in Julia via the ``using`` keyword such as
 
-.. sourcecode:: python
+.. sourcecode:: julia
 	
 	using QuantEcon
 
