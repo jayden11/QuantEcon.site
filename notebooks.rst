@@ -12,6 +12,8 @@ QuantEcon Notebook Gallery
 **Submissions**: To submit your `notebook <http://jupyter.org/>`_ as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__. See :ref:`nb_contrib` for further details.
 
 
+
+
 Dynamic Programming
 =====================
 
@@ -37,6 +39,11 @@ Dynamic Programming
 	4. `Section 7.6.5: Water Management <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb>`_
 
 
+Estimation
+============
+
+* `Bayesian Estimation of a Univariate First Order Autoregression <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb>`_ - David Evans, Chase Coleman, and Thomas Sargent
+
 General
 ===========
 
@@ -59,7 +66,11 @@ Algorithms
 * `The Nelder-Mead Algorithm (Python) <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb>`_ - Chase Coleman
 
 
-Markov Processes
-================
+Dynamic Models 
+==============
 
 * `MarkovChain: Examples <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/markov_chain_ex01_py.ipynb>`_ - Daisuke Oyama
+
+* `The Permanent Income Model <http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/permanent_income.ipynb>`_ - Chase Coleman and Thomas Sargent
+
+
