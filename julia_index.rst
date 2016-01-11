@@ -1,11 +1,6 @@
 .. _julia:
 
-
-***********************
-Welcome to QuantEcon.jl
-***********************
-
-QuantEcon.jl is a high performance, open source Julia code library for economics and related fields.
+.. include:: julia_banner.raw
 
 .. sourcecode:: julia
 

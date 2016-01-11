@@ -1,5 +1,7 @@
 .. _notebooks:
 
+.. include:: org_banner.raw
+
 .. raw:: html
 
     <p class="octopus"><a href="https://github.com/QuantEcon/QuantEcon.notebooks"><img src="_static/img/octopus.png" alt="GitHub logo"></a></p>

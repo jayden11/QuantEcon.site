@@ -1,5 +1,7 @@
 .. _python_developers: 
 
+.. include:: python_banner.raw
+
 *****************
 Python Developers
 *****************

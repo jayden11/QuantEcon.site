@@ -1,5 +1,7 @@
 .. _sitemap:
 
+.. include:: org_banner.raw
+
 **********		
 Site Map
 **********

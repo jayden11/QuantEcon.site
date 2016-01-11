@@ -1,5 +1,7 @@
 .. _wiki_py_docstrings :
 
+.. include:: python_banner.raw
+
 ****************************
 Docstrings and Documentation
 ****************************

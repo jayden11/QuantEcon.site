@@ -1,5 +1,7 @@
 .. _julia_developers:
 
+.. include:: julia_banner.raw
+
 ****************
 Julia Developers
 ****************

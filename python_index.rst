@@ -1,11 +1,6 @@
-.. _pythonv2:
+.. _python:
 
-
-***********************
-Welcome to QuantEcon.py
-***********************
-
-QuantEcon.py is a high performance, open source Python code library for economics and related fields.
+.. include:: python_banner.raw
 
 .. sourcecode:: python
 
@@ -19,12 +14,12 @@ QuantEcon.py is a high performance, open source Python code library for economic
             <li>
                 <a href="https://github.com/QuantEcon/QuantEcon.py" onclick="ga('send', 'event', 'Click', 'CallToAction', 'GitHub')">
                     <p class="thumb"><img src="_static/img/py-home-octopus.png" alt=" " /></p>
-                    <p class="title">GitHub</p>
+                    <p class="title">Code</p>
                 </a>
             </li>
             <li>
                 <a href="http://quanteconpy.readthedocs.org/en/latest/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Documentation')">
-                    <p class="thumb"><img src="_static/img/readthedocs2.png" alt=" " /></p>
+                    <p class="thumb"><img src="_static/img/readthedocs.png" alt=" " /></p>
                     <p class="title">Documentation</p>
                 </a>
             </li>
@@ -41,7 +36,6 @@ QuantEcon.py is a high performance, open source Python code library for economic
             </a>
         </li>
     </ul>
-
 
 Installation
 ------------

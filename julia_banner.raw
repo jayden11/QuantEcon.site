@@ -1,0 +1,27 @@
+.. raw:: html
+
+	<span href="#" class="navbar-toggle collapsed"><span class="icon icon-list"></span></span>
+    
+    <div id="wrapper">
+    
+        <header id="header">
+
+            <div class="container">
+                
+                <p id="site-logo"><a href="index.html" title="Home"><img src="_static/img/quantecon-logo-jl-banner.png" alt="QuantEcon logo"></a></p>
+                
+                <p id="site-title"><a href="index.html" title="Home">Quant<span>Econ.jl</span></a></p>
+                
+                <p id="site-tag">A high performance, open source Julia code library for economics</p>
+
+                <p id="sponsor"><a href="http://www.sloan.org/"><img src="_static/img/jl-symbol-banner.png" alt="Alfred P. Sloan Foundation"></a></p>
+                                                        
+            </div>
+                            
+        </header>
+            
+        <div id="main">
+                
+            <div class="container">
+                                
+                <div id="skip"></div>

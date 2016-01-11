@@ -1,5 +1,7 @@
 .. _python_examples: 
 
+.. include:: python_banner.raw
+
 **************************
 Additional Python Examples
 **************************
