@@ -29,7 +29,7 @@ QuantEcon.jl is a high performance, open source Julia code library for economics
                 </a>
             </li>
             <li>
-                <a href="developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
+                <a href="julia_developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
                     <p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
                     <p class="title">Developers</p>
                 </a>

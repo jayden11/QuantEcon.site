@@ -29,7 +29,7 @@ QuantEcon.py is a high performance, open source Python code library for economic
                 </a>
             </li>
             <li>
-                <a href="developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
+                <a href="python_developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
                     <p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
                     <p class="title">Developers</p>
                 </a>
@@ -77,11 +77,32 @@ If your version is below what's available on `PyPI <https://pypi.python.org/pypi
     pip install --upgrade quantecon
 
 
+Downloading the ``quantecon`` Repository
+-----------------------------------------
+            
+An alternative is to download the sourcecode of the ``quantecon`` package and install it manually from `the github repository <https://github.com/QuantEcon/QuantEcon.py/>`__. This can be achieved by downloading a zip file directly from `here <https://github.com/QuantEcon/QuantEcon.py/archive/master.zip>`__ or using ``git`` to clone the repository to your computer. If you choose to use ``git`` then you should first browse to a location on your computer suitable for downloading the package folder and then run
+            
+.. sourcecode:: bash
+    
+    git clone https://github.com/QuantEcon/QuantEcon.py
+            
+This repository contains both the ``quantecon`` python package in addition to some examples which can be viewed in the `github code repository <https://github.com/QuantEcon/QuantEcon.py/>`__. Once you have downloaded the source files then the package can be installed by running
+            
+.. sourcecode:: bash
+
+    python setup.py install
+            
+when at the base level of the repository folder. 
+
+If you would like to learn the basics about setting up Git see `this link <https://help.github.com/articles/set-up-git/>`__ is a good starting point.
+
+
 Useful Links
 ------------
 
 - `Code library on GitHub <https://github.com/QuantEcon/QuantEcon.py>`__
 - `Documentation <http://quanteconpy.readthedocs.org/en/latest/>`__
 - `Report an Issue <https://github.com/QuantEcon/QuantEcon.py/issues>`__
+- `Additional Examples <python_examples.html>`__
 
 QuantEcon.py is supported financially by the `Alfred P. Sloan Foundation <http://www.sloan.org/>`__ and is part of the `QuantEcon organization <http://quantecon.org/>`__.
