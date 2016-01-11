@@ -32,7 +32,7 @@ Writing Tests
 =============
 
 One prerequisite for contributions to QuantEcon is that all functions and methods should be paired with tests verifying that they are functioning correctly. This type of `unit testing <https://en.wikipedia.org/wiki/Unit_testing>`__ is almost universal across high quality software projects.
-`This guide <wiki_py_unitesting.html>`_ is intended to help you get started writing tests for code to be included in QuantEcon.
+`This guide <wiki_py_unit_testing.html>`_ is intended to help you get started writing tests for code to be included in QuantEcon.
 
 
 Considering the API
