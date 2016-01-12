@@ -6,6 +6,18 @@
 Python Developers
 *****************
 
+
+We welcome submission of algorithms and high quality code on all topics concerning quantitative economics. 
+
+Less experienced developers who wish to get involved can help improve documentation, contribute notebooks or work on smaller enhancements.  
+
+A good place to start is by visiting the `project issue tracker <https://github.com/QuantEcon/QuantEcon.py/issues>`__
+
+If you are new to open source development please consider reading :doc:`this page <developer_resources>` first
+
+General Information
+===================
+
 The current structure of the ``QuantEcon`` package is relatively flat where python ``modules`` contain most of the code. The majority of methods are available at the top level ``namespace`` for easy access. The python API is defined by the ``__init__.py`` files within the ``quantecon`` package. There is currently one subpackage ``models`` which contains a number of ``classes`` for working with various economic models
 
 Setting up a Conda Development Environment

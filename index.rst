@@ -15,10 +15,11 @@
    python_examples
    julia_index
    julia_examples
-   contribute
+   get_involved
    python_developers
    julia_developers
    sitemap
+   developer_resources
 
 .. include:: org_banner.raw
 
@@ -53,9 +54,9 @@
             </a>
         </li>
         <li>
-            <a href="contribute.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Contribute')">
+            <a href="get_involved.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Get Involved')">
                 <p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
-                <p class="title">Contribute</p>
+                <p class="title">Get Involved</p>
             </a>
         </li>
     </ul>

@@ -15,7 +15,7 @@ Site Map
 				<li><a href="about.html">About</a></li>
 				<li><a href="python_index.html">QuantEcon.py</a></li>
 				<li><a href="julia_index.html">QuantEcon.jl</a></li>
-				<li><a href="contribute.html">Contribute</a>
+				<li><a href="get_involved.html">Get Involved</a>
 					<ul>
 						<li><a href="python_developers.html">Python Developers</a></li>
 						<li><a href="julia_developers.html">Julia Developers</a></li>
