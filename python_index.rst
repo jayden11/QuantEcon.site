@@ -26,7 +26,7 @@
             <li>
                 <a href="python_developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
                     <p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
-                    <p class="title">Developers</p>
+                    <p class="title">Contribute</p>
                 </a>
             </li>
             <li>
@@ -37,34 +37,37 @@
         </li>
     </ul>
 
+
 Installation
 ------------
 
-To install quantecon, open a terminal prompt and type:
+Before installing quantecon we recommend you install the `Anaconda
+<https://www.continuum.io/downloads>`__ Python distribution, which includes a
+full suite of scientific python tools.
+
+Next you can install quantecon by opening a terminal prompt and typing
 
 .. sourcecode:: python
 
     pip install quantecon
 
-If you don't have Python installed, the easiest way to get a full suite of scientific python tools installed on your computer is to use the `Anaconda <https://www.continuum.io/downloads>`__ distribution released by `Continuum Analytics <https://www.continuum.io/>`__. More detailed instructions on setting up a ``python`` environment can be found on `this page <http://quant-econ.net/py/getting_started.html#installing-anaconda>`__.
-
 
 Usage
 -----
 
-Once ``quantecon`` has been installed then it can be imported into a ``python`` or ``ipython`` session through python's ``import`` statement. It is convention to use:
+Once ``quantecon`` has been installed you should be able to import it as follows:
 
 .. sourcecode:: python
 
     import quantecon as qe
 
-You can check the version by running:
+You can check the version by running
 
 .. sourcecode:: python
     
     print qe.__version__
 
-If your version is below what's available on `PyPI <https://pypi.python.org/pypi/quantecon/>`__ then it is time to upgrade. This can be done by running:
+If your version is below what's available on `PyPI <https://pypi.python.org/pypi/quantecon/>`__ then it is time to upgrade. This can be done by running
 
 .. sourcecode:: python
 
@@ -74,29 +77,28 @@ If your version is below what's available on `PyPI <https://pypi.python.org/pypi
 Downloading the ``quantecon`` Repository
 -----------------------------------------
             
-An alternative is to download the sourcecode of the ``quantecon`` package and install it manually from `the github repository <https://github.com/QuantEcon/QuantEcon.py/>`__. This can be achieved by downloading a zip file directly from `here <https://github.com/QuantEcon/QuantEcon.py/archive/master.zip>`__ or using ``git`` to clone the repository to your computer. If you choose to use ``git`` then you should first browse to a location on your computer suitable for downloading the package folder and then run
-            
+An alternative is to download the sourcecode of the ``quantecon`` package and install it manually from `the github repository <https://github.com/QuantEcon/QuantEcon.py/>`__.  For example, if you have git installed type
+
 .. sourcecode:: bash
     
     git clone https://github.com/QuantEcon/QuantEcon.py
             
-This repository contains both the ``quantecon`` python package in addition to some examples which can be viewed in the `github code repository <https://github.com/QuantEcon/QuantEcon.py/>`__. Once you have downloaded the source files then the package can be installed by running
+Once you have downloaded the source files then the package can be installed by running
             
 .. sourcecode:: bash
 
     python setup.py install
             
-when at the base level of the repository folder. 
-
-If you would like to learn the basics about setting up Git see `this link <https://help.github.com/articles/set-up-git/>`__ is a good starting point.
+(To learn the basics about setting up Git see `this link <https://help.github.com/articles/set-up-git/>`__.)
 
 
-Useful Links
-------------
+Examples and Sample Code
+---------------------------
 
-- `Code library on GitHub <https://github.com/QuantEcon/QuantEcon.py>`__
+Many examples of QuantEcon.py in action can be found at `Quantitative Economics <http://quant-econ.net>`_.  See also the
+
 - `Documentation <http://quanteconpy.readthedocs.org/en/latest/>`__
-- `Report an Issue <https://github.com/QuantEcon/QuantEcon.py/issues>`__
+- `Notebook gallery <notebooks.html>`__
 - `Additional Examples <python_examples.html>`__
 
 QuantEcon.py is supported financially by the `Alfred P. Sloan Foundation <http://www.sloan.org/>`__ and is part of the `QuantEcon organization <http://quantecon.org/>`__.

@@ -14,7 +14,7 @@
             <li>
                 <a href="https://github.com/QuantEcon/QuantEcon.jl" onclick="ga('send', 'event', 'Click', 'CallToAction', 'GitHub')">
                     <p class="thumb"><img src="_static/img/py-home-octopus.png" alt=" " /></p>
-                    <p class="title">GitHub</p>
+                    <p class="title">Code</p>
                 </a>
             </li>
             <li>
@@ -26,7 +26,7 @@
             <li>
                 <a href="julia_developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
                     <p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
-                    <p class="title">Developers</p>
+                    <p class="title">Contribute</p>
                 </a>
             </li>
             <li>
