@@ -33,12 +33,16 @@ There are **three** primary ways you can contribute
 Resources for Developers
 ========================
 
-Contributions to QuantEcon should follow the canonical open source pattern,
+A good place to start is by visiting the project issue trackers
+
+    #. `QuantEcon.py - Python library issues <https://github.com/QuantEcon/QuantEcon.py/issues>`__
+    #. `QuantEcon.jl - Julia library issues <https://github.com/QuantEcon/QuantEcon.jl/issues>`__ 
+
+Contributions to QuantEcon should also follow the canonical open source pattern,
 via forking the code libraries and sending pull requests.  If you're not
 familiar with this kind of development there are many useful tutorials lying
 around, including
 
-    #. Visit issue trackers ( `Python <https://github.com/QuantEcon/QuantEcon.py/issues>`__/`Julia <https://github.com/QuantEcon/QuantEcon.jl/issues>`__ )
     #. `The GitHub Guides <https://guides.github.com/>`_
     #. `GitHub Help <https://help.github.com/>`_
     #. `Pull request ettiquette <http://readwrite.com/2014/07/02/github-pull-request-etiquette>`_
