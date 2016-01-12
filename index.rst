@@ -8,53 +8,55 @@
    :hidden:
 
    about
-   developers
-   users
    wiki
    notebooks
    nb_contrib
-   python
-   julia
+   python_index
+   python_examples
+   julia_index
+   julia_examples
+   contribute
+   python_developers
+   julia_developers
    sitemap
 
+.. include:: org_banner.raw
+
 .. raw:: html
-		
-	<h1 class="visuallyhidden">QuantEcon</h1>
+        
+    <h1 class="visuallyhidden">QuantEcon</h1>
 
-	<br>
+    <br>
 
-	<p>QuantEcon is an organization run by economists for economists with the aim
-	of coordinating distributed development of high quality open source code for
-	all forms of quantitative economic
-	modeling.  QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>. </p>
+    <p>QuantEcon is an organization run by economists for economists with the aim
+    of coordinating distributed development of high quality open source code for
+    all forms of quantitative economic
+    modeling.  QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>. </p>
 
-	<p>The main resources provided by QuantEcon are 
-	high performance code libraries written in <a href="http://www.python.org">Python</a> and <a href="http://www.julialang.org">Julia</a>.</p>
-
-	<ul id="coa">
-		<li>
-			<a href="about.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'About')">
-				<p class="thumb"><img src="_static/img/home-about.png" alt=" " /></p>
-				<p class="title">About</p>
-			</a>
-		</li>
-		<li>
-			<a href="users.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Get started')">
-				<p class="thumb"><img src="_static/img/home-use.png" alt=" " /></p>
-				<p class="title">Get started</p>
-			</a>
-		</li>
-		<li>
-			<a href="developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Contribute')">
-				<p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
-				<p class="title">Contribute</p>
-			</a>
-		</li>
-		<li>
-			<a href="https://groups.google.com/forum/#!forum/quantecon" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Have your say')">
-				<p class="thumb"><img src="_static/img/home-say.png" alt=" " /></p>
-				<p class="title">Have your say</p>
-			</a>
-		</li>
-	</ul>
+    <ul id="coa-home">
+        <li>
+            <a href="python_index.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'About')">
+                <p class="thumb"><img src="_static/img/py-symbol.png" alt=" " /></p>
+                <p class="title">QuantEcon.py</p>
+            </a>
+        </li>
+        <li>
+            <a href="julia_index.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Get started')">
+                <p class="thumb"><img src="_static/img/jl-symbol.png" alt=" " /></p>
+                <p class="title">QuantEcon.jl</p>
+            </a>
+        </li>
+        <li>
+            <a href="notebooks.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Notebook gallery')">
+                <p class="thumb"><img src="_static/img/jy-symbol-wtext.png" alt=" " /></p>
+                <p class="title">Notebook Gallery</p>
+            </a>
+        </li>
+        <li>
+            <a href="contribute.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Contribute')">
+                <p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
+                <p class="title">Contribute</p>
+            </a>
+        </li>
+    </ul>
 

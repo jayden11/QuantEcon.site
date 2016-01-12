@@ -1,5 +1,7 @@
 .. _wiki:
 
+.. include:: org_banner.raw
+
 ****
 Wiki
 ****

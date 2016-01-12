@@ -1,5 +1,7 @@
 .. _nb_contrib:
 
+.. include:: org_banner.raw
+
 *******************************
 Contributing a Jupyter Notebook
 *******************************

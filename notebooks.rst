@@ -1,5 +1,7 @@
 .. _notebooks:
 
+.. include:: org_banner.raw
+
 .. raw:: html
 
     <p class="octopus"><a href="https://github.com/QuantEcon/QuantEcon.notebooks"><img src="_static/img/octopus.png" alt="GitHub logo"></a></p>
@@ -9,7 +11,7 @@
 QuantEcon Notebook Gallery
 ******************************
 
-**Submissions**: To submit your `notebook <http://jupyter.org/>`_ as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__. See :ref:`nb_contrib` for further details.
+**Submissions**: To submit your `notebook <http://jupyter.org/>`_ as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__. See `Contributing a Jupyter Notebook <nb_contrib.html>`__ for further details.
 
 
 

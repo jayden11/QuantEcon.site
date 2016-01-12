@@ -1,0 +1,27 @@
+.. raw:: html
+
+    <span href="#" class="navbar-toggle collapsed"><span class="icon icon-list"></span></span>
+    
+    <div id="wrapper">
+    
+        <header id="header">
+
+            <div class="container">
+                
+                <p id="site-logo"><a href="index.html" title="Home"><img src="_static/img/quantecon-logo.png" alt="QuantEcon logo"></a></p>
+                
+                <p id="site-title"><a href="index.html" title="Home">Quant<span>Econ</span></a></p>
+                
+                <p id="site-tag">Open source libraries for quantitative economic modeling</p>
+
+                <p id="sponsor"><a href="http://www.sloan.org/"><img src="_static/img/sloan_logo.png" alt="Alfred P. Sloan Foundation"></a></p>
+                                                        
+            </div>
+                            
+        </header>
+            
+        <div id="main">
+                
+            <div class="container">
+                                
+                <div id="skip"></div>

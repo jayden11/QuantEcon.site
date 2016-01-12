@@ -1,5 +1,7 @@
 .. _wiki_py_unit_testing:
 
+.. include:: python_banner.raw
+
 *************************
 Unit Testing in QuantEcon
 *************************

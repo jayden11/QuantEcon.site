@@ -1,5 +1,7 @@
 .. _wiki_py_conda_dev_env:
 
+.. include:: python_banner.raw
+
 ****************************************
 Creating a Conda development environment
 ****************************************

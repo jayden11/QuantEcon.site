@@ -1,5 +1,7 @@
 .. _about:
 
+.. include:: org_banner.raw
+
 *****
 About
 *****

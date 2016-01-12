@@ -1,0 +1,27 @@
+.. raw:: html
+
+	<span href="#" class="navbar-toggle collapsed"><span class="icon icon-list"></span></span>
+    
+    <div id="wrapper">
+    
+        <header id="header">
+
+            <div class="container">
+                
+                <p id="site-logo"><a href="python_index.html" title="Home"><img src="_static/img/quantecon-logo-py-banner.png" alt="QuantEcon logo"></a></p>
+                
+                <p id="site-title"><a href="python_index.html" title="Home">Quant<span>Econ.py</span></a></p>
+                
+                <p id="site-tag">A high performance, open source Python code library for economics</p>
+
+                <p id="sponsor"><a href="python_index.html"><img src="_static/img/py-symbol-banner.png" alt="Python Logo"></a></p>
+                                                        
+            </div>
+                            
+        </header>
+            
+        <div id="main">
+                
+            <div class="container">
+                                
+                <div id="skip"></div>

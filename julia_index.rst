@@ -1,11 +1,6 @@
 .. _julia:
 
-
-***********************
-Welcome to QuantEcon.jl
-***********************
-
-QuantEcon.jl is a high performance, open source Julia code library for economics and related fields.
+.. include:: julia_banner.raw
 
 .. sourcecode:: julia
 
@@ -19,19 +14,19 @@ QuantEcon.jl is a high performance, open source Julia code library for economics
             <li>
                 <a href="https://github.com/QuantEcon/QuantEcon.jl" onclick="ga('send', 'event', 'Click', 'CallToAction', 'GitHub')">
                     <p class="thumb"><img src="_static/img/py-home-octopus.png" alt=" " /></p>
-                    <p class="title">GitHub</p>
+                    <p class="title">Code</p>
                 </a>
             </li>
             <li>
                 <a href="http://quantecon.github.io/QuantEcon.jl/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Documentation')">
-                    <p class="thumb"><img src="_static/img/readthedocs2.png" alt=" " /></p>
+                    <p class="thumb"><img src="_static/img/readthedocs.png" alt=" " /></p>
                     <p class="title">Documentation</p>
                 </a>
             </li>
             <li>
-                <a href="developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
+                <a href="julia_developers.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Developers')">
                     <p class="thumb"><img src="_static/img/home-help.png" alt=" " /></p>
-                    <p class="title">Developers</p>
+                    <p class="title">Contribute</p>
                 </a>
             </li>
             <li>
