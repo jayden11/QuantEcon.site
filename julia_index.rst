@@ -19,7 +19,7 @@
             </li>
             <li>
                 <a href="http://quantecon.github.io/QuantEcon.jl/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Documentation')">
-                    <p class="thumb"><img src="_static/img/readthedocs2.png" alt=" " /></p>
+                    <p class="thumb"><img src="_static/img/readthedocs.png" alt=" " /></p>
                     <p class="title">Documentation</p>
                 </a>
             </li>
