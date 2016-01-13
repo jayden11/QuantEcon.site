@@ -175,7 +175,7 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 #coa-home a:hover img {border-color: #08c;-webkit-box-shadow: 0 1px 4px rgba(0,105,214,0.25);-moz-box-shadow: 0 1px 4px rgba(0,105,214,0.25);box-shadow: 0 1px 4px rgba(0,105,214,0.25);}
 
 
-.octopus {margin:0 35px;float:right;position: relative;}
+.octopus {margin: 2em 35px;float:right;position: relative;}
 .octopus img {display: block;width:60px;}
 
 .figure {text-align: center;border: 1px solid #d6d6d6;}
