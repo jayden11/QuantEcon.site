@@ -40,6 +40,8 @@ Within the QuantEcon library we wish to maintain a simple and consistent format 
  
 For full details and examples, this standard is discussed in more detail `on this page <wiki_py_docstrings.html>`__
 
+Instructions to compile a local version of the documentation can be found `here <https://github.com/QuantEcon/QuantEcon.py/tree/master/docs>`__. This can be useful if you would like to check how your docstrings render in html prior to submitting a pull request.
+
 Writing Tests
 =============
 
