@@ -96,6 +96,11 @@ for topic_num in sorted(doc_topic.keys()):
 	nb_items = sorted([x for x in topic.keys() if type(x) == int]) 	#Get Integer Indexed Items
 	for nb_num in nb_items: 										#Write Notebook Text in Each Topic
 		nb = topic[nb_num]
+		#-Check Notebook is Defined-#
+		try:
+			if nb['python'] == None: continue 						#TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?)
+		except:
+			pass 			#Ok to except as if not defined in the YAML then likely an item with a subsection
 		#-Check Title-#
 		if type(nb['title']) == dict:
 			title = nb['title']
@@ -106,11 +111,56 @@ for topic_num in sorted(doc_topic.keys()):
 			rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['python'], authors=nb['authors']))
 		#-Write Numerated Subsection-#
 		try:
+			subsection_additions = False
 			subsection = nb['subsection']
 			for num in sorted(subsection.keys()):
 				subsec = subsection[num]
+				#-Check Notebook is a defined attribute-#
+				if subsec['python'] == None: 	#TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?) 
+					continue 
 				rst.append(nb_sub_entry.format(title=subsec['title'].strip("\n"), link=subsec['python']))
+				subsection_additions = True
+			if subsection_additions == False: rst.pop()  #No valid subsections were added so popping the last entry forming a group
 		except:
 			continue 				#No Subsection Defined
 write_file("notebooks_py.rst", rst)
 
+
+#-Document: notebooks_jl.rst-#
+rst = [rst_file.format(doc_name="notebooks_jl")]
+#-Parse Topics-#
+for topic_num in sorted(doc_topic.keys()):
+	topic = doc_topic[topic_num] 
+	rst.append(topic['topic']+"\n"+"="*len(topic['topic'])+"\n")	#Write Topic Text
+	#-Parse Notebooks-#
+	nb_items = sorted([x for x in topic.keys() if type(x) == int]) 	#Get Integer Indexed Items
+	for nb_num in nb_items: 										#Write Notebook Text in Each Topic
+		nb = topic[nb_num]
+		#-Check Notebook is Defined-#
+		try:
+			if nb['julia'] == None: continue 						#TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?)
+		except:
+			pass 			#Ok to except as if not defined in the YAML then likely an item with a subsection
+		#-Check Title-#
+		if type(nb['title']) == dict:
+			title = nb['title']
+			for item in title.keys():
+				if title[item] == None: title[item] = ""
+			rst.append(nb_pre_link_post_entry.format(pre=title['pre'], link_text=title['link_text'], link=title['link'], post=title['post'], authors=nb['authors']))
+		else:
+			rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['julia'], authors=nb['authors']))
+		#-Write Numerated Subsection-#
+		try:
+			subsection_additions = False
+			subsection = nb['subsection']
+			for num in sorted(subsection.keys()):
+				subsec = subsection[num]
+				#-Check Notebook is a defined attribute-#
+				if subsec['julia'] == None: 	#TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?) 
+					continue 		
+				rst.append(nb_sub_entry.format(title=subsec['title'].strip("\n"), link=subsec['julia']))
+				subsection_additions = True
+			if subsection_additions == False: rst.pop() #No valid subsections were added so popping the last entry forming a group
+		except:
+			continue 				#No Subsection Defined
+write_file("notebooks_jl.rst", rst)

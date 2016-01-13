@@ -5,6 +5,7 @@ _backup/
 
 # Ignore Built RST Files
 notebooks_py.rst
+notebooks_jl.rst
 
 # Ignore the IPYNB Checkpoints
 _static/notebooks/.ipynb_checkpoints/*
