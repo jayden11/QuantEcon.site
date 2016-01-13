@@ -3,6 +3,9 @@ _backup/
 
 *.pyc
 
+# Ignore Built RST Files
+notebooks_py.rst
+
 # Ignore the IPYNB Checkpoints
 _static/notebooks/.ipynb_checkpoints/*
 
