@@ -29,7 +29,6 @@
 #   3. If require special symbols like `:` in titles then use > and write it on a newline
 
 #TODO: Update Fake Dates
-#TODO: Add Presorting to filter out Julia or Python notebooks if not defined
 
 1:
     topic: Dynamic Programming
