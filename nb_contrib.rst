@@ -46,14 +46,14 @@ Once you are happy with the notebook
 	
 .. sourcecode:: python
 
-	from QuantEcon import fetch_nb_dependencies 
+	from quantecon import fetch_nb_dependencies 
 	fetch_nb_dependencies(["filenames"])
 
 If you place your dependencies in a folder within ``dependencies/`` then you can pass a Dictionary to ``fetch_nb_dependencies({"dir" : ["filenames"]})``
 
 .. sourcecode:: python
 
-	from QuantEcon import fetch_nb_dependencies 
+	from quantecon import fetch_nb_dependencies 
 	fetch_nb_dependencies({"dir" : ["filenames"]})
 
 .. note::
