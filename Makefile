@@ -52,6 +52,8 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 html:
+	@echo "Building notebooks pages from notebooks.yaml"
+	python build_nbgallery_rst.py
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo "Adjusting Front Page Title"
 	sed -i 's/&lt;no title&gt; &ndash; //g' $(BUILDDIR)/html/index.html
