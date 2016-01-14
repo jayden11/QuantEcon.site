@@ -4,7 +4,7 @@
 
 .. sourcecode:: python
 
-    from quantecon import DiscreteDP
+    from quantecon.markov import DiscreteDP
     aiyagari_ddp = DiscreteDP(R, Q, beta)
     results = aiyagari_ddp.solve(method='policy_iteration')
 
@@ -65,11 +65,11 @@ You can check the version by running
 
 .. sourcecode:: python
     
-    print qe.__version__
+    print(qe.__version__)
 
 If your version is below what's available on `PyPI <https://pypi.python.org/pypi/quantecon/>`__ then it is time to upgrade. This can be done by running
 
-.. sourcecode:: python
+.. sourcecode:: bash
 
     pip install --upgrade quantecon
 
