@@ -4,6 +4,7 @@ _backup/
 *.pyc
 
 # Ignore Built RST Files
+notebooks.rst
 notebooks_py.rst
 notebooks_jl.rst
 

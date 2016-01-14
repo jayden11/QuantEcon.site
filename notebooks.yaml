@@ -37,51 +37,51 @@
         authors: Chase Coleman and Thomas J. Sargent
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/Wald_Friedman.ipynb
-        julia:
     2:
         title: > 
             Discrete DP: Getting Started
         authors: Daisuke Oyama
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb
-        julia:
     3:
         title: >
-            Discrete DP: Implementation Details
+            Discrete DP: Implementation Details (Python)
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb
-        julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_jl.ipynb
-        sub-section:
     4:
+        title: >
+            Discrete DP: Implementation Details (Julia)
+        authors: Daisuke Oyama
+        date: 14-January-2016
+        julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_jl.ipynb
+        notes: This entry is duplicated to specify language specific elements in the title
+    5:
         title: >
             Discrete DP: Automobile Replacement
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_rust96_py.ipynb
-        julia:
-    5:
+    6:
         title: >
             Discrete DP: Modeling Career Choice
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_career_py.ipynb
-        julia:
-    6:
+    7:
         title: >
             Discrete DP: Job Search
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_jl.ipynb
-    7:
+    8:
         title: >
             Discrete DP: Discrete Optimal Growth Model
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb
-        julia:
-    8:
+    9:
         title:
             pre: Examples from
             link_text: Miranda and Fackler
@@ -93,22 +93,18 @@
                 title: >
                     Section 7.6.2: Asset Replacement
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_2_py.ipynb
-                julia:
             2:
                 title: >
                     Section 7.6.3: Asset Replacement with Maintenance
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_3_py.ipynb
-                julia:
             3:
                 title: >
                     Section 7.6.4: Option Pricing
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_4_py.ipynb
-                julia:
             4:
                 title: >
                     Section 7.6.5: Water Management
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb 
-                julia:
 
 2:
     topic: Estimation
@@ -117,7 +113,6 @@
         authors: David Evans, Chase Coleman, and Thomas Sargent
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
-        julia:
 
 3:
     topic: General
@@ -127,7 +122,6 @@
         authors: John Stachurski
         date: 15-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb
-        julia:
 
 4:
     topic: Approximation
@@ -136,13 +130,11 @@
         authors: Joao Brogueira and Fabian Schuetze
         date: 15-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/lucas_asset_pricing_model.ipynb
-        julia:
     2:
         title: Quadrature routines in QuantEcon
         authors: Chase Coleman and Spencer Lyon
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/quadrature.ipynb
-        julia:
 
 5:
     topic: Algorithms
@@ -151,13 +143,11 @@
         authors: David R. Pugh
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/solving_initial_value_problems.ipynb
-        julia:
     2:
         title: The Nelder-Mead Algorithm (Python)
         authors: Chase Coleman
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb
-        julia:
 
 6:
     topic: Dynamic Models
@@ -167,10 +157,8 @@
         authors: Daisuke Oyama
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/markov_chain_ex01_py.ipynb
-        julia:
     2:
         title: The Permanent Income Model
         authors: Chase Coleman and Thomas Sargent
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/permanent_income.ipynbs
-        julia:
