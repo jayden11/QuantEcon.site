@@ -48,7 +48,7 @@ nb_title_entry = "* {title} - {authors} {badge}\n"
 
 #-Subsections-#
 nb_sub_entry = "* `{title} <{link}>`__ - {authors}\n" 						#No Language Badge
-nb_sub_title_entry = "* `{title} - {authors}\n"								#No Language Badge
+nb_sub_title_entry = "* {title} - {authors}\n"								#No Language Badge
 nb_sub_listitem = "\t#. `{title} <{link}>`__ {badge}\n" 					#No Author Here
 
 #-Badges-#
