@@ -47,11 +47,11 @@
         julia:
     3:
         title: >
-            Discrete DP: Implementation Details (Python)
+            Discrete DP: Implementation Details
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb
-        julia:
+        julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_jl.ipynb
         sub-section:
     4:
         title: >
@@ -73,7 +73,7 @@
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb
-        julia:
+        julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_jl.ipynb
     7:
         title: >
             Discrete DP: Discrete Optimal Growth Model
