@@ -31,6 +31,14 @@
 #TODO: Update Fake Dates
 
 1:
+    topic: Working with Data
+    1:
+        title: Visualizing Data with Pandas and Matplotlib
+        authors: David Backus
+        date: 14-January-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/pandas_and_matplotlib.ipynb
+
+2:
     topic: Dynamic Programming
     1:
         title: A Problem that Stumped Milton Friedman
@@ -106,15 +114,15 @@
                     Section 7.6.5: Water Management
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb 
 
-2:
-    topic: Estimation
+3:
+    topic: Econometrics
     1:
         title: Bayesian Estimation of a Univariate First Order Autoregression
         authors: David Evans, Chase Coleman, and Thomas Sargent
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
 
-3:
+4:
     topic: General
     1:
         title: >
@@ -123,7 +131,7 @@
         date: 15-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb
 
-4:
+5:
     topic: Approximation
     1:
         title: Approximation Methods for the Lucas Asset Pricing Model 
@@ -136,7 +144,7 @@
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/quadrature.ipynb
 
-5:
+6:
     topic: Algorithms
     1:
         title: Solving Initial Value Problems in QuantEcon.py
@@ -149,7 +157,7 @@
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb
 
-6:
+7:
     topic: Dynamic Models
     1:
         title: >
