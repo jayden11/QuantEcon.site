@@ -59,7 +59,7 @@ pylang_badge = """.. |python-{id}| image:: _static/images/python-icon.png
 	:target: {link}
 """
 pylang_inline = "|python-{id}|"
-jllang_badge = """.. |julia-{id}| image:: _static/images/julia-icon.png
+jllang_badge = """.. |julia-{id}| image:: _static/images/julia-symbol-icon.png
 	:scale: 60 %
 	:target: {link}
 """
