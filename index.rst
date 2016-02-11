@@ -20,6 +20,7 @@
    julia_developers
    sitemap
    developer_resources
+   econometrics_workshop
 
 .. include:: org_banner.raw
 
