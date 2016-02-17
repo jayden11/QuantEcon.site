@@ -30,7 +30,7 @@ rst_file = """.. _{doc_name}:
 
 .. raw:: html
 
-    <p class="octopus"><a href="https://github.com/QuantEcon/QuantEcon.notebooks"><img src="_static/img/octopus.png" alt="GitHub logo"></a></p>
+	<p class="octopus"><a href="https://github.com/QuantEcon/QuantEcon.notebooks"><img src="_static/img/octopus.png" alt="GitHub logo"></a></p>
 
 **************************
 QuantEcon Notebook Gallery
@@ -70,18 +70,18 @@ jllang_inline = "|julia-{id}|"
 #------------#
 
 month_to_num = {
-    'January'   : 1,
-    'February'  : 2,
-    'March'     : 3,
-    'April'     : 4,
-    'May'       : 5,
-    'June'      : 6,
-    'July'      : 7,
-    'August'    : 8,
-    'September' : 9,
-    'October'   : 10,
-    'November'  : 11,
-    'December'  : 12,
+	'January'   : 1,
+	'February'  : 2,
+	'March'     : 3,
+	'April'     : 4,
+	'May'       : 5,
+	'June'      : 6,
+	'July'      : 7,
+	'August'    : 8,
+	'September' : 9,
+	'October'   : 10,
+	'November'  : 11,
+	'December'  : 12,
 }
 num_to_month = {v:k for k,v in list(month_to_num.items())}
 
@@ -90,18 +90,18 @@ num_to_month = {v:k for k,v in list(month_to_num.items())}
 #------------------#
 
 def write_file(filename, data):
-    f = open(filename, 'w')
-    for line in data:
-        f.write(line+"\n")
-    f.close()
+	f = open(filename, 'w')
+	for line in data:
+		f.write(line+"\n")
+	f.close()
 
 def _to_numeric_dates(datelist):
-    """ Convert to Numeric Dates """
-    dates = []
-    for date in datelist:
-        (day,month,year) = date.split('-')
-        dates.append((year, month_to_num[month], day))
-    return dates
+	""" Convert to Numeric Dates """
+	dates = []
+	for date in datelist:
+		(day,month,year) = date.split('-')
+		dates.append((year, month_to_num[month], day))
+	return dates
 
 def _parse_title(nb):
 	""" 
@@ -165,7 +165,9 @@ for topic_num in sorted(doc_topic.keys()):
 					rst.append(nb_title_entry.format(title=nb['title'].strip("\n"), authors=nb['authors'], badge=pylang_inline.format(id=py_id)))
 				else:
 					rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['python'], authors=nb['authors'], badge=pylang_inline.format(id=py_id)))			
-				py_id += 1			
+				py_id += 1
+			else:
+				print("Please check the provided Jupyter nbviewer link (%s)"%nb['python'])			
 		except:
 			pass 							#No Python notebook defined in the YAML
 		#-Check for Julia Notebook-#
@@ -177,8 +179,10 @@ for topic_num in sorted(doc_topic.keys()):
 				else:
 					rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['julia'], authors=nb['authors'], badge=jllang_inline.format(id=jl_id)))			
 				jl_id += 1
+			else:
+				print("Please check the provided Jupyter nbviewer link (%s)"%nb['julia'])
 		except:
-			pass 							#No Python notebook defined in the YAML
+			pass 							#No Julia notebook defined in the YAML
 		#-Check for Subsection of Notebooks-#
 		if "subsection" in nb.keys():
 			#-Main Section Title-#
