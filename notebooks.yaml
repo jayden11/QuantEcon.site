@@ -30,7 +30,15 @@
 
 #TODO: Update Fake Dates
 
-1:
+1: 
+    topic: Game Theory
+    1: 
+        title: Tools for Game Theory
+        authors: Daisuke Oyama
+        date: 14-March-2016
+        python: http://github.com/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_py.ipynb
+
+2:
     topic: Working with Data
     1:
         title: Visualizing Data with Pandas and Matplotlib
@@ -38,7 +46,7 @@
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/pandas_and_matplotlib.ipynb
 
-2:
+3:
     topic: Dynamic Programming
     1:
         title: >
@@ -120,7 +128,7 @@
                     Section 7.6.5: Water Management
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb 
 
-3:
+4:
     topic: Econometrics
     1:
         title: Bayesian Estimation of a Univariate First Order Autoregression
@@ -128,7 +136,7 @@
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
 
-4:
+5:
     topic: General
     1:
         title: >
@@ -137,7 +145,7 @@
         date: 15-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb
 
-5:
+6:
     topic: Approximation
     1:
         title: Approximation Methods for the Lucas Asset Pricing Model 
@@ -163,7 +171,7 @@
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb
 
-7:
+8:
     topic: Dynamic Models
     1:
         title: >
