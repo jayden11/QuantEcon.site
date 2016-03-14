@@ -6,9 +6,9 @@ Author: Matthew McKay (mamckay@gmail.com)
 
 This script builds the notebook gallery rst files from the YAML notebooks.YAML file
 This allows different versions of the gallery to be built sorted by topic and date.
-It also adds python and julia icons that require tagged image directives. 
+It also adds python and julia icons that require tagged image directives.
 
-Notes 
+Notes
 -----
 1. Compute a simpler form that repeats different language notebooks (if dual language notebooks are implemented)
 
@@ -33,7 +33,7 @@ rst_file = """.. _{doc_name}:
     <p class="octopus"><a href="https://github.com/QuantEcon/QuantEcon.notebooks"><img src="_static/img/octopus.png" alt="GitHub logo"></a></p>
 
 **************************
-QuantEcon Notebook Gallery
+QuantEcon Open Notebook Archive
 **************************
 
 **Submissions**: See `Contributing a Jupyter Notebook <nb_contrib.html>`__ 
@@ -102,8 +102,8 @@ def _to_numeric_dates(datelist):
     return dates
 
 def _parse_title(nb):
-    """ 
-    Parse title to check if it needs to be constructed from pre and post text 
+    """
+    Parse title to check if it needs to be constructed from pre and post text
     """
     if type(nb['title']) == dict:
         title = nb['title']
@@ -134,7 +134,7 @@ def _build_subsection(subsection, py_id, jl_id):
             entries.append(nb_sub_listitem.format(title=entry['title'].strip("\n"), link=entry['julia'], badge=jllang_inline.format(id=jl_id)))
             jl_id += 1
     return entries, badges, py_id, jl_id
-    
+
 #-----------------------#
 #- Build RST Documents -#
 #-----------------------#
@@ -148,7 +148,7 @@ rst = [rst_file.format(doc_name="notebooks")]
 py_id, jl_id = 0, 0                                                 #Label ID
 #-Parse Topics-#
 for topic_num in sorted(doc_topic.keys()):
-    topic = doc_topic[topic_num] 
+    topic = doc_topic[topic_num]
     rst.append(topic['topic']+"\n"+"="*len(topic['topic'])+"\n")    #Write Topic Text
     #-Parse Notebooks-#
     nb_items = sorted([x for x in topic.keys() if type(x) == int])  #Get Integer Indexed Items
@@ -162,10 +162,10 @@ for topic_num in sorted(doc_topic.keys()):
                 if nb['title-constructed']:
                     rst.append(nb_title_entry.format(title=nb['title'].strip("\n"), authors=nb['authors'], badge=pylang_inline.format(id=py_id)))
                 else:
-                    rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['python'], authors=nb['authors'], badge=pylang_inline.format(id=py_id)))          
+                    rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['python'], authors=nb['authors'], badge=pylang_inline.format(id=py_id)))
                 py_id += 1
             else:
-                print("Please check the provided Jupyter nbviewer link (%s)"%nb['python'])          
+                print("Please check the provided Jupyter nbviewer link (%s)"%nb['python'])
         except:
             pass                            #No Python notebook defined in the YAML
         #-Check for Julia Notebook-#
@@ -175,7 +175,7 @@ for topic_num in sorted(doc_topic.keys()):
                 if nb['title-constructed']:
                     rst.append(nb_title_entry.format(title=nb['title'].strip("\n"), authors=nb['authors'], badge=jllang_inline.format(id=jl_id)))
                 else:
-                    rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['julia'], authors=nb['authors'], badge=jllang_inline.format(id=jl_id)))           
+                    rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb['julia'], authors=nb['authors'], badge=jllang_inline.format(id=jl_id)))
                 jl_id += 1
             else:
                 print("Please check the provided Jupyter nbviewer link (%s)"%nb['julia'])
@@ -212,8 +212,8 @@ write_file("notebooks.rst", rst)
 # nb_pre_link_post_entry = "* {pre} `{link_text} <{link}>`__ {post} - {authors}\n"
 # #-Subsections-#
 # nb_sub_entry = "\t#. `{title} <{link}>`__ [{pybadge} | {jlbadge}]\n"                  #No Author Here
-# nb_sub_entry_py = "\t#. `{title} <{link}>`__ [{pybadge}]\n" 
-# nb_sub_entry_jl = "\t#. `{title} <{link}>`__ [{jlbadge}]\n" 
+# nb_sub_entry_py = "\t#. `{title} <{link}>`__ [{pybadge}]\n"
+# nb_sub_entry_jl = "\t#. `{title} <{link}>`__ [{jlbadge}]\n"
 # #-Badges-#
 # py_lang_badge = """.. |python-{id}| image:: _static/images/python-icon.png
 #   :scale: 60 %
@@ -233,7 +233,7 @@ write_file("notebooks.rst", rst)
 # py_id, jl_id = 0, 0
 # #-Parse Topics-#
 # for topic_num in sorted(doc_topic.keys()):
-#   topic = doc_topic[topic_num] 
+#   topic = doc_topic[topic_num]
 #   rst.append(topic['topic']+"\n"+"="*len(topic['topic'])+"\n")    #Write Topic Text
 #   #-Parse Notebooks-#
 #   nb_items = sorted([x for x in topic.keys() if type(x) == int])  #Get Integer Indexed Items
@@ -245,12 +245,12 @@ write_file("notebooks.rst", rst)
 #               continue
 #           else:
 #               rst.append(py_lang_badge.format(id=py_id, link=nb["python"]))
-#               py_id += 1                      
+#               py_id += 1
 #       except:
 #           pass                            #Ok to except as if not defined in the YAML then likely an item with a subsection
 #       #-Check Julia Badge Requirements-#
 #       jl_notebook = False
-#       try: 
+#       try:
 #           if nb['julia'] != None:
 #               rst.append(jl_lang_badge.format(id=jl_id, link=nb['julia']))
 #               jl_id += 1
@@ -276,11 +276,11 @@ write_file("notebooks.rst", rst)
 #           for num in sorted(subsection.keys()):
 #               subsec = subsection[num]
 #               #-Check Notebook is a defined attribute-#
-#               if subsec['python'] == None:    #TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?) 
+#               if subsec['python'] == None:    #TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?)
 #                   continue
 #               else:
 #                   subsec_badges.append(py_lang_badge.format(id=py_id, link=subsec['python']))
-#                   py_id += 1 
+#                   py_id += 1
 #               #-Check if there is a Julia notebook for this entry-#
 #               jl_notebook = False
 #               if subsec['julia'] != None:
@@ -294,7 +294,7 @@ write_file("notebooks.rst", rst)
 #                   rst.append(nb_sub_entry_py.format(title=subsec['title'].strip("\n"), link=subsec['python'], pybadge=pylang_inline.format(id=py_id-1)))
 #               subsection_additions = True
 #           #-Check if any subsections were written-#
-#           if subsection_additions == False: 
+#           if subsection_additions == False:
 #               rst.pop()  #No valid subsections were added so popping the last entry forming a group
 #           else:
 #               rst = rst + subsec_badges
@@ -307,7 +307,7 @@ write_file("notebooks.rst", rst)
 # rst = [rst_file.format(doc_name="notebooks_jl")]
 # #-Parse Topics-#
 # for topic_num in sorted(doc_topic.keys()):
-#   topic = doc_topic[topic_num] 
+#   topic = doc_topic[topic_num]
 #   rst.append(topic['topic']+"\n"+"="*len(topic['topic'])+"\n")    #Write Topic Text
 #   #-Parse Notebooks-#
 #   nb_items = sorted([x for x in topic.keys() if type(x) == int])  #Get Integer Indexed Items
@@ -333,8 +333,8 @@ write_file("notebooks.rst", rst)
 #           for num in sorted(subsection.keys()):
 #               subsec = subsection[num]
 #               #-Check Notebook is a defined attribute-#
-#               if subsec['julia'] == None:     #TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?) 
-#                   continue        
+#               if subsec['julia'] == None:     #TODO: Make more robust with a regular expression to check for: http://nbviewer.jupyter.org (?)
+#                   continue
 #               rst.append(nb_sub_entry.format(title=subsec['title'].strip("\n"), link=subsec['julia']))
 #               subsection_additions = True
 #           if subsection_additions == False: rst.pop() #No valid subsections were added so popping the last entry forming a group
