@@ -36,9 +36,7 @@ rst_file = """.. _{doc_name}:
 QuantEcon Notebook Gallery
 **************************
 
-**Submissions**: To submit your `notebook <http://jupyter.org/>`_ as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__. 
-
-See `Contributing a Jupyter Notebook <nb_contrib.html>`__ for further details.
+**Submissions**: See `Contributing a Jupyter Notebook <nb_contrib.html>`__ 
 """
 
 #-Titles-#

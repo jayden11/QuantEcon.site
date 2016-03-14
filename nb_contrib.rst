@@ -1,5 +1,6 @@
 .. _nb_contrib:
 
+
 .. include:: org_banner.raw
 
 *******************************
@@ -9,9 +10,17 @@ Contributing a Jupyter Notebook
 Submissions
 ===========
 
-This is a curated list of Jupyter notebooks that pertain to Quantitative Economics. To submit your `notebook <http://jupyter.org/>`_ as a candidate for inclusion, please add it to `nbviewer <http://nbviewer.jupyter.org/>`__ and send us a link via `contact@quantecon.org <contact@quantecon.org>`__. 
+To submit your `notebook <http://jupyter.org/>`_ as a candidate for inclusion
+in the :doc:`notebook gallery <notebooks>`, please add it to `nbviewer
+<http://nbviewer.jupyter.org/>`__ and send us a link via
+`contact@quantecon.org <contact@quantecon.org>`__.  Below is a simple style
+guide to document how the repository is organised and what is the best way to
+construct your submission.
 
-Below is a simple style guide to document how the repository is organised and what is the best way to construct your submission. Once your Jupyter notebook has been reviewed and approved for inclusion (via nbviewer) - we will ask you to put together a **pull request** to the QuantEcon.notebooks `repo <https://github.com/QuantEcon/QuantEcon.notebooks>`_. If you are unfamiliar with **git** then feel free to let us know at `contact@quantecon.org <contact@quantecon.org>`__.
+Once your Jupyter notebook has been reviewed and approved for inclusion (via
+nbviewer) - we will ask you to put together a **pull request** to the
+QuantEcon.notebooks `repo <https://github.com/QuantEcon/QuantEcon.notebooks>`_. If you are unfamiliar
+with **git** then feel free to let us know at `contact@quantecon.org <contact@quantecon.org>`__.
 
 Style Guide
 ===========

@@ -38,64 +38,67 @@
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/pandas_and_matplotlib.ipynb
 
-2:
-    topic: Dynamic Programming
+2: 
+    topic: Heterogeneous Agent Models
     1:
         title: >
             Aiyagari (1994) in Continuous Time
         authors: SeHyoun Ahn and Benjamin Moll
         date: 17-February-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/aiyagari_continuous_time.ipynb
-    2:
+
+3:
+    topic: Dynamic Programming
+    1:
         title: A Problem that Stumped Milton Friedman
         authors: Chase Coleman and Thomas J. Sargent
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/Wald_Friedman.ipynb
-    3:
+    2:
         title: > 
             Discrete DP: Getting Started
         authors: Daisuke Oyama
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb
-    4:
+    3:
         title: >
             Discrete DP: Implementation Details (Python)
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb
-    5:
+    4:
         title: >
             Discrete DP: Implementation Details (Julia)
         authors: Daisuke Oyama
         date: 14-January-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_jl.ipynb
         notes: This entry is duplicated to specify language specific elements in the title
-    6:
+    5:
         title: >
             Discrete DP: Automobile Replacement
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_rust96_py.ipynb
-    7:
+    6:
         title: >
             Discrete DP: Modeling Career Choice
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_career_py.ipynb
-    8:
+    7:
         title: >
             Discrete DP: Job Search
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_jl.ipynb
-    9:
+    8:
         title: >
             Discrete DP: Discrete Optimal Growth Model
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb
-    10:
+    9:
         title:
             pre: Examples from
             link_text: Miranda and Fackler
@@ -120,7 +123,7 @@
                     Section 7.6.5: Water Management
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb 
 
-3:
+4:
     topic: Econometrics
     1:
         title: Bayesian Estimation of a Univariate First Order Autoregression
@@ -128,7 +131,7 @@
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
 
-4:
+5:
     topic: General
     1:
         title: >
@@ -137,7 +140,7 @@
         date: 15-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb
 
-5:
+6:
     topic: Approximation
     1:
         title: Approximation Methods for the Lucas Asset Pricing Model 
@@ -150,7 +153,7 @@
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/quadrature.ipynb
 
-6:
+7:
     topic: Algorithms
     1:
         title: Solving Initial Value Problems in QuantEcon.py
@@ -163,7 +166,7 @@
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb
 
-7:
+8:
     topic: Dynamic Models
     1:
         title: >
