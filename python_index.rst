@@ -43,7 +43,11 @@ Installation
 
 Before installing quantecon we recommend you install the `Anaconda
 <https://www.continuum.io/downloads>`__ Python distribution, which includes a
-full suite of scientific python tools.
+full suite of scientific python tools. **Note:** quantecon is now only
+supporting Python version 3.5+. This is mainly to allow code to be written
+taking full advantage of new features such as using the @ symbol for matrix
+multiplication. Therefore please install the latest Python 3 Anaconda
+distribution.
 
 Next you can install quantecon by opening a terminal prompt and typing
 
