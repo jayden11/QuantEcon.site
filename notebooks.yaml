@@ -36,7 +36,7 @@
         title: Tools for Game Theory
         authors: Daisuke Oyama
         date: 14-March-2016
-        python: http://github.com/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_py.ipynb
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_py.ipynb
 
 2:
     topic: Working with Data
