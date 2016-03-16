@@ -37,6 +37,7 @@
         authors: Daisuke Oyama
         date: 14-March-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_py.ipynb
+        julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_jl.ipynb
 
 2:
     topic: Working with Data
