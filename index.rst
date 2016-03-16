@@ -21,6 +21,7 @@
    sitemap
    developer_resources
    econometric_society_workshop
+   function_comparisons
 
 .. include:: org_banner.raw
 
