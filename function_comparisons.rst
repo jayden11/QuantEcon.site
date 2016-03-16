@@ -2,8 +2,11 @@
 
 .. include:: org_banner.raw
 
+========
 CompEcon
 ========
+
+.. .. contents:: :depth: 2
 
 One of the main projects we have talked about undertaking is porting
 much of the functionality from the CompEcon Matlab toolbox to Python
