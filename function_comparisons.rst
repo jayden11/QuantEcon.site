@@ -1,5 +1,10 @@
 .. _function_comparisons:
 
+.. include:: org_banner.raw
+
+CompEcon
+========
+
 One of the main projects we have talked about undertaking is porting
 much of the functionality from the CompEcon Matlab toolbox to Python
 and/or Julia.
@@ -7,12 +12,14 @@ and/or Julia.
 The CompEcon source comes with a file named ``Contents.m`` that breaks
 the functionality down into sections and then functions within each
 section. We will replicate this formatting here. In each section we will
-have a table that has 4 columns: (1) CompEcon function(ality) (2) short
-description of usage (3) where we can find it in the Python ecosystem
-and (4) where we can find it in the Julia ecosystem.
+have a table that has 4 columns: 
+  #. CompEcon function(ality)
+  #. short description of usage 
+  #. where we can find it in the Python ecosystem, and
+  #. where we can find it in the Julia ecosystem.
 
 ROOTFINDING AND OPTIMIZATION
-============================
+----------------------------
 
 In this section assume we have run the code:
 
@@ -76,7 +83,7 @@ thing to check is what kind of jacobian these methods accept: dense,
 sparse, serial (special case of sparse)
 
 Quadrature
-==========
+----------
 
 All quadrature routines have been directly ported to python and live in
 the ``quantecon.quad`` module.
@@ -112,7 +119,7 @@ For this reason, neither Python nor Julia columns are found below.
 +------------+--------------------------------------------------------------------------------+
 
 Function Approximation
-======================
+----------------------
 
 There are linear and cubic splines in ``dolo.numeric.interpolation``.
 
@@ -181,7 +188,7 @@ There are linear and cubic splines in ``dolo.numeric.interpolation``.
 +------------+-------------------------------------------------------------------------+----------+------------------------------------------------------------------------------------------------------+
 
 Discrete Time Dynamic Modeling
-==============================
+------------------------------
 
 +-------------+------------------------------------------------------------------------------------------+-------------------------------------+-------------------------------------------------------------------+
 | CompEcon    | Usage                                                                                    | Python                              | Julia                                                             |
@@ -222,7 +229,7 @@ Possibly relevant too, by Pierre Haessig:
 `stodynprog <https://github.com/pierre-haessig/stodynprog>`__
 
 ODE Solvers and Continuous time Dynamic Modeling
-================================================
+------------------------------------------------
 
 +-----------------+------------------------------------------------------------------+----------+---------+
 | CompEcon        | Usage                                                            | Python   | Julia   |
@@ -253,7 +260,7 @@ ODE Solvers and Continuous time Dynamic Modeling
 +-----------------+------------------------------------------------------------------+----------+---------+
 
 Utilities
-=========
+---------
 
 +-------------+-------------------------------------------------------------------+----------+-------------------------+
 | CompEcon    | Usage                                                             | Python   | Julia                   |
@@ -292,7 +299,7 @@ Utilities
 +-------------+-------------------------------------------------------------------+----------+-------------------------+
 
 Special Functions and Misc
-==========================
+--------------------------
 
 +------------+--------------------------------------------------------------+--------------------------------------------------------+----------------------------------------------+
 | CompEcon   | Usage                                                        | Python                                                 | Julia                                        |
