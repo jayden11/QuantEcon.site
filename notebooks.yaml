@@ -40,14 +40,32 @@
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_jl.ipynb
 
 2:
+    topic: Econometrics
+    1:
+        title: A Quick Start Introduction to Stan for Economists
+        authors: Jim Savage
+        date: 23-March-2016
+        r: http://github.com/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb
+    2:
+        title: Bayesian Estimation of a Univariate First Order Autoregression
+        authors: David Evans, Chase Coleman, and Thomas Sargent
+        date: 14-January-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
+
+3:
     topic: Working with Data
     1:
         title: Visualizing Data with Pandas and Matplotlib
         authors: David Backus
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/pandas_and_matplotlib.ipynb
+    2:
+        title: Demography (Data Bootcamp)
+        authors: David Backus, Chase Coleman, and Spencer Lyon
+        date: 23-March-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/UN_demography.ipynb
 
-3:
+4:
     topic: Dynamic Programming
     1:
         title: >
@@ -56,7 +74,7 @@
         date: 17-February-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/aiyagari_continuous_time.ipynb
 
-4:
+5:
     topic: Dynamic Programming
     1:
         title: A Problem that Stumped Milton Friedman
@@ -131,14 +149,6 @@
                 title: >
                     Section 7.6.5: Water Management
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb 
-
-5:
-    topic: Econometrics
-    1:
-        title: Bayesian Estimation of a Univariate First Order Autoregression
-        authors: David Evans, Chase Coleman, and Thomas Sargent
-        date: 14-January-2016
-        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
 
 6:
     topic: General
