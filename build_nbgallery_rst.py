@@ -32,9 +32,9 @@ rst_file = """.. _{doc_name}:
 
     <p class="octopus"><a href="https://github.com/QuantEcon/QuantEcon.notebooks"><img src="_static/img/octopus.png" alt="GitHub logo"></a></p>
 
-**************************
+********************************
 QuantEcon Open Notebook Archive
-**************************
+********************************
 
 **Submissions**: See `Contributing a Jupyter Notebook <nb_contrib.html>`__ 
 """
@@ -52,16 +52,24 @@ nb_sub_title_entry = "* {title} - {authors}\n"                              #No 
 nb_sub_listitem = "\t#. `{title} <{link}>`__ {badge}\n"                     #No Author Here
 
 #-Badges-#
+#Python#
 pylang_badge = """.. |python-{id}| image:: _static/images/python-icon.png
     :scale: 60 %
     :target: {link}
 """
 pylang_inline = "|python-{id}|"
+#Julia#
 jllang_badge = """.. |julia-{id}| image:: _static/images/julia-symbol-icon.png
     :scale: 60 %
     :target: {link}
 """
 jllang_inline = "|julia-{id}|"
+#R#
+rlang_badge = """.. |r-{id}| image:: _static/images/r-icon.png
+    :scale: 60 %
+    :target: {link}
+"""
+rlang_inline = "|r-{id}|"
 
 #------------#
 #-Month Data-#
@@ -114,7 +122,7 @@ def _parse_title(nb):
     else:
         nb['title-constructed'] = False
 
-def _build_subsection(subsection, py_id, jl_id):
+def _build_subsection(subsection, py_id, jl_id, r_id):
     """
     Build a numerated sub-section list for grouped notebooks
     """
@@ -133,7 +141,12 @@ def _build_subsection(subsection, py_id, jl_id):
             badges.append(badge)
             entries.append(nb_sub_listitem.format(title=entry['title'].strip("\n"), link=entry['julia'], badge=jllang_inline.format(id=jl_id)))
             jl_id += 1
-    return entries, badges, py_id, jl_id
+        if "r" in entry.keys():
+            badge = rlang_badge.format(id=r_id, link=entry["r"])
+            badges.append(badge)
+            entries.append(nb_sub_listitem.format(title=entry['title'].strip("\n"), link=entry['r'], badge=rlang_inline.format(id=r_id)))
+            r_id += 1           
+    return entries, badges, py_id, jl_id, r_id
 
 #-----------------------#
 #- Build RST Documents -#
@@ -145,7 +158,7 @@ doc_topic = yaml.load(fl)
 
 #-Document: notebooks.rst organised by Topic-#
 rst = [rst_file.format(doc_name="notebooks")]
-py_id, jl_id = 0, 0                                                 #Label ID
+py_id, jl_id, r_id = 0, 0, 0                                                 #Label ID
 #-Parse Topics-#
 for topic_num in sorted(doc_topic.keys()):
     topic = doc_topic[topic_num]
@@ -181,6 +194,19 @@ for topic_num in sorted(doc_topic.keys()):
                 print("Please check the provided Jupyter nbviewer link (%s)"%nb['julia'])
         except:
             pass                            #No Julia notebook defined in the YAML
+        #-Check for R Notebook-#
+        try:
+            if re.search(r"http://", nb['r']):
+                rst.append(rlang_badge.format(id=r_id, link=nb["r"]))
+                if nb['title-constructed']:
+                    rst.append(nb_title_entry.format(title=nb['title'].strip("\n"), authors=nb['authors'], badge=rlang_inline.format(id=r_id)))
+                else:
+                    rst.append(nb_entry.format(title=nb['title'].strip("\n"), link=nb["r"], authors=nb['authors'], badge=rlang_inline.format(id=r_id)))
+                r_id += 1
+            else:
+                print("Please check the provided Jupyter nbviewer link (%s)"%nb['r'])
+        except:
+            pass                            #No R notebook defined in the YAML
         #-Check for Subsection of Notebooks-#
         if "subsection" in nb.keys():
             #-Main Section Title-#
@@ -190,7 +216,7 @@ for topic_num in sorted(doc_topic.keys()):
                 rst.append(nb_sub_entry.format(title=nb['title'], link=nb['python'], authors=nb['authors']))
             #-Construct Numerated List-#
             subsection = nb['subsection']
-            entries, badges, py_id, jl_id = _build_subsection(nb['subsection'], py_id, jl_id)
+            entries, badges, py_id, jl_id, r_id = _build_subsection(nb['subsection'], py_id, jl_id, r_id)
             rst = rst + entries + badges
 #-Write File-#
 write_file("notebooks.rst", rst)
