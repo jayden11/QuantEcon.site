@@ -45,7 +45,7 @@
         title: A Quick Start Introduction to Stan for Economists
         authors: Jim Savage
         date: 23-March-2016
-        r: http://github.com/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb
+        r: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb
     2:
         title: Bayesian Estimation of a Univariate First Order Autoregression
         authors: David Evans, Chase Coleman, and Thomas Sargent
