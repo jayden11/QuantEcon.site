@@ -32,9 +32,15 @@
 
     <p>QuantEcon is an organization dedicated to improving economic modeling by enhancing the coding skills and computational tool set of economists through development of and exposure to modern open source computational methods for research, econometrics, and decision making.</p>  
 
-    <p>QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a> and is a <a href="http://www.numfocus.org/">NumFocus</a> fiscsally sponsored project.</p>
+    <p>QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a> and is a <a href="http://www.numfocus.org/">NumFOCUS</a> fiscally sponsored project.</p>
 
     <ul id="coa-home">
+        <li>
+            <a href="http://quant-econ.net/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Lecture Site')">
+                <p class="thumb"><img src="_static/img/qeco-logo.png" alt=" " /></p>
+                <p class="title">Lecture Site</p>
+            </a>
+        </li>
         <li>
             <a href="python_index.html" onclick="ga('send', 'event', 'Click', 'CallToAction', 'About')">
                 <p class="thumb"><img src="_static/img/py-symbol.png" alt=" " /></p>
@@ -53,11 +59,6 @@
                 <p class="title">Notebook Gallery</p>
             </a>
         </li>
-        <li>
-            <a href="http://quant-econ.net/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Lecture Site')">
-                <p class="thumb"><img src="_static/img/qeco-logo.png" alt=" " /></p>
-                <p class="title">Lecture Site</p>
-            </a>
-        </li>
+
     </ul>
 
