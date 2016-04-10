@@ -52,6 +52,7 @@ Topics covered in the course will include
 
   * Income fluctuation and household savings problems
 
+  * `Dolo modeling language <http://dolo.readthedocs.org/en/doc/>`_
 
 Please register your interest in the workshop with `Mark Wright <https://www.chicagofed.org/people/w/wright-mark>`_.
 
