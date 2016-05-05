@@ -11,8 +11,22 @@ A Workshop at the Federal Reserve Bank of Chicago
 
 **Dates**: 23rd--25th May, 2016
 
-Presenters: `Chase Coleman <https://github.com/cc7768>`_, `Matthew McKay <https://github.com/mmcky>`_
-`John Stachurski <http://johnstachurski.net/>`_, and `Pablo Winant <https://github.com/albop>`_
+Presenters: 
+^^^^^^^^^^^
+
+* `Chase Coleman <https://github.com/cc7768>`_ (NYU PhD student and RA for `QuantEcon <http://quantecon.org/>`_)
+  
+* `Matthew McKay <https://github.com/mmcky>`_ (NYU Postdoctoral Fellow)
+
+* `Viral Shah <https://github.com/ViralBShah>`_ (Julia Computing, Co-creator of `Julia <http://julialang.org/>`_)
+
+* `John Stachurski <http://johnstachurski.net/>`_ (NYU and ANU, co-author of `quant-econ.net <http://quant-econ.net/>`_)
+  
+* `Pablo Winant <https://github.com/albop>`_ (Bank of England, author of `Dolo <http://dolo.readthedocs.org/en/doc/>`_)
+
+
+Summary: 
+^^^^^^^^^^^
 
 `Python <https://www.python.org/>`_ and `Julia <http://julialang.org/>`_ are
 are attracting rapidly growing interest as languages for scientific computing
@@ -29,6 +43,9 @@ Much of the content will be based on lectures from `quant-econ.net
 <http://quant-econ.net>`__.  The workshop will be hands on and centered around
 a combination of lectures and exercises.  Participants are asked to bring laptops.  Further
 instructions will be given closer to the date.
+
+Topics:
+^^^^^^^
 
 Topics covered in the course will include
 
@@ -53,6 +70,10 @@ Topics covered in the course will include
   * Income fluctuation and household savings problems
 
   * `Dolo modeling language <http://dolo.readthedocs.org/en/doc/>`_
+
+
+Contacts
+^^^^^^^^^
 
 Please register your interest in the workshop with `Mark Wright <https://www.chicagofed.org/people/w/wright-mark>`_.
 
