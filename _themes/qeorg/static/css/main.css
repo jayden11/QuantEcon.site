@@ -187,7 +187,7 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 
 .headerlink {display:none !important;} 
 
-@media only screen and (min-width: 681px) {
+@media only screen and (min-width: 1001px) {
 	#top-nav ul {list-style: none;margin:0;padding:0;}
 	#top-nav li {float:left;width:16.6%;margin:0;text-align:center;position: relative;}
 	#top-nav a {text-decoration: none;color:#fff;display: block;outline: 0;padding:10px 0;}
@@ -201,7 +201,7 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 	#top-nav .sub ul a {padding:0.5em 10px;background:#fff;color:#333;}
 	#top-nav .sub ul a:hover {background:#e6e6e6;}
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 1000px) {
 	body {min-width:0;}
 	.container {width:auto;}
 	#wrapper {min-width:0;}
@@ -217,6 +217,8 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 	#header {text-align:center;}
 	#sponsor {position: static;margin-bottom:0;}
 	#coa li {width:auto;float:none;margin-left:0;}
+	#coa-home {text-align:center;}
+	#coa-home li {width: 200px;margin: 0 auto !important;float:none;display:inline-block;}
 	#footer {min-width:0;text-align:center;}
 	#footer ul {float:none;}
 	#footer li {padding:0 10px;margin:0;display:inline;}
