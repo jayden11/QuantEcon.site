@@ -84,7 +84,7 @@
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/UN_demography.ipynb
 
 5:
-    topic: Dynamic Programming
+    topic: Dynamic Programming in Continuous Time
     1:
         title: >
             Aiyagari (1994) in Continuous Time
@@ -167,6 +167,10 @@
                 title: >
                     Section 7.6.5: Water Management
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb 
+            5:
+                title: >
+                    Section 7.6.6:  Bioeconomics 
+                python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_6_py.ipynb 
 
 7:
     topic: General
@@ -216,3 +220,8 @@
         authors: Chase Coleman and Thomas Sargent
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/permanent_income.ipynb
+    3:
+        title: Perfect Foresight Experiments with Dolo
+        authors: Spencer Lyon and Pablo Winant 
+        date:
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/rmt3_ch11.ipynb
