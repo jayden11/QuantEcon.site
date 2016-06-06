@@ -36,6 +36,7 @@ To install Anaconda please visit: https://www.continuum.io/downloads and follow 
 1. Click on https://www.continuum.io/downloads
 2. Choose the **Python 3.5** download that matches the operating system on your computer (Windows / OS X / Linux).
 3. Follow the instructions that are provided immediately below the download link on the anaconda download page.
+4. When the installer asks you to add **anaconda** to your **path**. Please ensure that the checkbox is ticked. 
 
 Installing Julia
 ================
