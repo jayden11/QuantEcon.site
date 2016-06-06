@@ -26,16 +26,16 @@ Installing Python
 =================
 
 To install Python we recommend installing the `Anaconda <https://www.continuum.io/downloads>`__ Python distribution. 
-Anaconda will be discussed during the workshop, and in essence, is an easy way to install a full scientific 
+Anaconda will be discussed during the workshop and, in essence, is an easy way to install a full scientific 
 software stack along with a great way to manage various Python packages. 
 
 To install Anaconda please visit: https://www.continuum.io/downloads and follow the on-screen instructions.
 
-    We recommend installing Python 3.5
+**We recommend installing Python 3.5**
 
 1. Click on https://www.continuum.io/downloads
 2. Choose the **Python 3.5** download that matches the operating system on your computer (Windows / OS X / Linux).
-3. Once downloaded follow the instructions that are provided immediately below the download link on the anaconda download page.
+3. Follow the instructions that are provided immediately below the download link on the anaconda download page.
 
 Installing Julia
 ================
@@ -43,7 +43,7 @@ Installing Julia
 To install Julia we recommend installing Julia from the `Julia downloads <http://julialang.org/downloads/>`__ page. 
 
 1. Click on http://julialang.org/downloads/
-2. Choose the download for the operating system on your computer (Windows 64-bit etc.)
+2. Choose the download that matches the operating system on your computer (i.e. Windows 64-bit etc.)
 3. Once downloaded following the instructions provided on the `Julia platform specific instructions page <http://julialang.org/downloads/platform.html>`__.
 
 Once you have Julia installed you will want to test your Julia installation by:
@@ -51,7 +51,7 @@ Once you have Julia installed you will want to test your Julia installation by:
 1. Open a terminal (OS X / Linux) or command line window (Windows)
 2. Type **julia** at the prompt
 
-Once you see a Julia prompt you will want to install IJulia which will allow you to use Julia in Jupyter Notebooks.
+Once you see a Julia prompt you will want to install the IJulia package which will allow you to use Julia in Jupyter Notebooks.
 
 1. Pkg.add("IJulia")
 2. using IJulia
