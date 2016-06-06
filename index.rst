@@ -66,4 +66,4 @@
     <br>
     <h3>News:</h3> 
     
-    <p>Over May 23-25, QuantEcon and the Federal Reserve Bank of Chicago will be holding a <a href="http://quantecon.org/chicago_fed_workshop.html">workshop on scientific computing</a> in economics with Python and Julia. </p>
+    <p>On June 16, QuantEcon and the Econometric Society are providing a <a href="http://quantecon.org/econometric_society_workshop.html">workshop on scientific computing in economics with Python and Julia</a> at the North American Summer Meeting of the Econometric Society</p>
