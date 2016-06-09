@@ -68,3 +68,14 @@ To install it, type the following at the Julia prompt.
 
 1. Pkg.add("IJulia")
 2. using IJulia
+
+
+Downloads 
+---------------------------
+
+During the workshop and after, the documents and resources we use will be
+accessible from 
+
+* https://github.com/QuantEcon/emet_summer_workshop
+
+To access the files, either `use git <https://git-scm.com/>`_ or click "download ZIP"
