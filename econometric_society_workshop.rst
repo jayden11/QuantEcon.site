@@ -23,8 +23,8 @@ Please register for the workshop through the conference registration system.
  
 
 
-Instructions for Attendees
-============================
+Installing Software
+----------------------
 
 Although it's not essential, we request that attendees at
 least attempt to install the necessary software prior to the workshop.
@@ -33,7 +33,7 @@ available on the day.
 
 
 Installing Python
-------------------
+^^^^^^^^^^^^^^^^^^^
 
 To install Python we recommend installing the **Python 3.5** version of the `Anaconda <https://www.continuum.io/downloads>`__ Python distribution. 
 Anaconda will be discussed during the workshop and, in essence, is an easy way to install a full scientific 
@@ -50,7 +50,7 @@ To install Anaconda,
 
 
 Installing Julia
------------------
+^^^^^^^^^^^^^^^^^^^^
 
 We recommend installing Julia from the `Julia downloads <http://julialang.org/downloads/>`__ page. 
 
@@ -70,12 +70,18 @@ To install it, type the following at the Julia prompt.
 2. using IJulia
 
 
-Downloads 
----------------------------
+Other Software and Resources
+----------------------------
 
-During the workshop and after, the documents and resources we use will be
-accessible from 
+Here are some links that should be useful during and after the workshop
 
-* https://github.com/QuantEcon/emet_summer_workshop
+* The documents used during the workshop will be available from the `workshop GitHub repository <https://github.com/QuantEcon/emet_summer_workshop>`_
 
-To access the files, either `use git <https://git-scm.com/>`_ or click "download ZIP"
+* The `QuantEcon org site <http://quantecon.org/index.html>`_ has links to lectures and code libraries
+
+* A `Scientific Python cheatsheet <https://ipgp.github.io/scientific_python_cheat_sheet/>`_ that also covers basic Python
+
+* A `cheatsheet for working with arrays <http://sebastianraschka.com/blog/2014/matrix_cheatsheet_table.html>`_ connecting MATLAB, Python, R and Julia
+
+* A `Julia cheatsheet <https://dl.dropboxusercontent.com/u/8252984/julia.html>`_
+
