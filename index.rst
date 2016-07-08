@@ -30,9 +30,17 @@
 
     <br>
 
-    <p>QuantEcon is an organization dedicated to improving economic modeling by enhancing the coding skills and computational tool set of economists through development of and exposure to modern open source computational methods for research, econometrics, and decision making.</p>  
+    <p>QuantEcon is a <a
+    href="http://www.numfocus.org/">NumFOCUS</a> fiscally
+    sponsored project dedicated to development and documentation
+    of modern open source computational tools for economics, econometrics, and
+    decision making.  QuantEcon is currently funded by the <a
+    href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>.  We welcome
+    <a href="http://quantecon.org/get_involved.html"> contributions</a> and
+    collaboration from the economics community and other partner
+    organizations.
+    </p>
 
-    <p>QuantEcon is supported financially by the <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a> and is a <a href="http://www.numfocus.org/">NumFOCUS</a> fiscally sponsored project.</p>
 
     <ul id="coa-home">
         <li>
@@ -62,8 +70,3 @@
 
     </ul>
 
-    <br>
-    <br>
-    <h3>News:</h3> 
-    
-    <p>On June 16, QuantEcon and the Econometric Society are providing a <a href="http://quantecon.org/econometric_society_workshop.html">workshop on scientific computing in economics with Python and Julia</a> at the North American Summer Meeting of the Econometric Society</p>
