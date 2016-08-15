@@ -31,6 +31,29 @@
 #TODO: Update Fake Dates
 
 1:
+    topic: Econometrics
+    1: 
+        title: Implementing and vectorizing a Maximum Likelihood model with scipy
+        authors: Matt Ranger
+        date: 15-August-2016
+        python: http://nbviewer.jupyter.org/github/VHRanger/MLE-tutorial/blob/master/Implementing%20and%20vectorizing%20a%20Maximum%20Likelihood%20model%20with%20scipy--1.ipynb
+    2: 
+        title: Estimating simple regression models in Julia
+        authors: Tyler Ransom 
+        date: 06-April-2016
+        julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/regression_models.ipynb
+    3:
+        title: A Quick Start Introduction to Stan for Economists
+        authors: Jim Savage
+        date: 23-March-2016
+        r: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb
+    4:
+        title: Bayesian Estimation of a Univariate First Order Autoregression
+        authors: David Evans, Chase Coleman, and Thomas Sargent
+        date: 14-January-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
+
+2:
     topic: Optimization
     1:
         title: Nonlinear optimization using JuMP (Julia for Mathematical Programming)
@@ -38,7 +61,7 @@
         date: 06-April-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/jump_optimization.ipynb
 
-2: 
+3: 
     topic: Game Theory
     1: 
         title: Tools for Game Theory
@@ -47,23 +70,6 @@
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_py.ipynb
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_jl.ipynb
 
-3:
-    topic: Econometrics
-    1: 
-        title: Estimating simple regression models in Julia
-        authors: Tyler Ransom 
-        date: 06-April-2016
-        julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/regression_models.ipynb
-    2:
-        title: A Quick Start Introduction to Stan for Economists
-        authors: Jim Savage
-        date: 23-March-2016
-        r: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb
-    3:
-        title: Bayesian Estimation of a Univariate First Order Autoregression
-        authors: David Evans, Chase Coleman, and Thomas Sargent
-        date: 14-January-2016
-        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
 
 4:
     topic: Working with Data
