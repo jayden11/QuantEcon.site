@@ -22,8 +22,8 @@ Steering Committee
 Lead Developers
 ===============
 
-* `Chase Coleman <https://github.com/cc7768>`_
-* `Spencer Lyon <https://github.com/spencerlyon2>`_
+* `Chase Coleman <http://www.chasegcoleman.com/>`_
+* `Spencer Lyon <http://spencerlyon.com/>`_
 * `David Pugh <http://www.linkedin.com/in/davidrpugh>`_
 * `Daisuke Oyama <http://www.oyama.e.u-tokyo.ac.jp/>`_
 * `Pablo Winant <http://www.mosphere.fr/>`_
