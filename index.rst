@@ -44,7 +44,7 @@
 
     <ul id="coa-home">
         <li>
-            <a href="http://quant-econ.net/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Lecture Site')">
+            <a href="http://lectures.quantecon.org/" onclick="ga('send', 'event', 'Click', 'CallToAction', 'Lecture Site')">
                 <p class="thumb"><img src="_static/img/qeco-logo.png" alt=" " /></p>
                 <p class="title">Lecture Site</p>
             </a>
