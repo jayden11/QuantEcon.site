@@ -14,7 +14,6 @@ Steering Committee
 ==================
 
 * `Susan Athey <https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey>`_
-* `David Backus <http://people.stern.nyu.edu/dbackus/>`_
 * `Sagiri Kitao <https://sites.google.com/site/sagirikitao/>`_
 * `Matthew McKay <https://crawford.anu.edu.au/people/phd/matthew-mckay>`_
 * `John Stachurski <http://johnstachurski.net/>`_
@@ -34,3 +33,8 @@ Contact
 =======
 
 Send feedback to `contact\@quantecon.org <contact@quantecon.org>`_
+
+Previous Steering Committee Members
+===================================
+
+* `David Backus <http://people.stern.nyu.edu/dbackus/>`_
