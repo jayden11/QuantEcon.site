@@ -60,6 +60,11 @@
         authors: Tyler Ransom
         date: 06-April-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/jump_optimization.ipynb
+    2:
+        title: A von Neumann growth model
+        authors: Thomas J. Sargent and Balint Skoze
+        date: 19-October-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/von_neumann_model.ipynb
 
 3: 
     topic: Game Theory
