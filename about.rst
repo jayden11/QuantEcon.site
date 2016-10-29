@@ -14,16 +14,17 @@ Steering Committee
 ==================
 
 * `Susan Athey <https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey>`_
-* `David Backus <http://people.stern.nyu.edu/dbackus/>`_
+* `Sagiri Kitao <https://sites.google.com/site/sagirikitao/>`_
 * `Matthew McKay <https://crawford.anu.edu.au/people/phd/matthew-mckay>`_
 * `John Stachurski <http://johnstachurski.net/>`_
 * `Thomas J. Sargent <http://www.tomsargent.com/>`_
+* `Sevin Yeltekin <http://tepper.cmu.edu/our-faculty-and-research/about-our-faculty/faculty-profiles/sevin/yeltekin-sevin>`_
 
 Lead Developers
 ===============
 
-* `Chase Coleman <https://github.com/cc7768>`_
-* `Spencer Lyon <https://github.com/spencerlyon2>`_
+* `Chase Coleman <http://www.chasegcoleman.com/>`_
+* `Spencer Lyon <http://spencerlyon.com/>`_
 * `David Pugh <http://www.linkedin.com/in/davidrpugh>`_
 * `Daisuke Oyama <http://www.oyama.e.u-tokyo.ac.jp/>`_
 * `Pablo Winant <http://www.mosphere.fr/>`_
@@ -32,3 +33,8 @@ Contact
 =======
 
 Send feedback to `contact\@quantecon.org <contact@quantecon.org>`_
+
+Previous Steering Committee Members
+===================================
+
+* `David Backus <http://people.stern.nyu.edu/dbackus/>`_
