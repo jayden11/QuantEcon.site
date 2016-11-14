@@ -106,55 +106,65 @@
 6:
     topic: Dynamic Programming
     1:
+        title: How to pay for a war, part 1
+        authors: Sebastian Graves and Thomas J. Sargent
+        date: 15-November-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/TaxSmoothing/blob/master/Tax_Smoothing_1.ipynb
+    2:
+        title: How to pay for a war, part 2
+        authors: Sebastian Graves and Thomas J. Sargent
+        date: 15-November-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/TaxSmoothing/blob/master/Tax_Smoothing_2.ipynb
+    3:
         title: A Problem that Stumped Milton Friedman
         authors: Chase Coleman and Thomas J. Sargent
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/Wald_Friedman.ipynb
-    2:
+    4:
         title: > 
             Discrete DP: Getting Started
         authors: Daisuke Oyama
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb
-    3:
+    5:
         title: >
             Discrete DP: Implementation Details (Python)
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb
-    4:
+    6:
         title: >
             Discrete DP: Implementation Details (Julia)
         authors: Daisuke Oyama
         date: 14-January-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_jl.ipynb
         notes: This entry is duplicated to specify language specific elements in the title
-    5:
+    7:
         title: >
             Discrete DP: Automobile Replacement
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_rust96_py.ipynb
-    6:
+    8:
         title: >
             Discrete DP: Modeling Career Choice
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_career_py.ipynb
-    7:
+    9:
         title: >
             Discrete DP: Job Search
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_jl.ipynb
-    8:
+    10:
         title: >
             Discrete DP: Discrete Optimal Growth Model
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb
-    9:
+    11:
         title:
             pre: Examples from
             link_text: Miranda and Fackler
