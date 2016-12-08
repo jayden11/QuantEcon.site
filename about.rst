@@ -15,7 +15,7 @@ Steering Committee
 
 * `Susan Athey <https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey>`_
 * `Sagiri Kitao <https://sites.google.com/site/sagirikitao/>`_
-* `Matthew McKay <https://crawford.anu.edu.au/people/phd/matthew-mckay>`_
+* `Matthew McKay <https://github.com/mmcky>`_
 * `John Stachurski <http://johnstachurski.net/>`_
 * `Thomas J. Sargent <http://www.tomsargent.com/>`_
 * `Sevin Yeltekin <http://tepper.cmu.edu/our-faculty-and-research/about-our-faculty/faculty-profiles/sevin/yeltekin-sevin>`_
