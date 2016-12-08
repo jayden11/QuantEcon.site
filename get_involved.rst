@@ -18,7 +18,7 @@ are welcome.  There are several ways you can get involved:
 
 #. `Write a notebook <nb_contrib.html>`__ ( `notebook gallery <notebooks.html>`__ )
 
-#. `Start a discussion <https://groups.google.com/forum/#!forum/quantecon>`__
+#. `Start a discussion <http://discourse.quantecon.org>`__
 
 #. Report a bug or request a feature ( `Python library <https://github.com/QuantEcon/QuantEcon.py/issues>`__ / `Julia library <https://github.com/QuantEcon/QuantEcon.jl/issues>`__ )
 

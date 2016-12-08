@@ -130,6 +130,8 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 
 #site-tag {font-size: 1.1em;margin:0;margin: 0;}
 
+#repo-link {position: absolute;top: 25px;right: 215px;}
+
 #sponsor {position: absolute;top: 15px;right: 40px;}
 #sponsor img {}
 
@@ -215,6 +217,7 @@ pre {padding: 16px;overflow: auto;background-color: #f7f7f7;border-radius: 3px;}
 	#top-nav ul ul {padding:0 0 0 40px;margin:0;}
 	#top-nav ul ul a {padding:5px 0;}
 	#header {text-align:center;}
+	#repo-link {position: static;margin-bottom:0;}
 	#sponsor {position: static;margin-bottom:0;}
 	#coa li {width:auto;float:none;margin-left:0;}
 	#coa-home {text-align:center;}
