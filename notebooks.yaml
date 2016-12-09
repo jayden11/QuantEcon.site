@@ -31,23 +31,28 @@
 #TODO: Update Fake Dates
 
 1:
-    topic: Econometrics
+    topic: Econometrics and Financial Economics
     1: 
-        title: Implementing and vectorizing a Maximum Likelihood model with scipy
+        title: Two modifications of mean-variance portfolio theory 
+        authors: Daniel Csaba, Thomas J. Sargent and Balint Szoke
+        date: 10-December-2016
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/black_litterman.ipynb
+    2: 
+        title: Implementing and vectorizing a maximum likelihood model with SciPy
         authors: Matt Ranger
         date: 15-August-2016
         python: http://nbviewer.jupyter.org/github/VHRanger/MLE-tutorial/blob/master/Implementing%20and%20vectorizing%20a%20Maximum%20Likelihood%20model%20with%20scipy--1.ipynb
-    2: 
+    3: 
         title: Estimating simple regression models in Julia
         authors: Tyler Ransom 
         date: 06-April-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/regression_models.ipynb
-    3:
+    4:
         title: A Quick Start Introduction to Stan for Economists
         authors: Jim Savage
         date: 23-March-2016
         r: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb
-    4:
+    5:
         title: Bayesian Estimation of a Univariate First Order Autoregression
         authors: David Evans, Chase Coleman, and Thomas Sargent
         date: 14-January-2016
