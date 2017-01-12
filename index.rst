@@ -70,3 +70,7 @@
 
     </ul>
 
+**QuantEcon is hiring in 2017.** Position descriptions are now available for a `PostDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing>`_ and a `PreDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iRVVnODM1NmdqcE0/view?usp=sharing>`_. 
+
+Please send any expressions of interest to contact@quantecon.org
+
