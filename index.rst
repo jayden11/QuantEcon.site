@@ -70,7 +70,17 @@
 
     </ul>
 
-**QuantEcon is hiring in 2017.** Position descriptions are now available for a `PostDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing>`_ and a `PreDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iRVVnODM1NmdqcE0/view?usp=sharing>`_. 
 
-Please send any expressions of interest to contact@quantecon.org
+.. raw:: html
+	
+	<br>
+	<hr>
+
+**QuantEcon is hiring in 2017.** 
+
+.. raw:: html
+	
+	<hr>
+
+Position descriptions are now available for a `PostDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing>`_ and a `PreDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iRVVnODM1NmdqcE0/view?usp=sharing>`_. These positions are based at The Australian National University (ANU) in Canberra, Australia. Please send any expressions of interest to contact@quantecon.org
 
