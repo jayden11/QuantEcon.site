@@ -73,7 +73,6 @@
 
 .. raw:: html
 	
-	<br>
 	<hr>
 
 **QuantEcon is hiring in 2017.** 
