@@ -52,8 +52,6 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 setup:
-	@echo "Running python tasks.py ..."
-	python tasks.py
 	@echo "Checking git submodules ..."
 	git submodule init
 	git submodule update
@@ -67,8 +65,8 @@ update:
 news:
 	@echo "[QuantEcon.news] Building HTML and RST News Pages from news.yaml"
 	cd _static/QuantEcon.news && make news	
-	cp ./_static/QuantEcon.news/org_site/news.rst ./news/
-	cp ./_static/QuantEcon.news/org_site/news_snippet.html ./news/
+	cp ./_static/QuantEcon.news/org_site/news.rst ./
+	cp ./_static/QuantEcon.news/org_site/news_snippet.html ./
 
 html:
 	@echo "Constructing news snippets from QuantEcon.news ..."

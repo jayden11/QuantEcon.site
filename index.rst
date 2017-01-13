@@ -72,7 +72,7 @@
     </ul>
 
 .. raw:: html
-  :file: news/news_snippet.html
+  :file: news_snippet.html
 
 
 

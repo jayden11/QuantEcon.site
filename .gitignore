@@ -1,6 +1,7 @@
 _build/
 _backup/
-news/
+news.rst
+news_snippet.html
 
 *.pyc
 
