@@ -54,6 +54,9 @@ clean:
 setup:
 	@echo "Running python tasks.py ..."
 	python tasks.py
+	@echo "Checking git submodules ..."
+	git submodule init
+	git submodule update
 
 update:
 	@echo "Updating git submodules ..."
