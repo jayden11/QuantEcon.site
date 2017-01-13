@@ -69,6 +69,7 @@ news:
 
 html:
 	@echo "Constructing news snippets from QuantEcon.news ..."
+	make update
 	make news
 	@echo
 	@echo "Building notebooks pages from notebooks.yaml ..."
