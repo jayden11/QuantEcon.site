@@ -41,7 +41,7 @@
     organizations.
     </p>
 
-   <div style=" display: flex; justify-content: center; "> <div style=" color: #31708f; background-color: #d9edf7; margin: 2em auto 0 auto; padding: 7px 15px; border: 1px solid #bce8f1; border-radius: 4px; font-size: 0.9em; "><strong>QuantEcon is hiring in 2017.</strong> Position descriptions are now available for a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing">PostDoc</a> and a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iRVVnODM1NmdqcE0/view?usp=sharing">PreDoc</a>.</div></div>
+   <div style=" display: flex; justify-content: center; "> <div style=" color: #31708f; background-color: #d9edf7; margin: 2em auto 0 auto; padding: 7px 15px; border: 1px solid #bce8f1; border-radius: 4px; font-size: 0.9em; "><a href="news/news.html"><strong>QuantEcon is hiring in 2017.</strong></a> Position descriptions are now available for a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing">PostDoc</a> and a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iRVVnODM1NmdqcE0/view?usp=sharing">PreDoc</a>.<br>These positions are based at The Australian National University (ANU) in Canberra, Australia.</div></div>
 
     <ul id="coa-home">
         <li>
@@ -74,11 +74,6 @@
 .. raw:: html
   :file: news/news_snippet.html
 
-**QuantEcon is hiring in 2017.** 
 
-.. raw:: html
-	
-	<hr>
 
-Position descriptions are now available for a `PostDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing>`_ and a `PreDoc <https://drive.google.com/file/d/0Bx9LyXzJWN5iRVVnODM1NmdqcE0/view?usp=sharing>`_. These positions are based at The Australian National University (ANU) in Canberra, Australia. Please send any expressions of interest to contact@quantecon.org
 
