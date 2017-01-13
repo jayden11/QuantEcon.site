@@ -41,6 +41,7 @@
     organizations.
     </p>
 
+   <div style=" display: flex; justify-content: center; "> <div style=" color: #31708f; background-color: #d9edf7; margin: 2em auto 0 auto; padding: 7px 15px; border: 1px solid #bce8f1; border-radius: 4px; font-size: 0.9em; "><strong>QuantEcon is hiring in 2017.</strong> Position descriptions are now available for a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing">PostDoc</a> and a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iRVVnODM1NmdqcE0/view?usp=sharing">PreDoc</a>.</div></div>
 
     <ul id="coa-home">
         <li>
@@ -70,10 +71,8 @@
 
     </ul>
 
-
 .. raw:: html
-	
-	<hr>
+  :file: news/news_snippet.html
 
 **QuantEcon is hiring in 2017.** 
 

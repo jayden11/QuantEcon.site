@@ -9,7 +9,7 @@ BUILDDIR      = _build
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
-$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
+$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don not have Sphinx installed, grab it from http://sphinx-doc.org/)
 endif
 
 # Internal variables.
@@ -19,7 +19,7 @@ ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
-.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext
+.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext news
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -51,9 +51,30 @@ help:
 clean:
 	rm -rf $(BUILDDIR)/*
 
+setup:
+	@echo "Running python tasks.py ..."
+	python tasks.py
+
+update:
+	@echo "Updating git submodules ..."
+	git submodule foreach git pull origin master
+
+### --- Make Supporting News Pages --- ###
+
+news:
+	@echo "[QuantEcon.news] Building HTML and RST News Pages from news.yaml"
+	cd _static/QuantEcon.news && make news	
+	cp ./_static/QuantEcon.news/org_site/news.rst ./news/
+	cp ./_static/QuantEcon.news/org_site/news_snippet.html ./news/
+
 html:
-	@echo "Building notebooks pages from notebooks.yaml"
+	@echo "Constructing news snippets from QuantEcon.news ..."
+	make update
+	make news
+	@echo
+	@echo "Building notebooks pages from notebooks.yaml ..."
 	python build_nbgallery_rst.py
+	@echo
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo "Adjusting Front Page Title"
 	sed -i 's/&lt;no title&gt; &ndash; //g' $(BUILDDIR)/html/index.html
