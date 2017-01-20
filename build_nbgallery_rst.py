@@ -170,7 +170,7 @@ for topic_num in sorted(doc_topic.keys()):
         _parse_title(nb)                                            #Parse Title
         #-Check for Python Notebook-#
         try:
-            if re.search(r"http://", nb['python']):
+            if re.search(r"http://|https://", nb['python']):
                 rst.append(pylang_badge.format(id=py_id, link=nb["python"]))
                 if nb['title-constructed']:
                     rst.append(nb_title_entry.format(title=nb['title'].strip("\n"), authors=nb['authors'], badge=pylang_inline.format(id=py_id)))
@@ -183,7 +183,7 @@ for topic_num in sorted(doc_topic.keys()):
             pass                            #No Python notebook defined in the YAML
         #-Check for Julia Notebook-#
         try:
-            if re.search(r"http://", nb['julia']):
+            if re.search(r"http://|https://", nb['julia']):
                 rst.append(jllang_badge.format(id=jl_id, link=nb["julia"]))
                 if nb['title-constructed']:
                     rst.append(nb_title_entry.format(title=nb['title'].strip("\n"), authors=nb['authors'], badge=jllang_inline.format(id=jl_id)))
@@ -196,7 +196,7 @@ for topic_num in sorted(doc_topic.keys()):
             pass                            #No Julia notebook defined in the YAML
         #-Check for R Notebook-#
         try:
-            if re.search(r"http://", nb['r']):
+            if re.search(r"http://|https://", nb['r']):
                 rst.append(rlang_badge.format(id=r_id, link=nb["r"]))
                 if nb['title-constructed']:
                     rst.append(nb_title_entry.format(title=nb['title'].strip("\n"), authors=nb['authors'], badge=rlang_inline.format(id=r_id)))
