@@ -9,13 +9,13 @@
 #      authors: >
 #          <text>
 #      date: <date added in Day-Month-Year Format>
-#      python: > 
-#          <hyperlink to python version> 
-#      julia: > 
+#      python: >
+#          <hyperlink to python version>
+#      julia: >
 #          <hyperlink to julia version>
-#     
+#
 # Output
-# ------  
+# ------
 #       notebooks_py.rst (Main Topic Sorted Notebook Page with default language = Python)
 #       notebooks_jl.rst (Main Topic Sorted Notebook Page with default language = Julia)
 #       notebooks_py_date.rst (Date Sorted Notebook Page with default language = Python)
@@ -32,19 +32,19 @@
 
 1:
     topic: Econometrics and Financial Economics
-    1: 
-        title: Two modifications of mean-variance portfolio theory 
+    1:
+        title: Two modifications of mean-variance portfolio theory
         authors: Daniel Csaba, Thomas J. Sargent and Balint Szoke
         date: 10-December-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/black_litterman.ipynb
-    2: 
+    2:
         title: Implementing and vectorizing a maximum likelihood model with SciPy
         authors: Matt Ranger
         date: 15-August-2016
         python: http://nbviewer.jupyter.org/github/VHRanger/MLE-tutorial/blob/master/Implementing%20and%20vectorizing%20a%20Maximum%20Likelihood%20model%20with%20scipy--1.ipynb
-    3: 
+    3:
         title: Estimating simple regression models in Julia
-        authors: Tyler Ransom 
+        authors: Tyler Ransom
         date: 06-April-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/regression_models.ipynb
     4:
@@ -71,20 +71,24 @@
         date: 19-October-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/von_neumann_model.ipynb
 
-3: 
+3:
     topic: Game Theory
-    1: 
+    1:
         title: Tools for Game Theory
         authors: Daisuke Oyama
         date: 14-March-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_py.ipynb
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/game_theory_jl.ipynb
-
+    2:
+        title: Recursive Repeated Games
+        authors: Chase Coleman with Thomas Sargent
+        date: 19-January-2017
+        julia: https://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/recursive_repeated_games.ipynb
 
 4:
     topic: Working with Data
     1:
-        title: Introduction to DataFrames in Julia 
+        title: Introduction to DataFrames in Julia
         authors: Tyler Ransom
         date: 06-April-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/dataframes_examples.ipynb
@@ -131,7 +135,7 @@
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/Wald_Friedman.ipynb
     5:
-        title: > 
+        title: >
             Discrete DP: Getting Started
         authors: Daisuke Oyama
         date: 13-January-2016
@@ -197,11 +201,11 @@
             4:
                 title: >
                     Section 7.6.5: Water Management
-                python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb 
+                python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_5_py.ipynb
             5:
                 title: >
-                    Section 7.6.6:  Bioeconomics 
-                python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_6_py.ipynb 
+                    Section 7.6.6:  Bioeconomics
+                python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_6_py.ipynb
 
 7:
     topic: General
@@ -215,7 +219,7 @@
 8:
     topic: Approximation
     1:
-        title: Approximation Methods for the Lucas Asset Pricing Model 
+        title: Approximation Methods for the Lucas Asset Pricing Model
         authors: Joao Brogueira and Fabian Schuetze
         date: 15-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/lucas_asset_pricing_model.ipynb
@@ -242,7 +246,7 @@
     topic: Dynamic Models
     1:
         title: >
-            MarkovChain: Examples 
+            MarkovChain: Examples
         authors: Daisuke Oyama
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/markov_chain_ex01_py.ipynb
@@ -253,6 +257,6 @@
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/permanent_income.ipynb
     3:
         title: Perfect Foresight Experiments with Dolo
-        authors: Spencer Lyon and Pablo Winant 
+        authors: Spencer Lyon and Pablo Winant
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/rmt3_ch11.ipynb
