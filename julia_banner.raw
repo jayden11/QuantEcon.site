@@ -8,13 +8,13 @@
 
             <div class="container">
                 
-                <p id="site-logo"><a href="julia_index.html" title="Home"><img src="_static/img/quantecon-logo-jl-banner.png" alt="QuantEcon logo"></a></p>
+                <p id="site-logo"><a href="julia_index.html" title="Home"><img src="_static/logos/qe-logo-notitle-500px.png" alt="QuantEcon logo"></a></p>
                 
                 <p id="site-title"><a href="julia_index.html" title="Home">Quant<span>Econ.jl</span></a></p>
                 
                 <p id="site-tag">A high performance, open source Julia code library for economics</p>
 
-                <p id="sponsor"><a href="julia_index.html"><img src="_static/img/jl-symbol-banner.png" alt="Alfred P. Sloan Foundation"></a></p>
+                <p id="banner-logo"><a href="julia_index.html"><img src="_static/img/banner-jl.png" alt="Julia logo"></a></p>
                                                         
             </div>
                             

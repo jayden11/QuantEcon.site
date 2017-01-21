@@ -8,15 +8,13 @@
 
             <div class="container">
                 
-                <p id="site-logo"><a href="index.html" title="Home"><img src="_static/img/quantecon-logo.png" alt="QuantEcon logo"></a></p>
+                <p id="site-logo"><a href="index.html" title="Home"><img src="_static/logos/qe-logo-notitle-500px.png" alt="QuantEcon logo"></a></p>
                 
                 <p id="site-title"><a href="index.html" title="Home">Quant<span>Econ</span></a></p>
                 
                 <p id="site-tag">Open source code for quantitative economic modeling</p>
-
-				<p id="repo-link"><a href="https://github.com/QuantEcon/"><img src="_static/img/GitHub-Mark-120px-plus.png" alt="QuantEcon on GitHub"></a></p>
 				
-                <p id="sponsor"><a href="http://www.sloan.org/"><img src="_static/img/sloan_logo.png" alt="Alfred P. Sloan Foundation"></a></p>
+                <p id="banner-logo"><a href="http://www.sloan.org/"><img src="_static/img/banner-sloan.png" alt="Alfred P. Sloan Foundation logo"></a></p>
                                                         
             </div>
                             
