@@ -34,8 +34,7 @@
     href="http://www.numfocus.org/">NumFOCUS</a> fiscally
     sponsored project dedicated to development and documentation
     of modern open source computational tools for economics, econometrics, and
-    decision making.  QuantEcon is currently funded by the <a
-    href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>.  We welcome
+    decision making. We welcome
     <a href="http://quantecon.org/get_involved.html"> contributions</a> and
     collaboration from the economics community and other partner
     organizations.
