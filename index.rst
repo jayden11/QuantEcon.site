@@ -40,8 +40,6 @@
     organizations.
     </p>
 
-   <div style=" display: flex; justify-content: center; "> <div style=" color: #31708f; background-color: #d9edf7; margin: 1em auto; padding: 7px 15px; border: 1px solid #bce8f1; border-radius: 4px; font-size: 0.9em; "><a href="news.html"><strong>QuantEcon is hiring in 2017.</strong></a> Position descriptions are now available for a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iUzNoNDcyVC1UM00/view?usp=sharing">PostDoc</a> and a <a class="reference external" href="https://drive.google.com/file/d/0Bx9LyXzJWN5iMU0tbW9pdHlhRkU/view?usp=sharing">PreDoc</a>.<br>These positions are based at The Australian National University (ANU) in Canberra, Australia.</div></div>
-
 .. raw:: html
   :file: news_snippet.html
 
