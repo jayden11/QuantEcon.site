@@ -21,6 +21,11 @@
    sitemap
    developer_resources
    econometric_society_workshop
+   rba_rbnz_workshop
+   news
+   404
+   team
+   chicago_fed_workshop
 
 .. include:: org_banner.raw
 
