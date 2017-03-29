@@ -242,13 +242,13 @@
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/solving_initial_value_problems.ipynb
     2:
-        title: The Nelder-Mead Algorithm (Python)
+        title: The Nelder-Mead Algorithm
         authors: Chase Coleman
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb
         
     3:
-        title: Gaussian Process Regression and Active Subspaces (Python)
+        title: Gaussian Process Regression and Active Subspaces
         authors: Spencer Lyon
         date: 30-March-2017
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ASGP.ipynb
