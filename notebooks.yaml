@@ -246,6 +246,12 @@
         authors: Chase Coleman
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/chase_nelder_mead.ipynb
+        
+    3:
+        title: Gaussian Process Regression and Active Subspaces (Python)
+        authors: Spencer Lyon
+        date: 30-March-2017
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ASGP.ipynb
 
 10:
     topic: Dynamic Models
