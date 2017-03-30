@@ -83,5 +83,3 @@ Here are some links that should be useful during and after the workshop
 
 * A `cheatsheet for working with arrays <http://sebastianraschka.com/blog/2014/matrix_cheatsheet_table.html>`_ connecting MATLAB, Python, R and Julia
 
-* A `Julia cheatsheet <https://dl.dropboxusercontent.com/u/8252984/julia.html>`_
-
