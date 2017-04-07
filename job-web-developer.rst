@@ -11,6 +11,7 @@ content generated platform for the QuantEcon project based at The Australian Nat
 Research School of Economics. This project involves a contract for initial build, testing, and launch
 of the web platform. We are also interested in issuing a subsequent ongoing maintenance contract
 addressing issues and developing new functionality and features over the next 12 to 24 months.
+
 The QuantEcon notebook archive is a web based platform with the aim to encourage international
 collaboration and discussion in economics using Jupyter notebooks. We are currently developing a
 fully functional front end prototype (using Javascript and CSS) and a detailed function specification
