@@ -3,8 +3,18 @@
 Position Description: Full Stack Web Developer
 ==============================================
 
-Part-Time Contract (Hours Flexible)
------------------------------------
+Casual Contract (Hours Flexible)
+--------------------------------
+
+.. raw:: html
+
+    <div align="right">
+
+**Closing Date:** Sunday, 23rd April 2017
+
+.. raw:: html
+
+    </div>
 
 We are looking for a computer science student with backend server/linux skills to help build a user
 content generated platform for the QuantEcon project based at The Australian National University,
@@ -32,8 +42,8 @@ Selection Criteria & Skills
 
 If this opportunity sounds interesting, please send through a resume and single page cover letter
 introducing yourself. The cover letter should detail your relevant skills and address each item of the
-selection criteria above. If you have further questions about this opportunity please contact Matthew 
-McKay at jobs@quantecon.org.
+selection criteria above. If you have further questions about this opportunity please contact **Matthew 
+McKay** at **jobs@quantecon.org**.
 
 Additional information about the project
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
