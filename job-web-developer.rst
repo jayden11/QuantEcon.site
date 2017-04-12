@@ -1,7 +1,7 @@
 .. include:: org_banner.raw
 
-Position Description: Full Stack Web Developer
-==============================================
+Full Stack Web Developer
+========================
 
 Casual Contract (Hours Flexible)
 --------------------------------
