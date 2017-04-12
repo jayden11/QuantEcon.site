@@ -10,7 +10,7 @@ Casual Contract (Hours Flexible)
 
     <div align="right">
 
-**Closing Date:** Sunday, 23rd April 2017
+**Apply by:** Sunday, 23rd April 2017
 
 .. raw:: html
 
