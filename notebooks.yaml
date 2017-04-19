@@ -31,6 +31,31 @@
 #TODO: Update Fake Dates
 
 1:
+    topic: Dynamic Models
+    1: 
+        title: >
+            Krussell and Smith (1998)
+        authors: Shunsuke Hori
+        date: 19-April-2017
+        python: https://github.com/QuantEcon/krusell_smith_code/blob/master/KrusellSmith.ipynb
+    2:
+        title: >
+            MarkovChain: Examples
+        authors: Daisuke Oyama
+        date:
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/markov_chain_ex01_py.ipynb
+    3:
+        title: The Permanent Income Model
+        authors: Chase Coleman and Thomas Sargent
+        date:
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/permanent_income.ipynb
+    4:
+        title: Perfect Foresight Experiments with Dolo
+        authors: Spencer Lyon and Pablo Winant
+        date:
+        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/rmt3_ch11.ipynb
+
+2:
   topic: Control
   1:
     title: Multiobjective control of cash management systems
@@ -38,7 +63,7 @@
     date: 16-April-2017
     python: http://nbviewer.jupyter.org/github/PacoSalas/Python-for-finance/blob/master/Cash.ipynb
 
-2:
+3:
     topic: Econometrics and Financial Economics
     1:
         title: Two modifications of mean-variance portfolio theory
@@ -66,7 +91,7 @@
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ar1_pymc.ipynb
 
-3:
+4:
     topic: Optimization
     1:
         title: Nonlinear optimization using JuMP (Julia for Mathematical Programming)
@@ -79,7 +104,7 @@
         date: 19-October-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/von_neumann_model.ipynb
 
-4:
+5:
     topic: Game Theory
     1:
         title: Tools for Game Theory
@@ -93,7 +118,7 @@
         date: 19-January-2017
         julia: https://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/recursive_repeated_games.ipynb
 
-5:
+6:
     topic: Working with Data
     1:
         title: Introduction to DataFrames in Julia
@@ -111,7 +136,7 @@
         date: 23-March-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/UN_demography.ipynb
 
-6:
+7:
     topic: Dynamic Programming in Continuous Time
     1:
         title: >
@@ -120,7 +145,7 @@
         date: 17-February-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/aiyagari_continuous_time.ipynb
 
-7:
+8:
     topic: Dynamic Programming
     1:
         title: How to pay for a war, part 1
@@ -220,7 +245,7 @@
                     Section 7.6.6:  Bioeconomics
                 python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_MF_7_6_6_py.ipynb
 
-8:
+9:
     topic: General
     1:
         title: >
@@ -229,7 +254,7 @@
         date: 15-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/sci_python_quickstart.ipynb
 
-9:
+10:
     topic: Approximation
     1:
         title: Approximation Methods for the Lucas Asset Pricing Model
@@ -242,7 +267,7 @@
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/quadrature.ipynb
 
-10:
+11:
     topic: Algorithms
     1:
         title: Solving Initial Value Problems in QuantEcon.py
@@ -261,21 +286,4 @@
         date: 30-March-2017
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ASGP.ipynb
 
-11:
-    topic: Dynamic Models
-    1:
-        title: >
-            MarkovChain: Examples
-        authors: Daisuke Oyama
-        date:
-        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/markov_chain_ex01_py.ipynb
-    2:
-        title: The Permanent Income Model
-        authors: Chase Coleman and Thomas Sargent
-        date:
-        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/permanent_income.ipynb
-    3:
-        title: Perfect Foresight Experiments with Dolo
-        authors: Spencer Lyon and Pablo Winant
-        date:
-        python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/rmt3_ch11.ipynb
+
