@@ -37,7 +37,7 @@ We are looking for someone with:
 4. Knowledge of server requirements (AWS infrastructure, scalability, etc)
 5. Ability to work under limited supervision, with the ability to work remotely
 
-This project aim is to develop a minimum viable product; build, testing, and launch.
+The aim of the project is to develop a minimum viable product; build, testing, and launch.
 
 If you would like further information about this opportunity 
 please contact Andrij Stachurski at **dr.drij@gmail.com**.
