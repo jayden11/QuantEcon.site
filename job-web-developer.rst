@@ -3,20 +3,12 @@
 Backend Web Developer
 =====================
 
-Casual Contract (Hours Flexible)
+Contract (Hours Flexible)
 --------------------------------
 
 .. raw:: html
 
-    <div align="right">
-
-**Apply by:** Wednesday, 26th April 2017
-
-.. raw:: html
-
-    </div>
-
-We are looking for a computer science student with back-end web development skills to 
+We are looking for a senior back-end web developer to 
 help build a user generated content site for the QuantEcon project based at The 
 Australian National University, Research School of Economics. The QuantEcon notebook archive 
 is a web based platform with the aim to encourage international
@@ -45,12 +37,7 @@ We are looking for someone with:
 4. Knowledge of server requirements (AWS infrastructure, scalability, etc)
 5. Ability to work under limited supervision, with the ability to work remotely
 
-The successful applicant would work with our front-end developer, along with the QuantEcon team. 
-This project involves initial build, testing, and launch of the site. There is also an opportunity 
-for a subsequent ongoing maintenance contract addressing issues and developing new functionality 
-and features over the next 12 to 24 months.
+This project aim is to develop a minimum viable product; build, testing, and launch.
 
-If this opportunity sounds interesting, please send through a resume and single page 
-cover letter introducing yourself. The cover letter should detail your relevant skills 
-and addressing the criteria above. If you have further 
-questions about this opportunity please contact Matthew McKay at **jobs@quantecon.org**.
+If you would like further information about this opportunity 
+please contact Andrij Stachurski at **dr.drij@gmail.com**.
