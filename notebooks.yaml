@@ -279,3 +279,8 @@
         authors: Spencer Lyon and Pablo Winant
         date:
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/rmt3_ch11.ipynb
+    4:
+        title: Solving the Krusell-Smith aggregate shocks model using Julia
+        authors: Shunsuke Hori
+        date: 12 May 2017
+        julia: http://nbviewer.jupyter.org/github/QuantEcon/krusell_smith_code/blob/master/KrusellSmith.ipynb
