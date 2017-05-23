@@ -50,4 +50,4 @@ Jim Savage is an applied modeler and Data Science Lead at frontier markets lende
 Lendable in New York City. Previously he was at the Grattan Institute, 
 La Trobe University, and the Australian Treasury. With Andrew Gelman, Shoshana 
 Vasserman and David Stephan, he is currently writing a book on Bayesian 
-Econometrics in Stan.s
+Econometrics in Stan.
