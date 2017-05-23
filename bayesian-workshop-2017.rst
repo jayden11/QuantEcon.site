@@ -21,7 +21,7 @@ parameters, and often produces reliable estimates with only a few hundred iterat
 possible to call Stan from within R, Python, Julia, Mathematica, MATLAB, Stata, or at the command line.
 
 The workshop:
-^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 * 1.15 - 2:00 A brief introduction to Stan.
 
@@ -33,7 +33,7 @@ The workshop:
 
 
 Pre-requisites: 
-^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 Participants should have R, R Studio and Stan installed (we will only use R to 
 run and evaluate models; participants needn’t be proficient in R).
@@ -44,7 +44,7 @@ run and evaluate models; participants needn’t be proficient in R).
 * https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
 
 About the instructor:
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 Jim Savage is an applied modeler and Data Science Lead at frontier markets lender 
 Lendable in New York City. Previously he was at the Grattan Institute, 
