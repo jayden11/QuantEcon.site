@@ -10,7 +10,7 @@ Workshop on Bayesian Modeling with Jim Savage
 
 **Date**: June 9, 2017
 
-**Venue**: Fred Gruen Seminar Room, H.W. Arndt Building, Building 25A, Australian National University
+**Venue**: Fred Gruen Seminar Room, H.W. Arndt Building (Building 25A), Australian National University
 
 In this afternoon workshop, participants will be given an introduction to the Stan modeling language.
 
