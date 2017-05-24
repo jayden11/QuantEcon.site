@@ -12,6 +12,10 @@ Workshop on Bayesian Modeling with Jim Savage
 
 **Venue**: Fred Gruen Seminar Room, H.W. Arndt Building (Building 25A), Australian National University
 
+**Cost**: Free
+
+**Registration**: Please register `here <https://www.surveymonkey.com/r/LX9CWGY>`__ and bring along a personal laptop!
+
 In this afternoon workshop, participants will be given an introduction to the Stan modeling language.
 
 Stan is a flexible modeling language capable of performing efficient Bayesian inference on any model
@@ -35,8 +39,8 @@ The workshop:
 Pre-requisites:
 ^^^^^^^^^^^^^^^^
 
-Participants should have R, R Studio and Stan installed (we will only use R to
-run and evaluate models; participants needn’t be proficient in R).
+Participants should have R, R Studio and Stan installed on their personal computer 
+(we will only use R to run and evaluate models; participants needn’t be proficient in R).
 
 * R may be installed from `cran.r-project.org <http://cran.r-project.org/>`__
 * R Studio from https://www.rstudio.com/products/rstudio/download/
