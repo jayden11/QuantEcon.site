@@ -149,45 +149,45 @@
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/Wald_Friedman_jl.ipynb
     6:
         title: >
-            Discrete DP: Getting Started
+            DiscreteDP: Getting Started
         authors: Daisuke Oyama
         date: 13-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_intro_py.ipynb
     7:
         title: >
-            Discrete DP: Implementation Details (Python)
+            DiscreteDP: Implementation Details (Python)
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_py.ipynb
     8:
         title: >
-            Discrete DP: Implementation Details (Julia)
+            DiscreteDP: Implementation Details (Julia)
         authors: Daisuke Oyama
         date: 14-January-2016
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_theory_jl.ipynb
         notes: This entry is duplicated to specify language specific elements in the title
     9:
         title: >
-            Discrete DP: Automobile Replacement
+            DiscreteDP: Automobile Replacement
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_rust96_py.ipynb
     10:
         title: >
-            Discrete DP: Modeling Career Choice
+            DiscreteDP: Modeling Career Choice
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_career_py.ipynb
     11:
         title: >
-            Discrete DP: Job Search
+            DiscreteDP: Job Search
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_py.ipynb
         julia: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_job_search_jl.ipynb
     12:
         title: >
-            Discrete DP: Discrete Optimal Growth Model
+            DiscreteDP: Discrete Optimal Growth Model
         authors: Daisuke Oyama
         date: 14-January-2016
         python: http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/ddp_ex_optgrowth_py.ipynb
